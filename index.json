@@ -7,7 +7,7 @@
   "api/SixModLoader.Api.CommandManager.html": {
     "href": "api/SixModLoader.Api.CommandManager.html",
     "title": "Class CommandManager",
-    "keywords": "Class CommandManager Inheritance System.Object CommandManager Namespace : SixModLoader.Api Assembly : SixModLoader.Api.dll Syntax public class CommandManager Properties | Improve this Doc View Source CommandHandlers Declaration public static List<ICommandHandler> CommandHandlers { get; } Property Value Type Description System.Collections.Generic.List < ICommandHandler > | Improve this Doc View Source GameConsoleQueryCommandHandler Declaration public static GameConsoleQueryCommandHandler GameConsoleQueryCommandHandler { get; } Property Value Type Description GameConsoleQueryCommandHandler Methods | Improve this Doc View Source RegisterCommand(Type) Declaration public void RegisterCommand(Type commandType) Parameters Type Name Description System.Type commandType | Improve this Doc View Source RegisterCommand<T>() Declaration public void RegisterCommand<T>() where T : ICommand Type Parameters Name Description T | Improve this Doc View Source RegisterCommands(ModContainer) Declaration public void RegisterCommands(ModContainer mod) Parameters Type Name Description ModContainer mod"
+    "keywords": "Class CommandManager Inheritance System.Object CommandManager Namespace : SixModLoader.Api Assembly : SixModLoader.Api.dll Syntax public class CommandManager Properties | Improve this Doc View Source CommandHandlers Declaration public static List<ICommandHandler> CommandHandlers { get; } Property Value Type Description System.Collections.Generic.List < ICommandHandler > Methods | Improve this Doc View Source RegisterCommand(Type) Declaration public void RegisterCommand(Type commandType) Parameters Type Name Description System.Type commandType | Improve this Doc View Source RegisterCommand<T>() Declaration public void RegisterCommand<T>() where T : ICommand Type Parameters Name Description T | Improve this Doc View Source RegisterCommands(ModContainer) Declaration public void RegisterCommands(ModContainer mod) Parameters Type Name Description ModContainer mod"
   },
   "api/SixModLoader.Api.Configuration.AutoConfiguration.html": {
     "href": "api/SixModLoader.Api.Configuration.AutoConfiguration.html",
@@ -292,17 +292,12 @@
   "api/SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.html": {
     "href": "api/SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.html",
     "title": "Class CommandProcessorPatch.ProcessQueryPatch",
-    "keywords": "Class CommandProcessorPatch.ProcessQueryPatch Inheritance System.Object CommandProcessorPatch.ProcessQueryPatch Namespace : SixModLoader.Api.Patches Assembly : SixModLoader.Api.dll Syntax [HarmonyPatch(typeof(CommandProcessor), \"\")] public class ProcessQueryPatch Methods | Improve this Doc View Source Transpiler(IEnumerable<CodeInstruction>) Declaration public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) Parameters Type Name Description System.Collections.Generic.IEnumerable < HarmonyLib.CodeInstruction > instructions Returns Type Description System.Collections.Generic.IEnumerable < HarmonyLib.CodeInstruction >"
-  },
-  "api/SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.html": {
-    "href": "api/SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.html",
-    "title": "Class GameConsoleQueryCommandHandler",
-    "keywords": "Class GameConsoleQueryCommandHandler Inheritance System.Object GameConsoleQueryCommandHandler Namespace : SixModLoader.Api.Patches Assembly : SixModLoader.Api.dll Syntax public class GameConsoleQueryCommandHandler : CommandHandler Methods | Improve this Doc View Source Create() Declaration public static GameConsoleQueryCommandHandler Create() Returns Type Description GameConsoleQueryCommandHandler | Improve this Doc View Source LoadGeneratedCommands() Declaration public override void LoadGeneratedCommands()"
+    "keywords": "Class CommandProcessorPatch.ProcessQueryPatch Inheritance System.Object CommandProcessorPatch.ProcessQueryPatch Namespace : SixModLoader.Api.Patches Assembly : SixModLoader.Api.dll Syntax [HarmonyPatch] public class ProcessQueryPatch Methods | Improve this Doc View Source TargetMethods() Declaration public static IEnumerable<MethodBase> TargetMethods() Returns Type Description System.Collections.Generic.IEnumerable < System.Reflection.MethodBase > | Improve this Doc View Source Transpiler(IEnumerable<CodeInstruction>, MethodBase) Declaration public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, MethodBase original) Parameters Type Name Description System.Collections.Generic.IEnumerable < HarmonyLib.CodeInstruction > instructions System.Reflection.MethodBase original Returns Type Description System.Collections.Generic.IEnumerable < HarmonyLib.CodeInstruction >"
   },
   "api/SixModLoader.Api.Patches.html": {
     "href": "api/SixModLoader.Api.Patches.html",
     "title": "Namespace SixModLoader.Api.Patches",
-    "keywords": "Namespace SixModLoader.Api.Patches Classes CommandProcessorPatch CommandProcessorPatch.ProcessQueryPatch GameConsoleQueryCommandHandler MiscPatch MiscPatch.ProcessRaPlayersListPatch QueryProcessorPatch QueryProcessorPatch.ProcessGameConsoleQueryPatch"
+    "keywords": "Namespace SixModLoader.Api.Patches Classes CommandProcessorPatch CommandProcessorPatch.ProcessQueryPatch MiscPatch MiscPatch.ProcessRaPlayersListPatch"
   },
   "api/SixModLoader.Api.Patches.MiscPatch.html": {
     "href": "api/SixModLoader.Api.Patches.MiscPatch.html",
@@ -313,16 +308,6 @@
     "href": "api/SixModLoader.Api.Patches.MiscPatch.ProcessRaPlayersListPatch.html",
     "title": "Class MiscPatch.ProcessRaPlayersListPatch",
     "keywords": "Class MiscPatch.ProcessRaPlayersListPatch Inheritance System.Object MiscPatch.ProcessRaPlayersListPatch Namespace : SixModLoader.Api.Patches Assembly : SixModLoader.Api.dll Syntax [HarmonyPatch(typeof(Misc), \"\")] public class ProcessRaPlayersListPatch Methods | Improve this Doc View Source Prefix(String, ref List<Int32>) Declaration public static bool Prefix(string playerIds, ref List<int> __result) Parameters Type Name Description System.String playerIds System.Collections.Generic.List < System.Int32 > __result Returns Type Description System.Boolean"
-  },
-  "api/SixModLoader.Api.Patches.QueryProcessorPatch.html": {
-    "href": "api/SixModLoader.Api.Patches.QueryProcessorPatch.html",
-    "title": "Class QueryProcessorPatch",
-    "keywords": "Class QueryProcessorPatch Inheritance System.Object QueryProcessorPatch Namespace : SixModLoader.Api.Patches Assembly : SixModLoader.Api.dll Syntax public class QueryProcessorPatch"
-  },
-  "api/SixModLoader.Api.Patches.QueryProcessorPatch.ProcessGameConsoleQueryPatch.html": {
-    "href": "api/SixModLoader.Api.Patches.QueryProcessorPatch.ProcessGameConsoleQueryPatch.html",
-    "title": "Class QueryProcessorPatch.ProcessGameConsoleQueryPatch",
-    "keywords": "Class QueryProcessorPatch.ProcessGameConsoleQueryPatch Inheritance System.Object QueryProcessorPatch.ProcessGameConsoleQueryPatch Namespace : SixModLoader.Api.Patches Assembly : SixModLoader.Api.dll Syntax [HarmonyPatch(typeof(QueryProcessor), \"\")] public class ProcessGameConsoleQueryPatch Methods | Improve this Doc View Source Prefix(QueryProcessor, String, Boolean) Declaration public static bool Prefix(QueryProcessor __instance, [HarmonyArgument(\"query\")] string q, bool encrypted) Parameters Type Name Description QueryProcessor __instance System.String q System.Boolean encrypted Returns Type Description System.Boolean"
   },
   "api/SixModLoader.Api.SixModLoaderApi.html": {
     "href": "api/SixModLoader.Api.SixModLoaderApi.html",

@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.CommandManager.html",
-          "hash": "zOpFpYPMPIIk//myMEmlHQ=="
+          "hash": "ToSkYeluUL2rsBqQ3FbokQ=="
         }
       },
       "is_incremental": false,
@@ -678,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.html",
-          "hash": "AHLkI86FqYdahqAbcXU1mw=="
+          "hash": "BFdy4o4gdBNKIQ+wewDFjg=="
         }
       },
       "is_incremental": false,
@@ -690,19 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Patches.CommandProcessorPatch.html",
-          "hash": "dpmbRoZPFffkDbSHaxouDg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.html",
-          "hash": "d8NqQZW+2XU2h21fvuZJfQ=="
+          "hash": "218cFHrkB9SJf445u1vfUQ=="
         }
       },
       "is_incremental": false,
@@ -714,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Patches.MiscPatch.ProcessRaPlayersListPatch.html",
-          "hash": "ZZliZbReS3wTDfFT6aLoGw=="
+          "hash": "RcWApYG1FdeLeO+MNLy6ig=="
         }
       },
       "is_incremental": false,
@@ -726,31 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Patches.MiscPatch.html",
-          "hash": "Swi0tUAvVYTFLl6IU+GJog=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/SixModLoader.Api.Patches.QueryProcessorPatch.ProcessGameConsoleQueryPatch.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/SixModLoader.Api.Patches.QueryProcessorPatch.ProcessGameConsoleQueryPatch.html",
-          "hash": "DmUK45Hf7Vl+W+gEnBHEyA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/SixModLoader.Api.Patches.QueryProcessorPatch.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/SixModLoader.Api.Patches.QueryProcessorPatch.html",
-          "hash": "ZcH1MMKnGTatAMnWl/3F4A=="
+          "hash": "dQgU5PO4J8hTz+tJwkDx3A=="
         }
       },
       "is_incremental": false,
@@ -762,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Patches.html",
-          "hash": "c0Q1oMtxApShf0gdQvPBtw=="
+          "hash": "PGAgatWPKZTUUWIb4Jb7cg=="
         }
       },
       "is_incremental": false,
@@ -1146,7 +1110,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "PfTiWWh9ko/fXHBAGqiseA=="
+          "hash": "89whNE0AcljHTY+XzXkS5g=="
         }
       },
       "is_incremental": false,
@@ -1254,7 +1218,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 93,
+          "total_file_count": 90,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

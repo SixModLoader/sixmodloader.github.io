@@ -32,19 +32,6 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.CommandManager.CommandHandlers
   nameWithType: CommandManager.CommandHandlers
-- uid: SixModLoader.Api.CommandManager.GameConsoleQueryCommandHandler
-  name: GameConsoleQueryCommandHandler
-  href: api/SixModLoader.Api.CommandManager.html#SixModLoader_Api_CommandManager_GameConsoleQueryCommandHandler
-  commentId: P:SixModLoader.Api.CommandManager.GameConsoleQueryCommandHandler
-  fullName: SixModLoader.Api.CommandManager.GameConsoleQueryCommandHandler
-  nameWithType: CommandManager.GameConsoleQueryCommandHandler
-- uid: SixModLoader.Api.CommandManager.GameConsoleQueryCommandHandler*
-  name: GameConsoleQueryCommandHandler
-  href: api/SixModLoader.Api.CommandManager.html#SixModLoader_Api_CommandManager_GameConsoleQueryCommandHandler_
-  commentId: Overload:SixModLoader.Api.CommandManager.GameConsoleQueryCommandHandler
-  isSpec: "True"
-  fullName: SixModLoader.Api.CommandManager.GameConsoleQueryCommandHandler
-  nameWithType: CommandManager.GameConsoleQueryCommandHandler
 - uid: SixModLoader.Api.CommandManager.RegisterCommand(System.Type)
   name: RegisterCommand(Type)
   href: api/SixModLoader.Api.CommandManager.html#SixModLoader_Api_CommandManager_RegisterCommand_System_Type_
@@ -1740,15 +1727,28 @@ references:
   commentId: T:SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch
   fullName: SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch
   nameWithType: CommandProcessorPatch.ProcessQueryPatch
-- uid: SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction})
-  name: Transpiler(IEnumerable<CodeInstruction>)
-  href: api/SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.html#SixModLoader_Api_Patches_CommandProcessorPatch_ProcessQueryPatch_Transpiler_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__
-  commentId: M:SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction})
-  name.vb: Transpiler(IEnumerable(Of CodeInstruction))
-  fullName: SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.Transpiler(System.Collections.Generic.IEnumerable<HarmonyLib.CodeInstruction>)
-  fullName.vb: SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.Transpiler(System.Collections.Generic.IEnumerable(Of HarmonyLib.CodeInstruction))
-  nameWithType: CommandProcessorPatch.ProcessQueryPatch.Transpiler(IEnumerable<CodeInstruction>)
-  nameWithType.vb: CommandProcessorPatch.ProcessQueryPatch.Transpiler(IEnumerable(Of CodeInstruction))
+- uid: SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.TargetMethods
+  name: TargetMethods()
+  href: api/SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.html#SixModLoader_Api_Patches_CommandProcessorPatch_ProcessQueryPatch_TargetMethods
+  commentId: M:SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.TargetMethods
+  fullName: SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.TargetMethods()
+  nameWithType: CommandProcessorPatch.ProcessQueryPatch.TargetMethods()
+- uid: SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.TargetMethods*
+  name: TargetMethods
+  href: api/SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.html#SixModLoader_Api_Patches_CommandProcessorPatch_ProcessQueryPatch_TargetMethods_
+  commentId: Overload:SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.TargetMethods
+  isSpec: "True"
+  fullName: SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.TargetMethods
+  nameWithType: CommandProcessorPatch.ProcessQueryPatch.TargetMethods
+- uid: SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction},System.Reflection.MethodBase)
+  name: Transpiler(IEnumerable<CodeInstruction>, MethodBase)
+  href: api/SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.html#SixModLoader_Api_Patches_CommandProcessorPatch_ProcessQueryPatch_Transpiler_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__System_Reflection_MethodBase_
+  commentId: M:SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction},System.Reflection.MethodBase)
+  name.vb: Transpiler(IEnumerable(Of CodeInstruction), MethodBase)
+  fullName: SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.Transpiler(System.Collections.Generic.IEnumerable<HarmonyLib.CodeInstruction>, System.Reflection.MethodBase)
+  fullName.vb: SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.Transpiler(System.Collections.Generic.IEnumerable(Of HarmonyLib.CodeInstruction), System.Reflection.MethodBase)
+  nameWithType: CommandProcessorPatch.ProcessQueryPatch.Transpiler(IEnumerable<CodeInstruction>, MethodBase)
+  nameWithType.vb: CommandProcessorPatch.ProcessQueryPatch.Transpiler(IEnumerable(Of CodeInstruction), MethodBase)
 - uid: SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.Transpiler*
   name: Transpiler
   href: api/SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.html#SixModLoader_Api_Patches_CommandProcessorPatch_ProcessQueryPatch_Transpiler_
@@ -1756,38 +1756,6 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.Transpiler
   nameWithType: CommandProcessorPatch.ProcessQueryPatch.Transpiler
-- uid: SixModLoader.Api.Patches.GameConsoleQueryCommandHandler
-  name: GameConsoleQueryCommandHandler
-  href: api/SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.html
-  commentId: T:SixModLoader.Api.Patches.GameConsoleQueryCommandHandler
-  fullName: SixModLoader.Api.Patches.GameConsoleQueryCommandHandler
-  nameWithType: GameConsoleQueryCommandHandler
-- uid: SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.Create
-  name: Create()
-  href: api/SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.html#SixModLoader_Api_Patches_GameConsoleQueryCommandHandler_Create
-  commentId: M:SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.Create
-  fullName: SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.Create()
-  nameWithType: GameConsoleQueryCommandHandler.Create()
-- uid: SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.Create*
-  name: Create
-  href: api/SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.html#SixModLoader_Api_Patches_GameConsoleQueryCommandHandler_Create_
-  commentId: Overload:SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.Create
-  isSpec: "True"
-  fullName: SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.Create
-  nameWithType: GameConsoleQueryCommandHandler.Create
-- uid: SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.LoadGeneratedCommands
-  name: LoadGeneratedCommands()
-  href: api/SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.html#SixModLoader_Api_Patches_GameConsoleQueryCommandHandler_LoadGeneratedCommands
-  commentId: M:SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.LoadGeneratedCommands
-  fullName: SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.LoadGeneratedCommands()
-  nameWithType: GameConsoleQueryCommandHandler.LoadGeneratedCommands()
-- uid: SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.LoadGeneratedCommands*
-  name: LoadGeneratedCommands
-  href: api/SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.html#SixModLoader_Api_Patches_GameConsoleQueryCommandHandler_LoadGeneratedCommands_
-  commentId: Overload:SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.LoadGeneratedCommands
-  isSpec: "True"
-  fullName: SixModLoader.Api.Patches.GameConsoleQueryCommandHandler.LoadGeneratedCommands
-  nameWithType: GameConsoleQueryCommandHandler.LoadGeneratedCommands
 - uid: SixModLoader.Api.Patches.MiscPatch
   name: MiscPatch
   href: api/SixModLoader.Api.Patches.MiscPatch.html
@@ -1816,31 +1784,6 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Patches.MiscPatch.ProcessRaPlayersListPatch.Prefix
   nameWithType: MiscPatch.ProcessRaPlayersListPatch.Prefix
-- uid: SixModLoader.Api.Patches.QueryProcessorPatch
-  name: QueryProcessorPatch
-  href: api/SixModLoader.Api.Patches.QueryProcessorPatch.html
-  commentId: T:SixModLoader.Api.Patches.QueryProcessorPatch
-  fullName: SixModLoader.Api.Patches.QueryProcessorPatch
-  nameWithType: QueryProcessorPatch
-- uid: SixModLoader.Api.Patches.QueryProcessorPatch.ProcessGameConsoleQueryPatch
-  name: QueryProcessorPatch.ProcessGameConsoleQueryPatch
-  href: api/SixModLoader.Api.Patches.QueryProcessorPatch.ProcessGameConsoleQueryPatch.html
-  commentId: T:SixModLoader.Api.Patches.QueryProcessorPatch.ProcessGameConsoleQueryPatch
-  fullName: SixModLoader.Api.Patches.QueryProcessorPatch.ProcessGameConsoleQueryPatch
-  nameWithType: QueryProcessorPatch.ProcessGameConsoleQueryPatch
-- uid: SixModLoader.Api.Patches.QueryProcessorPatch.ProcessGameConsoleQueryPatch.Prefix(QueryProcessor,System.String,System.Boolean)
-  name: Prefix(QueryProcessor, String, Boolean)
-  href: api/SixModLoader.Api.Patches.QueryProcessorPatch.ProcessGameConsoleQueryPatch.html#SixModLoader_Api_Patches_QueryProcessorPatch_ProcessGameConsoleQueryPatch_Prefix_QueryProcessor_System_String_System_Boolean_
-  commentId: M:SixModLoader.Api.Patches.QueryProcessorPatch.ProcessGameConsoleQueryPatch.Prefix(QueryProcessor,System.String,System.Boolean)
-  fullName: SixModLoader.Api.Patches.QueryProcessorPatch.ProcessGameConsoleQueryPatch.Prefix(QueryProcessor, System.String, System.Boolean)
-  nameWithType: QueryProcessorPatch.ProcessGameConsoleQueryPatch.Prefix(QueryProcessor, String, Boolean)
-- uid: SixModLoader.Api.Patches.QueryProcessorPatch.ProcessGameConsoleQueryPatch.Prefix*
-  name: Prefix
-  href: api/SixModLoader.Api.Patches.QueryProcessorPatch.ProcessGameConsoleQueryPatch.html#SixModLoader_Api_Patches_QueryProcessorPatch_ProcessGameConsoleQueryPatch_Prefix_
-  commentId: Overload:SixModLoader.Api.Patches.QueryProcessorPatch.ProcessGameConsoleQueryPatch.Prefix
-  isSpec: "True"
-  fullName: SixModLoader.Api.Patches.QueryProcessorPatch.ProcessGameConsoleQueryPatch.Prefix
-  nameWithType: QueryProcessorPatch.ProcessGameConsoleQueryPatch.Prefix
 - uid: SixModLoader.Api.SixModLoaderApi
   name: SixModLoaderApi
   href: api/SixModLoader.Api.SixModLoaderApi.html
