@@ -473,10 +473,5 @@
     "href": "articles/installation.html",
     "title": "",
     "keywords": "yes"
-  },
-  "index.html": {
-    "href": "index.html",
-    "title": "",
-    "keywords": "../README.md"
   }
 }
