@@ -505,6 +505,133 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Configuration.ForceQuotedStringValuesEventEmitter.Emit
   nameWithType: ForceQuotedStringValuesEventEmitter.Emit
+- uid: SixModLoader.Api.CustomEffectManager
+  name: CustomEffectManager
+  href: api/SixModLoader.Api.CustomEffectManager.html
+  commentId: T:SixModLoader.Api.CustomEffectManager
+  fullName: SixModLoader.Api.CustomEffectManager
+  nameWithType: CustomEffectManager
+- uid: SixModLoader.Api.CustomEffectManager.#ctor
+  name: CustomEffectManager()
+  href: api/SixModLoader.Api.CustomEffectManager.html#SixModLoader_Api_CustomEffectManager__ctor
+  commentId: M:SixModLoader.Api.CustomEffectManager.#ctor
+  fullName: SixModLoader.Api.CustomEffectManager.CustomEffectManager()
+  nameWithType: CustomEffectManager.CustomEffectManager()
+- uid: SixModLoader.Api.CustomEffectManager.#ctor*
+  name: CustomEffectManager
+  href: api/SixModLoader.Api.CustomEffectManager.html#SixModLoader_Api_CustomEffectManager__ctor_
+  commentId: Overload:SixModLoader.Api.CustomEffectManager.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Api.CustomEffectManager.CustomEffectManager
+  nameWithType: CustomEffectManager.CustomEffectManager
+- uid: SixModLoader.Api.CustomEffectManager.CustomPlayerEffects
+  name: CustomPlayerEffects
+  href: api/SixModLoader.Api.CustomEffectManager.html#SixModLoader_Api_CustomEffectManager_CustomPlayerEffects
+  commentId: P:SixModLoader.Api.CustomEffectManager.CustomPlayerEffects
+  fullName: SixModLoader.Api.CustomEffectManager.CustomPlayerEffects
+  nameWithType: CustomEffectManager.CustomPlayerEffects
+- uid: SixModLoader.Api.CustomEffectManager.CustomPlayerEffects*
+  name: CustomPlayerEffects
+  href: api/SixModLoader.Api.CustomEffectManager.html#SixModLoader_Api_CustomEffectManager_CustomPlayerEffects_
+  commentId: Overload:SixModLoader.Api.CustomEffectManager.CustomPlayerEffects
+  isSpec: "True"
+  fullName: SixModLoader.Api.CustomEffectManager.CustomPlayerEffects
+  nameWithType: CustomEffectManager.CustomPlayerEffects
+- uid: SixModLoader.Api.CustomEffectManager.EffectsRegistryPatch
+  name: CustomEffectManager.EffectsRegistryPatch
+  href: api/SixModLoader.Api.CustomEffectManager.EffectsRegistryPatch.html
+  commentId: T:SixModLoader.Api.CustomEffectManager.EffectsRegistryPatch
+  fullName: SixModLoader.Api.CustomEffectManager.EffectsRegistryPatch
+  nameWithType: CustomEffectManager.EffectsRegistryPatch
+- uid: SixModLoader.Api.CustomEffectManager.EffectsRegistryPatch.Prefix(PlayerEffectsController)
+  name: Prefix(PlayerEffectsController)
+  href: api/SixModLoader.Api.CustomEffectManager.EffectsRegistryPatch.html#SixModLoader_Api_CustomEffectManager_EffectsRegistryPatch_Prefix_PlayerEffectsController_
+  commentId: M:SixModLoader.Api.CustomEffectManager.EffectsRegistryPatch.Prefix(PlayerEffectsController)
+  fullName: SixModLoader.Api.CustomEffectManager.EffectsRegistryPatch.Prefix(PlayerEffectsController)
+  nameWithType: CustomEffectManager.EffectsRegistryPatch.Prefix(PlayerEffectsController)
+- uid: SixModLoader.Api.CustomEffectManager.EffectsRegistryPatch.Prefix*
+  name: Prefix
+  href: api/SixModLoader.Api.CustomEffectManager.EffectsRegistryPatch.html#SixModLoader_Api_CustomEffectManager_EffectsRegistryPatch_Prefix_
+  commentId: Overload:SixModLoader.Api.CustomEffectManager.EffectsRegistryPatch.Prefix
+  isSpec: "True"
+  fullName: SixModLoader.Api.CustomEffectManager.EffectsRegistryPatch.Prefix
+  nameWithType: CustomEffectManager.EffectsRegistryPatch.Prefix
+- uid: SixModLoader.Api.CustomEffectManager.Register*
+  name: Register
+  href: api/SixModLoader.Api.CustomEffectManager.html#SixModLoader_Api_CustomEffectManager_Register_
+  commentId: Overload:SixModLoader.Api.CustomEffectManager.Register
+  isSpec: "True"
+  fullName: SixModLoader.Api.CustomEffectManager.Register
+  nameWithType: CustomEffectManager.Register
+- uid: SixModLoader.Api.CustomEffectManager.Register``1
+  name: Register<T>()
+  href: api/SixModLoader.Api.CustomEffectManager.html#SixModLoader_Api_CustomEffectManager_Register__1
+  commentId: M:SixModLoader.Api.CustomEffectManager.Register``1
+  name.vb: Register(Of T)()
+  fullName: SixModLoader.Api.CustomEffectManager.Register<T>()
+  fullName.vb: SixModLoader.Api.CustomEffectManager.Register(Of T)()
+  nameWithType: CustomEffectManager.Register<T>()
+  nameWithType.vb: CustomEffectManager.Register(Of T)()
+- uid: SixModLoader.Api.CustomEffectManager.SerializeAllPatch
+  name: CustomEffectManager.SerializeAllPatch
+  href: api/SixModLoader.Api.CustomEffectManager.SerializeAllPatch.html
+  commentId: T:SixModLoader.Api.CustomEffectManager.SerializeAllPatch
+  fullName: SixModLoader.Api.CustomEffectManager.SerializeAllPatch
+  nameWithType: CustomEffectManager.SerializeAllPatch
+- uid: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Postfix(SyncList{System.Byte},System.Collections.Generic.IList{System.Byte})
+  name: Postfix(SyncList<Byte>, IList<Byte>)
+  href: api/SixModLoader.Api.CustomEffectManager.SerializeAllPatch.html#SixModLoader_Api_CustomEffectManager_SerializeAllPatch_Postfix_SyncList_System_Byte__System_Collections_Generic_IList_System_Byte__
+  commentId: M:SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Postfix(SyncList{System.Byte},System.Collections.Generic.IList{System.Byte})
+  name.vb: Postfix(SyncList(Of Byte), IList(Of Byte))
+  fullName: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Postfix(SyncList<System.Byte>, System.Collections.Generic.IList<System.Byte>)
+  fullName.vb: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Postfix(SyncList(Of System.Byte), System.Collections.Generic.IList(Of System.Byte))
+  nameWithType: CustomEffectManager.SerializeAllPatch.Postfix(SyncList<Byte>, IList<Byte>)
+  nameWithType.vb: CustomEffectManager.SerializeAllPatch.Postfix(SyncList(Of Byte), IList(Of Byte))
+- uid: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Postfix*
+  name: Postfix
+  href: api/SixModLoader.Api.CustomEffectManager.SerializeAllPatch.html#SixModLoader_Api_CustomEffectManager_SerializeAllPatch_Postfix_
+  commentId: Overload:SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Postfix
+  isSpec: "True"
+  fullName: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Postfix
+  nameWithType: CustomEffectManager.SerializeAllPatch.Postfix
+- uid: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Prefix(SyncList{System.Byte},System.Collections.Generic.IList{System.Byte}@)
+  name: Prefix(SyncList<Byte>, out IList<Byte>)
+  href: api/SixModLoader.Api.CustomEffectManager.SerializeAllPatch.html#SixModLoader_Api_CustomEffectManager_SerializeAllPatch_Prefix_SyncList_System_Byte__System_Collections_Generic_IList_System_Byte___
+  commentId: M:SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Prefix(SyncList{System.Byte},System.Collections.Generic.IList{System.Byte}@)
+  name.vb: Prefix(SyncList(Of Byte), ByRef IList(Of Byte))
+  fullName: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Prefix(SyncList<System.Byte>, out System.Collections.Generic.IList<System.Byte>)
+  fullName.vb: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Prefix(SyncList(Of System.Byte), ByRef System.Collections.Generic.IList(Of System.Byte))
+  nameWithType: CustomEffectManager.SerializeAllPatch.Prefix(SyncList<Byte>, out IList<Byte>)
+  nameWithType.vb: CustomEffectManager.SerializeAllPatch.Prefix(SyncList(Of Byte), ByRef IList(Of Byte))
+- uid: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Prefix*
+  name: Prefix
+  href: api/SixModLoader.Api.CustomEffectManager.SerializeAllPatch.html#SixModLoader_Api_CustomEffectManager_SerializeAllPatch_Prefix_
+  commentId: Overload:SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Prefix
+  isSpec: "True"
+  fullName: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Prefix
+  nameWithType: CustomEffectManager.SerializeAllPatch.Prefix
+- uid: SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch
+  name: CustomEffectManager.SerializeDeltaPatch
+  href: api/SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.html
+  commentId: T:SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch
+  fullName: SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch
+  nameWithType: CustomEffectManager.SerializeDeltaPatch
+- uid: SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.Prefix(SyncList{System.Byte},System.Collections.Generic.IList{System.Byte}@)
+  name: Prefix(SyncList<Byte>, out IList<Byte>)
+  href: api/SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.html#SixModLoader_Api_CustomEffectManager_SerializeDeltaPatch_Prefix_SyncList_System_Byte__System_Collections_Generic_IList_System_Byte___
+  commentId: M:SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.Prefix(SyncList{System.Byte},System.Collections.Generic.IList{System.Byte}@)
+  name.vb: Prefix(SyncList(Of Byte), ByRef IList(Of Byte))
+  fullName: SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.Prefix(SyncList<System.Byte>, out System.Collections.Generic.IList<System.Byte>)
+  fullName.vb: SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.Prefix(SyncList(Of System.Byte), ByRef System.Collections.Generic.IList(Of System.Byte))
+  nameWithType: CustomEffectManager.SerializeDeltaPatch.Prefix(SyncList<Byte>, out IList<Byte>)
+  nameWithType.vb: CustomEffectManager.SerializeDeltaPatch.Prefix(SyncList(Of Byte), ByRef IList(Of Byte))
+- uid: SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.Prefix*
+  name: Prefix
+  href: api/SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.html#SixModLoader_Api_CustomEffectManager_SerializeDeltaPatch_Prefix_
+  commentId: Overload:SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.Prefix
+  isSpec: "True"
+  fullName: SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.Prefix
+  nameWithType: CustomEffectManager.SerializeDeltaPatch.Prefix
 - uid: SixModLoader.Api.Events.Player
   name: SixModLoader.Api.Events.Player
   href: api/SixModLoader.Api.Events.Player.html
@@ -1816,6 +1943,19 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.SixModLoaderApi.CommandManager
   nameWithType: SixModLoaderApi.CommandManager
+- uid: SixModLoader.Api.SixModLoaderApi.CustomEffectManager
+  name: CustomEffectManager
+  href: api/SixModLoader.Api.SixModLoaderApi.html#SixModLoader_Api_SixModLoaderApi_CustomEffectManager
+  commentId: P:SixModLoader.Api.SixModLoaderApi.CustomEffectManager
+  fullName: SixModLoader.Api.SixModLoaderApi.CustomEffectManager
+  nameWithType: SixModLoaderApi.CustomEffectManager
+- uid: SixModLoader.Api.SixModLoaderApi.CustomEffectManager*
+  name: CustomEffectManager
+  href: api/SixModLoader.Api.SixModLoaderApi.html#SixModLoader_Api_SixModLoaderApi_CustomEffectManager_
+  commentId: Overload:SixModLoader.Api.SixModLoaderApi.CustomEffectManager
+  isSpec: "True"
+  fullName: SixModLoader.Api.SixModLoaderApi.CustomEffectManager
+  nameWithType: SixModLoaderApi.CustomEffectManager
 - uid: SixModLoader.Api.SixModLoaderApi.Harmony
   name: Harmony
   href: api/SixModLoader.Api.SixModLoaderApi.html#SixModLoader_Api_SixModLoaderApi_Harmony

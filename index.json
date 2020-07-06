@@ -69,6 +69,26 @@
     "title": "Namespace SixModLoader.Api.Configuration",
     "keywords": "Namespace SixModLoader.Api.Configuration Classes AutoConfiguration CommentGatheringTypeInspector CommentsObjectDescriptor CommentsObjectGraphVisitor ConfigurationManager ConfigurationManager.Patch ForceQuotedStringValuesEventEmitter Enums ConfigurationType"
   },
+  "api/SixModLoader.Api.CustomEffectManager.EffectsRegistryPatch.html": {
+    "href": "api/SixModLoader.Api.CustomEffectManager.EffectsRegistryPatch.html",
+    "title": "Class CustomEffectManager.EffectsRegistryPatch",
+    "keywords": "Class CustomEffectManager.EffectsRegistryPatch Patch injecting custom effects to Inheritance System.Object CustomEffectManager.EffectsRegistryPatch Namespace : SixModLoader.Api Assembly : SixModLoader.Api.dll Syntax [HarmonyPatch(typeof(PlayerEffectsController), \"\")] public static class EffectsRegistryPatch Methods | Improve this Doc View Source Prefix(PlayerEffectsController) Declaration public static void Prefix(PlayerEffectsController __instance) Parameters Type Name Description PlayerEffectsController __instance"
+  },
+  "api/SixModLoader.Api.CustomEffectManager.html": {
+    "href": "api/SixModLoader.Api.CustomEffectManager.html",
+    "title": "Class CustomEffectManager",
+    "keywords": "Class CustomEffectManager Inheritance System.Object CustomEffectManager Namespace : SixModLoader.Api Assembly : SixModLoader.Api.dll Syntax public class CustomEffectManager Constructors | Improve this Doc View Source CustomEffectManager() Declaration public CustomEffectManager() Properties | Improve this Doc View Source CustomPlayerEffects Declaration public List<Type> CustomPlayerEffects { get; } Property Value Type Description System.Collections.Generic.List < System.Type > Methods | Improve this Doc View Source Register<T>() Declaration public void Register<T>() where T : PlayerEffect Type Parameters Name Description T"
+  },
+  "api/SixModLoader.Api.CustomEffectManager.SerializeAllPatch.html": {
+    "href": "api/SixModLoader.Api.CustomEffectManager.SerializeAllPatch.html",
+    "title": "Class CustomEffectManager.SerializeAllPatch",
+    "keywords": "Class CustomEffectManager.SerializeAllPatch Dirty workaround to hide custom effects from client Inheritance System.Object CustomEffectManager.SerializeAllPatch Namespace : SixModLoader.Api Assembly : SixModLoader.Api.dll Syntax [HarmonyPatch(typeof(SyncList<byte>), \"\")] public static class SerializeAllPatch Methods | Improve this Doc View Source Postfix(SyncList<Byte>, IList<Byte>) Declaration public static void Postfix(SyncList<byte> __instance, IList<byte> __state) Parameters Type Name Description SyncList < System.Byte > __instance System.Collections.Generic.IList < System.Byte > __state | Improve this Doc View Source Prefix(SyncList<Byte>, out IList<Byte>) Declaration public static void Prefix(SyncList<byte> __instance, out IList<byte> __state) Parameters Type Name Description SyncList < System.Byte > __instance System.Collections.Generic.IList < System.Byte > __state"
+  },
+  "api/SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.html": {
+    "href": "api/SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.html",
+    "title": "Class CustomEffectManager.SerializeDeltaPatch",
+    "keywords": "Class CustomEffectManager.SerializeDeltaPatch Dirty workaround to hide custom effects from client Inheritance System.Object CustomEffectManager.SerializeDeltaPatch Namespace : SixModLoader.Api Assembly : SixModLoader.Api.dll Syntax [HarmonyPatch(typeof(SyncList<byte>), \"\")] public static class SerializeDeltaPatch Methods | Improve this Doc View Source Prefix(SyncList<Byte>, out IList<Byte>) Declaration public static void Prefix(SyncList<byte> __instance, out IList<byte> __state) Parameters Type Name Description SyncList < System.Byte > __instance System.Collections.Generic.IList < System.Byte > __state"
+  },
   "api/SixModLoader.Api.Events.Player.html": {
     "href": "api/SixModLoader.Api.Events.Player.html",
     "title": "Namespace SixModLoader.Api.Events.Player",
@@ -282,7 +302,7 @@
   "api/SixModLoader.Api.html": {
     "href": "api/SixModLoader.Api.html",
     "title": "Namespace SixModLoader.Api",
-    "keywords": "Namespace SixModLoader.Api Classes CommandManager SixModLoaderApi SixModLoaderCommand SixModLoaderCommand.ModsCommand SixModLoaderCommand.ReloadCommand SixModLoaderCommand.VersionCommand"
+    "keywords": "Namespace SixModLoader.Api Classes CommandManager CustomEffectManager CustomEffectManager.EffectsRegistryPatch Patch injecting custom effects to CustomEffectManager.SerializeAllPatch Dirty workaround to hide custom effects from client CustomEffectManager.SerializeDeltaPatch Dirty workaround to hide custom effects from client SixModLoaderApi SixModLoaderCommand SixModLoaderCommand.ModsCommand SixModLoaderCommand.ReloadCommand SixModLoaderCommand.VersionCommand"
   },
   "api/SixModLoader.Api.Patches.CommandProcessorPatch.html": {
     "href": "api/SixModLoader.Api.Patches.CommandProcessorPatch.html",
@@ -312,7 +332,7 @@
   "api/SixModLoader.Api.SixModLoaderApi.html": {
     "href": "api/SixModLoader.Api.SixModLoaderApi.html",
     "title": "Class SixModLoaderApi",
-    "keywords": "Class SixModLoaderApi Inheritance System.Object SixModLoaderApi Namespace : SixModLoader.Api Assembly : SixModLoader.Api.dll Syntax [Mod] public class SixModLoaderApi Constructors | Improve this Doc View Source SixModLoaderApi(SixModLoader) Declaration public SixModLoaderApi(SixModLoader loader) Parameters Type Name Description SixModLoader loader Properties | Improve this Doc View Source CommandManager Declaration public CommandManager CommandManager { get; } Property Value Type Description CommandManager | Improve this Doc View Source Harmony Declaration public Harmony Harmony { get; } Property Value Type Description HarmonyLib.Harmony Methods | Improve this Doc View Source OnDisable() Declaration [EventHandler(typeof(ModDisableEvent))] public void OnDisable() | Improve this Doc View Source OnEnable() Declaration [EventHandler(typeof(ModEnableEvent))] public void OnEnable() | Improve this Doc View Source OnServerConsoleReady() Declaration [EventHandler(typeof(ServerConsoleReadyEvent))] public void OnServerConsoleReady()"
+    "keywords": "Class SixModLoaderApi Inheritance System.Object SixModLoaderApi Namespace : SixModLoader.Api Assembly : SixModLoader.Api.dll Syntax [Mod] public class SixModLoaderApi Constructors | Improve this Doc View Source SixModLoaderApi(SixModLoader) Declaration public SixModLoaderApi(SixModLoader loader) Parameters Type Name Description SixModLoader loader Properties | Improve this Doc View Source CommandManager Declaration public CommandManager CommandManager { get; } Property Value Type Description CommandManager | Improve this Doc View Source CustomEffectManager Declaration public CustomEffectManager CustomEffectManager { get; } Property Value Type Description CustomEffectManager | Improve this Doc View Source Harmony Declaration public Harmony Harmony { get; } Property Value Type Description HarmonyLib.Harmony Methods | Improve this Doc View Source OnDisable() Declaration [EventHandler(typeof(ModDisableEvent))] public void OnDisable() | Improve this Doc View Source OnEnable() Declaration [EventHandler(typeof(ModEnableEvent))] public void OnEnable() | Improve this Doc View Source OnServerConsoleReady() Declaration [EventHandler(typeof(ServerConsoleReadyEvent))] public void OnServerConsoleReady()"
   },
   "api/SixModLoader.Api.SixModLoaderCommand.html": {
     "href": "api/SixModLoader.Api.SixModLoaderCommand.html",
