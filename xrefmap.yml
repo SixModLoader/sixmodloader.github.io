@@ -67,6 +67,41 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.CommandManager.RegisterCommands
   nameWithType: CommandManager.RegisterCommands
+- uid: SixModLoader.Api.CommandManager.UnregisterCommand(System.Type)
+  name: UnregisterCommand(Type)
+  href: api/SixModLoader.Api.CommandManager.html#SixModLoader_Api_CommandManager_UnregisterCommand_System_Type_
+  commentId: M:SixModLoader.Api.CommandManager.UnregisterCommand(System.Type)
+  fullName: SixModLoader.Api.CommandManager.UnregisterCommand(System.Type)
+  nameWithType: CommandManager.UnregisterCommand(Type)
+- uid: SixModLoader.Api.CommandManager.UnregisterCommand*
+  name: UnregisterCommand
+  href: api/SixModLoader.Api.CommandManager.html#SixModLoader_Api_CommandManager_UnregisterCommand_
+  commentId: Overload:SixModLoader.Api.CommandManager.UnregisterCommand
+  isSpec: "True"
+  fullName: SixModLoader.Api.CommandManager.UnregisterCommand
+  nameWithType: CommandManager.UnregisterCommand
+- uid: SixModLoader.Api.CommandManager.UnregisterCommand``1
+  name: UnregisterCommand<T>()
+  href: api/SixModLoader.Api.CommandManager.html#SixModLoader_Api_CommandManager_UnregisterCommand__1
+  commentId: M:SixModLoader.Api.CommandManager.UnregisterCommand``1
+  name.vb: UnregisterCommand(Of T)()
+  fullName: SixModLoader.Api.CommandManager.UnregisterCommand<T>()
+  fullName.vb: SixModLoader.Api.CommandManager.UnregisterCommand(Of T)()
+  nameWithType: CommandManager.UnregisterCommand<T>()
+  nameWithType.vb: CommandManager.UnregisterCommand(Of T)()
+- uid: SixModLoader.Api.CommandManager.UnregisterCommands(SixModLoader.Mods.ModContainer)
+  name: UnregisterCommands(ModContainer)
+  href: api/SixModLoader.Api.CommandManager.html#SixModLoader_Api_CommandManager_UnregisterCommands_SixModLoader_Mods_ModContainer_
+  commentId: M:SixModLoader.Api.CommandManager.UnregisterCommands(SixModLoader.Mods.ModContainer)
+  fullName: SixModLoader.Api.CommandManager.UnregisterCommands(SixModLoader.Mods.ModContainer)
+  nameWithType: CommandManager.UnregisterCommands(ModContainer)
+- uid: SixModLoader.Api.CommandManager.UnregisterCommands*
+  name: UnregisterCommands
+  href: api/SixModLoader.Api.CommandManager.html#SixModLoader_Api_CommandManager_UnregisterCommands_
+  commentId: Overload:SixModLoader.Api.CommandManager.UnregisterCommands
+  isSpec: "True"
+  fullName: SixModLoader.Api.CommandManager.UnregisterCommands
+  nameWithType: CommandManager.UnregisterCommands
 - uid: SixModLoader.Api.Configuration
   name: SixModLoader.Api.Configuration
   href: api/SixModLoader.Api.Configuration.html
@@ -281,6 +316,19 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Configuration.ConfigurationManager.Deserializer
   nameWithType: ConfigurationManager.Deserializer
+- uid: SixModLoader.Api.Configuration.ConfigurationManager.Initialize
+  name: Initialize()
+  href: api/SixModLoader.Api.Configuration.ConfigurationManager.html#SixModLoader_Api_Configuration_ConfigurationManager_Initialize
+  commentId: M:SixModLoader.Api.Configuration.ConfigurationManager.Initialize
+  fullName: SixModLoader.Api.Configuration.ConfigurationManager.Initialize()
+  nameWithType: ConfigurationManager.Initialize()
+- uid: SixModLoader.Api.Configuration.ConfigurationManager.Initialize*
+  name: Initialize
+  href: api/SixModLoader.Api.Configuration.ConfigurationManager.html#SixModLoader_Api_Configuration_ConfigurationManager_Initialize_
+  commentId: Overload:SixModLoader.Api.Configuration.ConfigurationManager.Initialize
+  isSpec: "True"
+  fullName: SixModLoader.Api.Configuration.ConfigurationManager.Initialize
+  nameWithType: ConfigurationManager.Initialize
 - uid: SixModLoader.Api.Configuration.ConfigurationManager.LoadConfigurationFile(System.Type,System.String,System.Object)
   name: LoadConfigurationFile(Type, String, Object)
   href: api/SixModLoader.Api.Configuration.ConfigurationManager.html#SixModLoader_Api_Configuration_ConfigurationManager_LoadConfigurationFile_System_Type_System_String_System_Object_
@@ -309,6 +357,19 @@ references:
   commentId: T:SixModLoader.Api.Configuration.ConfigurationManager.Patch
   fullName: SixModLoader.Api.Configuration.ConfigurationManager.Patch
   nameWithType: ConfigurationManager.Patch
+- uid: SixModLoader.Api.Configuration.ConfigurationManager.Patch.Prefix(SixModLoader.Mods.ModEvent)
+  name: Prefix(ModEvent)
+  href: api/SixModLoader.Api.Configuration.ConfigurationManager.Patch.html#SixModLoader_Api_Configuration_ConfigurationManager_Patch_Prefix_SixModLoader_Mods_ModEvent_
+  commentId: M:SixModLoader.Api.Configuration.ConfigurationManager.Patch.Prefix(SixModLoader.Mods.ModEvent)
+  fullName: SixModLoader.Api.Configuration.ConfigurationManager.Patch.Prefix(SixModLoader.Mods.ModEvent)
+  nameWithType: ConfigurationManager.Patch.Prefix(ModEvent)
+- uid: SixModLoader.Api.Configuration.ConfigurationManager.Patch.Prefix*
+  name: Prefix
+  href: api/SixModLoader.Api.Configuration.ConfigurationManager.Patch.html#SixModLoader_Api_Configuration_ConfigurationManager_Patch_Prefix_
+  commentId: Overload:SixModLoader.Api.Configuration.ConfigurationManager.Patch.Prefix
+  isSpec: "True"
+  fullName: SixModLoader.Api.Configuration.ConfigurationManager.Patch.Prefix
+  nameWithType: ConfigurationManager.Patch.Prefix
 - uid: SixModLoader.Api.Configuration.ConfigurationManager.Serializer
   name: Serializer
   href: api/SixModLoader.Api.Configuration.ConfigurationManager.html#SixModLoader_Api_Configuration_ConfigurationManager_Serializer
@@ -1399,6 +1460,12 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Extensions.AutoCommandHandlerAttribute.Type
   nameWithType: AutoCommandHandlerAttribute.Type
+- uid: SixModLoader.Api.Extensions.AutoHarmonyAttribute
+  name: AutoHarmonyAttribute
+  href: api/SixModLoader.Api.Extensions.AutoHarmonyAttribute.html
+  commentId: T:SixModLoader.Api.Extensions.AutoHarmonyAttribute
+  fullName: SixModLoader.Api.Extensions.AutoHarmonyAttribute
+  nameWithType: AutoHarmonyAttribute
 - uid: SixModLoader.Api.Extensions.BroadcastConnection
   name: BroadcastConnection
   href: api/SixModLoader.Api.Extensions.BroadcastConnection.html
@@ -1836,6 +1903,57 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Extensions.FormatExtensions.VerticalOffset
   nameWithType: FormatExtensions.VerticalOffset
+- uid: SixModLoader.Api.Extensions.HarmonyExtensions
+  name: HarmonyExtensions
+  href: api/SixModLoader.Api.Extensions.HarmonyExtensions.html
+  commentId: T:SixModLoader.Api.Extensions.HarmonyExtensions
+  fullName: SixModLoader.Api.Extensions.HarmonyExtensions
+  nameWithType: HarmonyExtensions
+- uid: SixModLoader.Api.Extensions.HarmonyExtensions.Initialize
+  name: Initialize()
+  href: api/SixModLoader.Api.Extensions.HarmonyExtensions.html#SixModLoader_Api_Extensions_HarmonyExtensions_Initialize
+  commentId: M:SixModLoader.Api.Extensions.HarmonyExtensions.Initialize
+  fullName: SixModLoader.Api.Extensions.HarmonyExtensions.Initialize()
+  nameWithType: HarmonyExtensions.Initialize()
+- uid: SixModLoader.Api.Extensions.HarmonyExtensions.Initialize*
+  name: Initialize
+  href: api/SixModLoader.Api.Extensions.HarmonyExtensions.html#SixModLoader_Api_Extensions_HarmonyExtensions_Initialize_
+  commentId: Overload:SixModLoader.Api.Extensions.HarmonyExtensions.Initialize
+  isSpec: "True"
+  fullName: SixModLoader.Api.Extensions.HarmonyExtensions.Initialize
+  nameWithType: HarmonyExtensions.Initialize
+- uid: SixModLoader.Api.Extensions.HarmonyExtensions.Patch
+  name: HarmonyExtensions.Patch
+  href: api/SixModLoader.Api.Extensions.HarmonyExtensions.Patch.html
+  commentId: T:SixModLoader.Api.Extensions.HarmonyExtensions.Patch
+  fullName: SixModLoader.Api.Extensions.HarmonyExtensions.Patch
+  nameWithType: HarmonyExtensions.Patch
+- uid: SixModLoader.Api.Extensions.HarmonyExtensions.Patch.Prefix(SixModLoader.Mods.ModEvent)
+  name: Prefix(ModEvent)
+  href: api/SixModLoader.Api.Extensions.HarmonyExtensions.Patch.html#SixModLoader_Api_Extensions_HarmonyExtensions_Patch_Prefix_SixModLoader_Mods_ModEvent_
+  commentId: M:SixModLoader.Api.Extensions.HarmonyExtensions.Patch.Prefix(SixModLoader.Mods.ModEvent)
+  fullName: SixModLoader.Api.Extensions.HarmonyExtensions.Patch.Prefix(SixModLoader.Mods.ModEvent)
+  nameWithType: HarmonyExtensions.Patch.Prefix(ModEvent)
+- uid: SixModLoader.Api.Extensions.HarmonyExtensions.Patch.Prefix*
+  name: Prefix
+  href: api/SixModLoader.Api.Extensions.HarmonyExtensions.Patch.html#SixModLoader_Api_Extensions_HarmonyExtensions_Patch_Prefix_
+  commentId: Overload:SixModLoader.Api.Extensions.HarmonyExtensions.Patch.Prefix
+  isSpec: "True"
+  fullName: SixModLoader.Api.Extensions.HarmonyExtensions.Patch.Prefix
+  nameWithType: HarmonyExtensions.Patch.Prefix
+- uid: SixModLoader.Api.Extensions.HarmonyExtensions.Unpatch(HarmonyLib.Harmony)
+  name: Unpatch(Harmony)
+  href: api/SixModLoader.Api.Extensions.HarmonyExtensions.html#SixModLoader_Api_Extensions_HarmonyExtensions_Unpatch_HarmonyLib_Harmony_
+  commentId: M:SixModLoader.Api.Extensions.HarmonyExtensions.Unpatch(HarmonyLib.Harmony)
+  fullName: SixModLoader.Api.Extensions.HarmonyExtensions.Unpatch(HarmonyLib.Harmony)
+  nameWithType: HarmonyExtensions.Unpatch(Harmony)
+- uid: SixModLoader.Api.Extensions.HarmonyExtensions.Unpatch*
+  name: Unpatch
+  href: api/SixModLoader.Api.Extensions.HarmonyExtensions.html#SixModLoader_Api_Extensions_HarmonyExtensions_Unpatch_
+  commentId: Overload:SixModLoader.Api.Extensions.HarmonyExtensions.Unpatch
+  isSpec: "True"
+  fullName: SixModLoader.Api.Extensions.HarmonyExtensions.Unpatch
+  nameWithType: HarmonyExtensions.Unpatch
 - uid: SixModLoader.Api.Patches
   name: SixModLoader.Api.Patches
   href: api/SixModLoader.Api.Patches.html
@@ -2556,6 +2674,38 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Events.EventManager.RegisterStatic
   nameWithType: EventManager.RegisterStatic
+- uid: SixModLoader.Events.EventManager.Unregister(System.Object)
+  name: Unregister(Object)
+  href: api/SixModLoader.Events.EventManager.html#SixModLoader_Events_EventManager_Unregister_System_Object_
+  commentId: M:SixModLoader.Events.EventManager.Unregister(System.Object)
+  fullName: SixModLoader.Events.EventManager.Unregister(System.Object)
+  nameWithType: EventManager.Unregister(Object)
+- uid: SixModLoader.Events.EventManager.Unregister(System.Type,System.Object)
+  name: Unregister(Type, Object)
+  href: api/SixModLoader.Events.EventManager.html#SixModLoader_Events_EventManager_Unregister_System_Type_System_Object_
+  commentId: M:SixModLoader.Events.EventManager.Unregister(System.Type,System.Object)
+  fullName: SixModLoader.Events.EventManager.Unregister(System.Type, System.Object)
+  nameWithType: EventManager.Unregister(Type, Object)
+- uid: SixModLoader.Events.EventManager.Unregister*
+  name: Unregister
+  href: api/SixModLoader.Events.EventManager.html#SixModLoader_Events_EventManager_Unregister_
+  commentId: Overload:SixModLoader.Events.EventManager.Unregister
+  isSpec: "True"
+  fullName: SixModLoader.Events.EventManager.Unregister
+  nameWithType: EventManager.Unregister
+- uid: SixModLoader.Events.EventManager.UnregisterStatic(System.Type)
+  name: UnregisterStatic(Type)
+  href: api/SixModLoader.Events.EventManager.html#SixModLoader_Events_EventManager_UnregisterStatic_System_Type_
+  commentId: M:SixModLoader.Events.EventManager.UnregisterStatic(System.Type)
+  fullName: SixModLoader.Events.EventManager.UnregisterStatic(System.Type)
+  nameWithType: EventManager.UnregisterStatic(Type)
+- uid: SixModLoader.Events.EventManager.UnregisterStatic*
+  name: UnregisterStatic
+  href: api/SixModLoader.Events.EventManager.html#SixModLoader_Events_EventManager_UnregisterStatic_
+  commentId: Overload:SixModLoader.Events.EventManager.UnregisterStatic
+  isSpec: "True"
+  fullName: SixModLoader.Events.EventManager.UnregisterStatic
+  nameWithType: EventManager.UnregisterStatic
 - uid: SixModLoader.Events.ICancellableEvent
   name: ICancellableEvent
   href: api/SixModLoader.Events.ICancellableEvent.html
@@ -2575,18 +2725,115 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Events.ICancellableEvent.Cancelled
   nameWithType: ICancellableEvent.Cancelled
+- uid: SixModLoader.IdentifiedLogger
+  name: IdentifiedLogger
+  href: api/SixModLoader.IdentifiedLogger.html
+  commentId: T:SixModLoader.IdentifiedLogger
+  fullName: SixModLoader.IdentifiedLogger
+  nameWithType: IdentifiedLogger
+- uid: SixModLoader.IdentifiedLogger.#ctor(System.String)
+  name: IdentifiedLogger(String)
+  href: api/SixModLoader.IdentifiedLogger.html#SixModLoader_IdentifiedLogger__ctor_System_String_
+  commentId: M:SixModLoader.IdentifiedLogger.#ctor(System.String)
+  fullName: SixModLoader.IdentifiedLogger.IdentifiedLogger(System.String)
+  nameWithType: IdentifiedLogger.IdentifiedLogger(String)
+- uid: SixModLoader.IdentifiedLogger.#ctor*
+  name: IdentifiedLogger
+  href: api/SixModLoader.IdentifiedLogger.html#SixModLoader_IdentifiedLogger__ctor_
+  commentId: Overload:SixModLoader.IdentifiedLogger.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.IdentifiedLogger.IdentifiedLogger
+  nameWithType: IdentifiedLogger.IdentifiedLogger
+- uid: SixModLoader.IdentifiedLogger.Debug(System.Object)
+  name: Debug(Object)
+  href: api/SixModLoader.IdentifiedLogger.html#SixModLoader_IdentifiedLogger_Debug_System_Object_
+  commentId: M:SixModLoader.IdentifiedLogger.Debug(System.Object)
+  fullName: SixModLoader.IdentifiedLogger.Debug(System.Object)
+  nameWithType: IdentifiedLogger.Debug(Object)
+- uid: SixModLoader.IdentifiedLogger.Debug*
+  name: Debug
+  href: api/SixModLoader.IdentifiedLogger.html#SixModLoader_IdentifiedLogger_Debug_
+  commentId: Overload:SixModLoader.IdentifiedLogger.Debug
+  isSpec: "True"
+  fullName: SixModLoader.IdentifiedLogger.Debug
+  nameWithType: IdentifiedLogger.Debug
+- uid: SixModLoader.IdentifiedLogger.Error(System.Object)
+  name: Error(Object)
+  href: api/SixModLoader.IdentifiedLogger.html#SixModLoader_IdentifiedLogger_Error_System_Object_
+  commentId: M:SixModLoader.IdentifiedLogger.Error(System.Object)
+  fullName: SixModLoader.IdentifiedLogger.Error(System.Object)
+  nameWithType: IdentifiedLogger.Error(Object)
+- uid: SixModLoader.IdentifiedLogger.Error*
+  name: Error
+  href: api/SixModLoader.IdentifiedLogger.html#SixModLoader_IdentifiedLogger_Error_
+  commentId: Overload:SixModLoader.IdentifiedLogger.Error
+  isSpec: "True"
+  fullName: SixModLoader.IdentifiedLogger.Error
+  nameWithType: IdentifiedLogger.Error
+- uid: SixModLoader.IdentifiedLogger.Identifier
+  name: Identifier
+  href: api/SixModLoader.IdentifiedLogger.html#SixModLoader_IdentifiedLogger_Identifier
+  commentId: P:SixModLoader.IdentifiedLogger.Identifier
+  fullName: SixModLoader.IdentifiedLogger.Identifier
+  nameWithType: IdentifiedLogger.Identifier
+- uid: SixModLoader.IdentifiedLogger.Identifier*
+  name: Identifier
+  href: api/SixModLoader.IdentifiedLogger.html#SixModLoader_IdentifiedLogger_Identifier_
+  commentId: Overload:SixModLoader.IdentifiedLogger.Identifier
+  isSpec: "True"
+  fullName: SixModLoader.IdentifiedLogger.Identifier
+  nameWithType: IdentifiedLogger.Identifier
+- uid: SixModLoader.IdentifiedLogger.Info(System.Object)
+  name: Info(Object)
+  href: api/SixModLoader.IdentifiedLogger.html#SixModLoader_IdentifiedLogger_Info_System_Object_
+  commentId: M:SixModLoader.IdentifiedLogger.Info(System.Object)
+  fullName: SixModLoader.IdentifiedLogger.Info(System.Object)
+  nameWithType: IdentifiedLogger.Info(Object)
+- uid: SixModLoader.IdentifiedLogger.Info*
+  name: Info
+  href: api/SixModLoader.IdentifiedLogger.html#SixModLoader_IdentifiedLogger_Info_
+  commentId: Overload:SixModLoader.IdentifiedLogger.Info
+  isSpec: "True"
+  fullName: SixModLoader.IdentifiedLogger.Info
+  nameWithType: IdentifiedLogger.Info
+- uid: SixModLoader.IdentifiedLogger.Log(System.String,SixModLoader.LogLevel,System.ConsoleColor)
+  name: Log(String, LogLevel, ConsoleColor)
+  href: api/SixModLoader.IdentifiedLogger.html#SixModLoader_IdentifiedLogger_Log_System_String_SixModLoader_LogLevel_System_ConsoleColor_
+  commentId: M:SixModLoader.IdentifiedLogger.Log(System.String,SixModLoader.LogLevel,System.ConsoleColor)
+  fullName: SixModLoader.IdentifiedLogger.Log(System.String, SixModLoader.LogLevel, System.ConsoleColor)
+  nameWithType: IdentifiedLogger.Log(String, LogLevel, ConsoleColor)
+- uid: SixModLoader.IdentifiedLogger.Log*
+  name: Log
+  href: api/SixModLoader.IdentifiedLogger.html#SixModLoader_IdentifiedLogger_Log_
+  commentId: Overload:SixModLoader.IdentifiedLogger.Log
+  isSpec: "True"
+  fullName: SixModLoader.IdentifiedLogger.Log
+  nameWithType: IdentifiedLogger.Log
+- uid: SixModLoader.IdentifiedLogger.Warn(System.Object)
+  name: Warn(Object)
+  href: api/SixModLoader.IdentifiedLogger.html#SixModLoader_IdentifiedLogger_Warn_System_Object_
+  commentId: M:SixModLoader.IdentifiedLogger.Warn(System.Object)
+  fullName: SixModLoader.IdentifiedLogger.Warn(System.Object)
+  nameWithType: IdentifiedLogger.Warn(Object)
+- uid: SixModLoader.IdentifiedLogger.Warn*
+  name: Warn
+  href: api/SixModLoader.IdentifiedLogger.html#SixModLoader_IdentifiedLogger_Warn_
+  commentId: Overload:SixModLoader.IdentifiedLogger.Warn
+  isSpec: "True"
+  fullName: SixModLoader.IdentifiedLogger.Warn
+  nameWithType: IdentifiedLogger.Warn
 - uid: SixModLoader.Logger
   name: Logger
   href: api/SixModLoader.Logger.html
   commentId: T:SixModLoader.Logger
   fullName: SixModLoader.Logger
   nameWithType: Logger
-- uid: SixModLoader.Logger.Debug(System.Object,System.ConsoleColor)
-  name: Debug(Object, ConsoleColor)
-  href: api/SixModLoader.Logger.html#SixModLoader_Logger_Debug_System_Object_System_ConsoleColor_
-  commentId: M:SixModLoader.Logger.Debug(System.Object,System.ConsoleColor)
-  fullName: SixModLoader.Logger.Debug(System.Object, System.ConsoleColor)
-  nameWithType: Logger.Debug(Object, ConsoleColor)
+- uid: SixModLoader.Logger.Debug(System.Object)
+  name: Debug(Object)
+  href: api/SixModLoader.Logger.html#SixModLoader_Logger_Debug_System_Object_
+  commentId: M:SixModLoader.Logger.Debug(System.Object)
+  fullName: SixModLoader.Logger.Debug(System.Object)
+  nameWithType: Logger.Debug(Object)
 - uid: SixModLoader.Logger.Debug*
   name: Debug
   href: api/SixModLoader.Logger.html#SixModLoader_Logger_Debug_
@@ -2594,12 +2841,12 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Logger.Debug
   nameWithType: Logger.Debug
-- uid: SixModLoader.Logger.Error(System.Object,System.ConsoleColor)
-  name: Error(Object, ConsoleColor)
-  href: api/SixModLoader.Logger.html#SixModLoader_Logger_Error_System_Object_System_ConsoleColor_
-  commentId: M:SixModLoader.Logger.Error(System.Object,System.ConsoleColor)
-  fullName: SixModLoader.Logger.Error(System.Object, System.ConsoleColor)
-  nameWithType: Logger.Error(Object, ConsoleColor)
+- uid: SixModLoader.Logger.Error(System.Object)
+  name: Error(Object)
+  href: api/SixModLoader.Logger.html#SixModLoader_Logger_Error_System_Object_
+  commentId: M:SixModLoader.Logger.Error(System.Object)
+  fullName: SixModLoader.Logger.Error(System.Object)
+  nameWithType: Logger.Error(Object)
 - uid: SixModLoader.Logger.Error*
   name: Error
   href: api/SixModLoader.Logger.html#SixModLoader_Logger_Error_
@@ -2620,12 +2867,25 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Logger.FilePath
   nameWithType: Logger.FilePath
-- uid: SixModLoader.Logger.Info(System.Object,System.ConsoleColor)
-  name: Info(Object, ConsoleColor)
-  href: api/SixModLoader.Logger.html#SixModLoader_Logger_Info_System_Object_System_ConsoleColor_
-  commentId: M:SixModLoader.Logger.Info(System.Object,System.ConsoleColor)
-  fullName: SixModLoader.Logger.Info(System.Object, System.ConsoleColor)
-  nameWithType: Logger.Info(Object, ConsoleColor)
+- uid: SixModLoader.Logger.GetLogger(System.Reflection.Assembly)
+  name: GetLogger(Assembly)
+  href: api/SixModLoader.Logger.html#SixModLoader_Logger_GetLogger_System_Reflection_Assembly_
+  commentId: M:SixModLoader.Logger.GetLogger(System.Reflection.Assembly)
+  fullName: SixModLoader.Logger.GetLogger(System.Reflection.Assembly)
+  nameWithType: Logger.GetLogger(Assembly)
+- uid: SixModLoader.Logger.GetLogger*
+  name: GetLogger
+  href: api/SixModLoader.Logger.html#SixModLoader_Logger_GetLogger_
+  commentId: Overload:SixModLoader.Logger.GetLogger
+  isSpec: "True"
+  fullName: SixModLoader.Logger.GetLogger
+  nameWithType: Logger.GetLogger
+- uid: SixModLoader.Logger.Info(System.Object)
+  name: Info(Object)
+  href: api/SixModLoader.Logger.html#SixModLoader_Logger_Info_System_Object_
+  commentId: M:SixModLoader.Logger.Info(System.Object)
+  fullName: SixModLoader.Logger.Info(System.Object)
+  nameWithType: Logger.Info(Object)
 - uid: SixModLoader.Logger.Info*
   name: Info
   href: api/SixModLoader.Logger.html#SixModLoader_Logger_Info_
@@ -2633,19 +2893,6 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Logger.Info
   nameWithType: Logger.Info
-- uid: SixModLoader.Logger.Log(System.String,SixModLoader.LogLevel,System.ConsoleColor,System.Reflection.Assembly)
-  name: Log(String, LogLevel, ConsoleColor, Assembly)
-  href: api/SixModLoader.Logger.html#SixModLoader_Logger_Log_System_String_SixModLoader_LogLevel_System_ConsoleColor_System_Reflection_Assembly_
-  commentId: M:SixModLoader.Logger.Log(System.String,SixModLoader.LogLevel,System.ConsoleColor,System.Reflection.Assembly)
-  fullName: SixModLoader.Logger.Log(System.String, SixModLoader.LogLevel, System.ConsoleColor, System.Reflection.Assembly)
-  nameWithType: Logger.Log(String, LogLevel, ConsoleColor, Assembly)
-- uid: SixModLoader.Logger.Log*
-  name: Log
-  href: api/SixModLoader.Logger.html#SixModLoader_Logger_Log_
-  commentId: Overload:SixModLoader.Logger.Log
-  isSpec: "True"
-  fullName: SixModLoader.Logger.Log
-  nameWithType: Logger.Log
 - uid: SixModLoader.Logger.SafeDeleteFile(System.String)
   name: SafeDeleteFile(String)
   href: api/SixModLoader.Logger.html#SixModLoader_Logger_SafeDeleteFile_System_String_
@@ -2659,12 +2906,25 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Logger.SafeDeleteFile
   nameWithType: Logger.SafeDeleteFile
-- uid: SixModLoader.Logger.Warn(System.Object,System.ConsoleColor)
-  name: Warn(Object, ConsoleColor)
-  href: api/SixModLoader.Logger.html#SixModLoader_Logger_Warn_System_Object_System_ConsoleColor_
-  commentId: M:SixModLoader.Logger.Warn(System.Object,System.ConsoleColor)
-  fullName: SixModLoader.Logger.Warn(System.Object, System.ConsoleColor)
-  nameWithType: Logger.Warn(Object, ConsoleColor)
+- uid: SixModLoader.Logger.Unknown
+  name: Unknown
+  href: api/SixModLoader.Logger.html#SixModLoader_Logger_Unknown
+  commentId: P:SixModLoader.Logger.Unknown
+  fullName: SixModLoader.Logger.Unknown
+  nameWithType: Logger.Unknown
+- uid: SixModLoader.Logger.Unknown*
+  name: Unknown
+  href: api/SixModLoader.Logger.html#SixModLoader_Logger_Unknown_
+  commentId: Overload:SixModLoader.Logger.Unknown
+  isSpec: "True"
+  fullName: SixModLoader.Logger.Unknown
+  nameWithType: Logger.Unknown
+- uid: SixModLoader.Logger.Warn(System.Object)
+  name: Warn(Object)
+  href: api/SixModLoader.Logger.html#SixModLoader_Logger_Warn_System_Object_
+  commentId: M:SixModLoader.Logger.Warn(System.Object)
+  fullName: SixModLoader.Logger.Warn(System.Object)
+  nameWithType: Logger.Warn(Object)
 - uid: SixModLoader.Logger.Warn*
   name: Warn
   href: api/SixModLoader.Logger.html#SixModLoader_Logger_Warn_
@@ -2720,21 +2980,21 @@ references:
   commentId: T:SixModLoader.Mods.ModAttribute
   fullName: SixModLoader.Mods.ModAttribute
   nameWithType: ModAttribute
-- uid: SixModLoader.Mods.ModAttribute.#ctor
-  name: ModAttribute()
-  href: api/SixModLoader.Mods.ModAttribute.html#SixModLoader_Mods_ModAttribute__ctor
-  commentId: M:SixModLoader.Mods.ModAttribute.#ctor
-  fullName: SixModLoader.Mods.ModAttribute.ModAttribute()
-  nameWithType: ModAttribute.ModAttribute()
-- uid: SixModLoader.Mods.ModAttribute.#ctor(System.String,System.String,System.String[])
-  name: ModAttribute(String, String, String[])
-  href: api/SixModLoader.Mods.ModAttribute.html#SixModLoader_Mods_ModAttribute__ctor_System_String_System_String_System_String___
-  commentId: M:SixModLoader.Mods.ModAttribute.#ctor(System.String,System.String,System.String[])
-  name.vb: ModAttribute(String, String, String())
-  fullName: SixModLoader.Mods.ModAttribute.ModAttribute(System.String, System.String, System.String[])
-  fullName.vb: SixModLoader.Mods.ModAttribute.ModAttribute(System.String, System.String, System.String())
-  nameWithType: ModAttribute.ModAttribute(String, String, String[])
-  nameWithType.vb: ModAttribute.ModAttribute(String, String, String())
+- uid: SixModLoader.Mods.ModAttribute.#ctor(System.String)
+  name: ModAttribute(String)
+  href: api/SixModLoader.Mods.ModAttribute.html#SixModLoader_Mods_ModAttribute__ctor_System_String_
+  commentId: M:SixModLoader.Mods.ModAttribute.#ctor(System.String)
+  fullName: SixModLoader.Mods.ModAttribute.ModAttribute(System.String)
+  nameWithType: ModAttribute.ModAttribute(String)
+- uid: SixModLoader.Mods.ModAttribute.#ctor(System.String,System.String,System.String,System.String[])
+  name: ModAttribute(String, String, String, String[])
+  href: api/SixModLoader.Mods.ModAttribute.html#SixModLoader_Mods_ModAttribute__ctor_System_String_System_String_System_String_System_String___
+  commentId: M:SixModLoader.Mods.ModAttribute.#ctor(System.String,System.String,System.String,System.String[])
+  name.vb: ModAttribute(String, String, String, String())
+  fullName: SixModLoader.Mods.ModAttribute.ModAttribute(System.String, System.String, System.String, System.String[])
+  fullName.vb: SixModLoader.Mods.ModAttribute.ModAttribute(System.String, System.String, System.String, System.String())
+  nameWithType: ModAttribute.ModAttribute(String, String, String, String[])
+  nameWithType.vb: ModAttribute.ModAttribute(String, String, String, String())
 - uid: SixModLoader.Mods.ModAttribute.#ctor*
   name: ModAttribute
   href: api/SixModLoader.Mods.ModAttribute.html#SixModLoader_Mods_ModAttribute__ctor_
@@ -2755,6 +3015,32 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Mods.ModAttribute.Authors
   nameWithType: ModAttribute.Authors
+- uid: SixModLoader.Mods.ModAttribute.Id
+  name: Id
+  href: api/SixModLoader.Mods.ModAttribute.html#SixModLoader_Mods_ModAttribute_Id
+  commentId: P:SixModLoader.Mods.ModAttribute.Id
+  fullName: SixModLoader.Mods.ModAttribute.Id
+  nameWithType: ModAttribute.Id
+- uid: SixModLoader.Mods.ModAttribute.Id*
+  name: Id
+  href: api/SixModLoader.Mods.ModAttribute.html#SixModLoader_Mods_ModAttribute_Id_
+  commentId: Overload:SixModLoader.Mods.ModAttribute.Id
+  isSpec: "True"
+  fullName: SixModLoader.Mods.ModAttribute.Id
+  nameWithType: ModAttribute.Id
+- uid: SixModLoader.Mods.ModAttribute.Logger
+  name: Logger
+  href: api/SixModLoader.Mods.ModAttribute.html#SixModLoader_Mods_ModAttribute_Logger
+  commentId: P:SixModLoader.Mods.ModAttribute.Logger
+  fullName: SixModLoader.Mods.ModAttribute.Logger
+  nameWithType: ModAttribute.Logger
+- uid: SixModLoader.Mods.ModAttribute.Logger*
+  name: Logger
+  href: api/SixModLoader.Mods.ModAttribute.html#SixModLoader_Mods_ModAttribute_Logger_
+  commentId: Overload:SixModLoader.Mods.ModAttribute.Logger
+  isSpec: "True"
+  fullName: SixModLoader.Mods.ModAttribute.Logger
+  nameWithType: ModAttribute.Logger
 - uid: SixModLoader.Mods.ModAttribute.Name
   name: Name
   href: api/SixModLoader.Mods.ModAttribute.html#SixModLoader_Mods_ModAttribute_Name
