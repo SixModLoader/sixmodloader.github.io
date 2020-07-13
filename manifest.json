@@ -1002,7 +1002,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Mods.InjectAttribute.html",
-          "hash": "SyVYY21TCkxULLk7xbJqOg=="
+          "hash": "I/PP/ZukxP6hga0c64zh5Q=="
         }
       },
       "is_incremental": false,
@@ -1014,7 +1014,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Mods.ModAttribute.html",
-          "hash": "hooee8QGn7pfUAFymdxUeA=="
+          "hash": "FSu1Px4sgqwwLbJbegiO6g=="
         }
       },
       "is_incremental": false,
@@ -1106,23 +1106,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SixModLoader.Mods.VersionLabelsAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/SixModLoader.Mods.VersionLabelsAttribute.html",
-          "hash": "rk/0E5LKPiD7/GFgDeZyuQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/SixModLoader.Mods.yml",
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Mods.html",
-          "hash": "NUook2xLpxHrbxDybc6K3w=="
+          "hash": "7oTmRfmKhUCjl617XesbDw=="
         }
       },
       "is_incremental": false,
@@ -1158,7 +1146,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.SixModLoader.html",
-          "hash": "Z4ZydklaSktPfLbHGwaL+Q=="
+          "hash": "BSGdRHi4wtfHqHhQ0HphwQ=="
         }
       },
       "is_incremental": false,
@@ -1206,7 +1194,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "btc2QXZ7iem0coaNP60DQg=="
+          "hash": "cmMadIWKzvlyr6tCvngaJw=="
         }
       },
       "is_incremental": false,
@@ -1314,7 +1302,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 98,
+          "total_file_count": 97,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

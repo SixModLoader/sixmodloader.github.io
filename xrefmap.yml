@@ -3381,38 +3381,6 @@ references:
   commentId: T:SixModLoader.Mods.ModReloadEvent
   fullName: SixModLoader.Mods.ModReloadEvent
   nameWithType: ModReloadEvent
-- uid: SixModLoader.Mods.VersionLabelsAttribute
-  name: VersionLabelsAttribute
-  href: api/SixModLoader.Mods.VersionLabelsAttribute.html
-  commentId: T:SixModLoader.Mods.VersionLabelsAttribute
-  fullName: SixModLoader.Mods.VersionLabelsAttribute
-  nameWithType: VersionLabelsAttribute
-- uid: SixModLoader.Mods.VersionLabelsAttribute.#ctor(System.String)
-  name: VersionLabelsAttribute(String)
-  href: api/SixModLoader.Mods.VersionLabelsAttribute.html#SixModLoader_Mods_VersionLabelsAttribute__ctor_System_String_
-  commentId: M:SixModLoader.Mods.VersionLabelsAttribute.#ctor(System.String)
-  fullName: SixModLoader.Mods.VersionLabelsAttribute.VersionLabelsAttribute(System.String)
-  nameWithType: VersionLabelsAttribute.VersionLabelsAttribute(String)
-- uid: SixModLoader.Mods.VersionLabelsAttribute.#ctor*
-  name: VersionLabelsAttribute
-  href: api/SixModLoader.Mods.VersionLabelsAttribute.html#SixModLoader_Mods_VersionLabelsAttribute__ctor_
-  commentId: Overload:SixModLoader.Mods.VersionLabelsAttribute.#ctor
-  isSpec: "True"
-  fullName: SixModLoader.Mods.VersionLabelsAttribute.VersionLabelsAttribute
-  nameWithType: VersionLabelsAttribute.VersionLabelsAttribute
-- uid: SixModLoader.Mods.VersionLabelsAttribute.Labels
-  name: Labels
-  href: api/SixModLoader.Mods.VersionLabelsAttribute.html#SixModLoader_Mods_VersionLabelsAttribute_Labels
-  commentId: P:SixModLoader.Mods.VersionLabelsAttribute.Labels
-  fullName: SixModLoader.Mods.VersionLabelsAttribute.Labels
-  nameWithType: VersionLabelsAttribute.Labels
-- uid: SixModLoader.Mods.VersionLabelsAttribute.Labels*
-  name: Labels
-  href: api/SixModLoader.Mods.VersionLabelsAttribute.html#SixModLoader_Mods_VersionLabelsAttribute_Labels_
-  commentId: Overload:SixModLoader.Mods.VersionLabelsAttribute.Labels
-  isSpec: "True"
-  fullName: SixModLoader.Mods.VersionLabelsAttribute.Labels
-  nameWithType: VersionLabelsAttribute.Labels
 - uid: SixModLoader.Priority
   name: Priority
   href: api/SixModLoader.Priority.html
