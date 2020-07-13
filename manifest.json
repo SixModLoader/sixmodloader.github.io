@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.CommandManager.html",
-          "hash": "jl6l2I4LEW7WbjwsS+85Ag=="
+          "hash": "bGYJ7+GMwW2V0usdMsm7ug=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Configuration.AutoConfiguration.html",
-          "hash": "ABraYZcC1W/rPuv3Kavzaw=="
+          "hash": "xXgaY+JeI//vkaJreJ80Cg=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Configuration.CommentGatheringTypeInspector.html",
-          "hash": "CwBO8sNRxPtYT4sSpGpvjg=="
+          "hash": "+aCdzWwUAN7Qpo6F0gu+IA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Configuration.CommentsObjectDescriptor.html",
-          "hash": "bhdZ20eBEXJZccW5Wl3USw=="
+          "hash": "i4Ush5bAvoeiq/0AawRsSw=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Configuration.CommentsObjectGraphVisitor.html",
-          "hash": "HUVvSiSCLN2CW1lDg3M2oQ=="
+          "hash": "6nDiyS8o7JU3FaBtLn6kQw=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Configuration.ConfigurationManager.Patch.html",
-          "hash": "pNS7F8/lm+1+gWBy1G4EWQ=="
+          "hash": "ylY1AiLyy7dB4dkNgXZpyA=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Configuration.ConfigurationManager.html",
-          "hash": "AllBEMFNc8UMGGE4nMvK2Q=="
+          "hash": "M1jGOT9oISp5S7OJpWAo6w=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Configuration.ConfigurationType.html",
-          "hash": "tLeZW3UBLjLrDa4TxWEiKg=="
+          "hash": "Zo1fepoa6+Dd6JVwtEyBRQ=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Configuration.Converters.EventYamlTypeConverter.html",
-          "hash": "yO6XmDpgqS3H9HPqCr9kcQ=="
+          "hash": "QMRpvwju35/gkFsDSwpzFQ=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Configuration.Converters.VectorsConverter.html",
-          "hash": "jHeGAz5a8dwKQ8jSNgD+aQ=="
+          "hash": "P3bO5CrUQ02frHLyzrUA9Q=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Configuration.ForceQuotedStringValuesEventEmitter.html",
-          "hash": "twYW06or2qLRuD1m1Xt+2w=="
+          "hash": "rZKcP2NNIwca5534bi2FAw=="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.CustomEffectManager.EffectsRegistryPatch.html",
-          "hash": "KyE1TXzLZEwvaJSwnJ9uFw=="
+          "hash": "SidF4jM54VZi2Ziiy9rjKA=="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.CustomEffectManager.SerializeAllPatch.html",
-          "hash": "2pFtqquXlFZpjo/bjoOI1Q=="
+          "hash": "iF1v67enp5a43Cfup3jZHQ=="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.html",
-          "hash": "zkYBF1F0CEtdIp04S5fAxw=="
+          "hash": "NLCknP18kGVETw2gcSCXwg=="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.CustomEffectManager.html",
-          "hash": "xh7eNA3MblgPssuuVNAYVA=="
+          "hash": "1x99lsTEEVtSfSCTpCp+Tg=="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Inventory.PlayerChangeItemEvent.Patch.html",
-          "hash": "98/QrZMfbMvq1zKZwTlhww=="
+          "hash": "saDIUlWGopYCbNR2pwADlQ=="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Inventory.PlayerChangeItemEvent.html",
-          "hash": "RHlrXVZwk9PYVgM2JczntA=="
+          "hash": "AqZ8dBxGbYIfortcRKlwvw=="
         }
       },
       "is_incremental": false,
@@ -246,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.Patch.html",
-          "hash": "+4Q1UySaA90qC3qD7C20tQ=="
+          "hash": "hEgN7kxRYgsIdVGjHsTjqQ=="
         }
       },
       "is_incremental": false,
@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.html",
-          "hash": "8F6ocmNT6DdLJZOH0rWL+A=="
+          "hash": "SqTlx5wkmu/Xr44XP7p7Wg=="
         }
       },
       "is_incremental": false,
@@ -270,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.Patch.DropAllPatch.html",
-          "hash": "HI0VtZkLXLOXWPKWin775A=="
+          "hash": "9uo9BM/GF/MBHUM2+38x9w=="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.Patch.DropOnePatch.html",
-          "hash": "O57XWlOJCGhPG3gWMU8Lkw=="
+          "hash": "jqOX/t2q4lTr4rb9ZKopHQ=="
         }
       },
       "is_incremental": false,
@@ -294,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.Patch.html",
-          "hash": "xc9S+gdXA7YrPXBD40LFmg=="
+          "hash": "AxAzgKWIoHZA6pPSwJf69w=="
         }
       },
       "is_incremental": false,
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.html",
-          "hash": "6v1qd5yaUXEUKI0FinzTXQ=="
+          "hash": "Y2e1Uj90SGLJ+eXOhlnOzQ=="
         }
       },
       "is_incremental": false,
@@ -318,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.Patch.html",
-          "hash": "tP2X5NIjj1MoXLoCmOGl3A=="
+          "hash": "b3Tuip3ZEKzNOF6+wBm/iw=="
         }
       },
       "is_incremental": false,
@@ -330,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.html",
-          "hash": "d3BeWnXHYACWceRufb3WQw=="
+          "hash": "J665iNJu0s/VaRj0uyUn0A=="
         }
       },
       "is_incremental": false,
@@ -354,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.PlayerEvent.html",
-          "hash": "ozBcYBKmDd36i9UX6UHa4Q=="
+          "hash": "shaqrJBxGAgNAZ2NFP4+RA=="
         }
       },
       "is_incremental": false,
@@ -366,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.PlayerJoinedEvent.Patch.html",
-          "hash": "rKcPNL5xAPhzDHb3rnIehQ=="
+          "hash": "3dRWUkq8JwwnU8iyHo2HvA=="
         }
       },
       "is_incremental": false,
@@ -378,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.PlayerJoinedEvent.html",
-          "hash": "8BWZ/Ybd1S2O5Dmb++1PjA=="
+          "hash": "ZCnh2/IwYgCZan9T38gYGA=="
         }
       },
       "is_incremental": false,
@@ -390,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.PlayerLeftEvent.Patch.html",
-          "hash": "4tXnWFtloARAjFxX+DLYUg=="
+          "hash": "whCVpd3ZQ/glTOVxtqb4Dg=="
         }
       },
       "is_incremental": false,
@@ -402,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.PlayerLeftEvent.html",
-          "hash": "woWnikqsPbHlbX4R1Hcvkg=="
+          "hash": "vycMSY4Urf1B8wIZSVB4pg=="
         }
       },
       "is_incremental": false,
@@ -414,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.Patch.html",
-          "hash": "TDEQbJNbWLW1R7AICQIcUw=="
+          "hash": "u8AleIuldRWLbHQO1Mm/7w=="
         }
       },
       "is_incremental": false,
@@ -426,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.html",
-          "hash": "BqV0+SEAUs9YI/ukHAuZyA=="
+          "hash": "4piQEamEYPB6PEoresZfqg=="
         }
       },
       "is_incremental": false,
@@ -438,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.html",
-          "hash": "GWBvbes50EXnEu8TW6VBSw=="
+          "hash": "mqag5BxqZWvvRqFCuSLIfg=="
         }
       },
       "is_incremental": false,
@@ -450,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.html",
-          "hash": "0T8GutGHVa6iuF9TFGSzfA=="
+          "hash": "ckaPp6zzqLf1EiR+uqKO0A=="
         }
       },
       "is_incremental": false,
@@ -462,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.Patch.html",
-          "hash": "DePuyrMmNwArNp85VnS7+A=="
+          "hash": "U9Z4xTr8/n/28dV4uaAhtA=="
         }
       },
       "is_incremental": false,
@@ -474,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.html",
-          "hash": "TkVt7QhBXxzQkLm8lxfYOg=="
+          "hash": "9+I8Cxd5wcgc7QabMkx8qw=="
         }
       },
       "is_incremental": false,
@@ -486,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.Patch.html",
-          "hash": "Fs+qrWf/AGDOkS28zU3T2Q=="
+          "hash": "1qebeHuhshC19nkKoVlAlg=="
         }
       },
       "is_incremental": false,
@@ -498,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.html",
-          "hash": "5mDb82acHAiBCuXC1FL5vw=="
+          "hash": "/Rd65wJ3x8njODfwoXZ7gw=="
         }
       },
       "is_incremental": false,
@@ -534,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Server.ServerConsoleReadyEvent.Patch.html",
-          "hash": "Ca/I7HxXgzqMPNo2WQ88bA=="
+          "hash": "jnSa1R7fuGJfIMUpadcGbQ=="
         }
       },
       "is_incremental": false,
@@ -546,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Events.Server.ServerConsoleReadyEvent.html",
-          "hash": "xwohmx9saigS50RQSPs6Jw=="
+          "hash": "fKxqxQTazWAH6X2slo0rtA=="
         }
       },
       "is_incremental": false,
@@ -570,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Extensions.AmmoType.html",
-          "hash": "vVHkR7AN6eRDz2CoNqZFCw=="
+          "hash": "4M2ZqUfAf8yYKFMYckWoXg=="
         }
       },
       "is_incremental": false,
@@ -582,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Extensions.AutoCommandHandlerAttribute.html",
-          "hash": "hcJ8pVmNC8gOZ5c6P3/SXw=="
+          "hash": "sox3m++OVbHeaJ7kHrQhVA=="
         }
       },
       "is_incremental": false,
@@ -594,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Extensions.AutoHarmonyAttribute.html",
-          "hash": "qAKtAAYI7qg2kBnR8lWs9A=="
+          "hash": "R/PpRyelTd7Fd65SGm4DbA=="
         }
       },
       "is_incremental": false,
@@ -606,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Extensions.BroadcastConnection.html",
-          "hash": "1upXiSBF5bE3V7uC7UVoEQ=="
+          "hash": "yL2nUb/JHa6QQHAlifiqhw=="
         }
       },
       "is_incremental": false,
@@ -618,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Extensions.BroadcastExtensions.RpcAddElementPatch.html",
-          "hash": "yaUhChD3Ck4k7QDpag0QWQ=="
+          "hash": "KmApvbuD4fHMJKDAfHg26w=="
         }
       },
       "is_incremental": false,
@@ -630,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Extensions.BroadcastExtensions.RpcClearElementsPatch.html",
-          "hash": "kxvSvN0820kkNHDuT/GuAQ=="
+          "hash": "YdzsSA+F/PsG3Rp7a3o58g=="
         }
       },
       "is_incremental": false,
@@ -642,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Extensions.BroadcastExtensions.TargetAddElementPatch.html",
-          "hash": "58a1S/ook2ZS6jGKye/P0Q=="
+          "hash": "II02ou3MsyQC+vQbNuGDhg=="
         }
       },
       "is_incremental": false,
@@ -654,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Extensions.BroadcastExtensions.TargetClearElementsPatch.html",
-          "hash": "1id3kLKWul3y4LKq1m1+sQ=="
+          "hash": "C/uia02bp2YvaM9g3ZpN4A=="
         }
       },
       "is_incremental": false,
@@ -666,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Extensions.BroadcastExtensions.html",
-          "hash": "6QJ88DyT/dhLFytN5vzQNA=="
+          "hash": "UZkarptQ/VTpXXIkB8MvOQ=="
         }
       },
       "is_incremental": false,
@@ -678,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Extensions.BroadcastMessage.html",
-          "hash": "FQNsrWOkApoLeBmuOUlH+g=="
+          "hash": "UeJa/h/ZmGIlAZ8XlQYb+g=="
         }
       },
       "is_incremental": false,
@@ -690,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Extensions.CommandExtensions.html",
-          "hash": "tFbFELJhrrpxWiPmFBfdgw=="
+          "hash": "BgNbmrzkLy6PHhQhP/0pTg=="
         }
       },
       "is_incremental": false,
@@ -702,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Extensions.Extensions.html",
-          "hash": "WRyvIrTeZSpCQl6EJHT8zA=="
+          "hash": "pwqa5PDl9tSDfuTr5g+6+g=="
         }
       },
       "is_incremental": false,
@@ -714,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Extensions.FormatExtensions.html",
-          "hash": "LPhwY4XArLqTvwv/1tzbHQ=="
+          "hash": "TTQcSU8igbDTTuPvbEMPjw=="
         }
       },
       "is_incremental": false,
@@ -726,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Extensions.HarmonyExtensions.Patch.html",
-          "hash": "0dRNPEtCj5FDTs8nh/IIHw=="
+          "hash": "X4NferJ3DJ2eb5TTLs1twQ=="
         }
       },
       "is_incremental": false,
@@ -738,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Extensions.HarmonyExtensions.html",
-          "hash": "CeQE4F1DK59MabhrgNg2Eg=="
+          "hash": "NM/zDSJuo4Pp60hd4shK9g=="
         }
       },
       "is_incremental": false,
@@ -762,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.html",
-          "hash": "JP2NyDLL/dhfNnk+H1kg0w=="
+          "hash": "cvhnR5bn0KnZ3r49C66P/Q=="
         }
       },
       "is_incremental": false,
@@ -774,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Patches.CommandProcessorPatch.html",
-          "hash": "uO9fhB/ro8UA0wxOBJL+fA=="
+          "hash": "wJ9O7XrFVD/LWt5CtzV50g=="
         }
       },
       "is_incremental": false,
@@ -786,7 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Patches.MiscPatch.ProcessRaPlayersListPatch.html",
-          "hash": "NE18sTzCp87GZnjspnLsyA=="
+          "hash": "DL9RP3CVadyNsLp8Ku2e5Q=="
         }
       },
       "is_incremental": false,
@@ -798,7 +798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.Patches.MiscPatch.html",
-          "hash": "WbwTQ6v7teDYIcZnLaGIEw=="
+          "hash": "1rGLrw2XqDd/OSHqu1+mIw=="
         }
       },
       "is_incremental": false,
@@ -822,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.SixModLoaderApi.html",
-          "hash": "s+Suf9Po1AbjDLEX+fewNw=="
+          "hash": "n8VDlGkpJKMDQnak8VzugQ=="
         }
       },
       "is_incremental": false,
@@ -834,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.SixModLoaderCommand.ModsCommand.html",
-          "hash": "MutAF+SKMkloNlv7PazWrg=="
+          "hash": "3Tu85pl6i84FrE2Q3r3tAw=="
         }
       },
       "is_incremental": false,
@@ -846,7 +846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.SixModLoaderCommand.ReloadCommand.html",
-          "hash": "unLYhgmF2EGWs8OTat6Xyg=="
+          "hash": "m53Y2ZT9H+vvU46rehDuaQ=="
         }
       },
       "is_incremental": false,
@@ -858,7 +858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.SixModLoaderCommand.VersionCommand.html",
-          "hash": "CF4A/MTrVhrjkR10fPrYjg=="
+          "hash": "R/ze62K44rYR6yDL5ZzNBg=="
         }
       },
       "is_incremental": false,
@@ -870,7 +870,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.SixModLoaderCommand.html",
-          "hash": "gq5TybhjrDHpfgV2AqE+pw=="
+          "hash": "KLHHkaJEbi+AblZSi7GprQ=="
         }
       },
       "is_incremental": false,
@@ -894,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Events.Event.html",
-          "hash": "TKABvrHvK+40xwifjy/5GA=="
+          "hash": "pWOvXh/YiuMjYBKkGI+wOQ=="
         }
       },
       "is_incremental": false,
@@ -906,7 +906,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Events.EventHandler.html",
-          "hash": "JQPmLwe4tB8ss0kshO12Gw=="
+          "hash": "o3fv13w9Wfuc+LRSvbzEtw=="
         }
       },
       "is_incremental": false,
@@ -918,7 +918,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Events.EventHandlerAttribute.html",
-          "hash": "SQ2PUnTUdJmLAYy48BMkaA=="
+          "hash": "Px+E6bDgN5/QSZbXQVs0WQ=="
         }
       },
       "is_incremental": false,
@@ -930,7 +930,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Events.EventManager.html",
-          "hash": "ihS6QQRT2tLupn8PD/mdfQ=="
+          "hash": "1gWgeFT5Y+ilWyY1vOQZQg=="
         }
       },
       "is_incremental": false,
@@ -942,7 +942,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Events.ICancellableEvent.html",
-          "hash": "XdaI0ou/XDEBWPHUnG9q/Q=="
+          "hash": "BV71WzoqxvpmpTiz0WE1Qg=="
         }
       },
       "is_incremental": false,
@@ -966,7 +966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.IdentifiedLogger.html",
-          "hash": "9yCYblyXIt945d/wsgLnrw=="
+          "hash": "BkB+VctrN0EFksB+v19gUQ=="
         }
       },
       "is_incremental": false,
@@ -978,7 +978,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.LogLevel.html",
-          "hash": "TA/uiiVLAKo5rUpSROB1vw=="
+          "hash": "ng/RlwUJEI0BjdB0oCLzjw=="
         }
       },
       "is_incremental": false,
@@ -990,7 +990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Logger.html",
-          "hash": "zfT0H6f7A7h/TH90lyp+qA=="
+          "hash": "FMM8uVzAt+uqmhgJ3iuB+A=="
         }
       },
       "is_incremental": false,
@@ -1002,7 +1002,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Mods.InjectAttribute.html",
-          "hash": "Amh/tpZOOwi2CE8TzYJUyA=="
+          "hash": "e7pYjLsSIVO7P4TKxnG9Ew=="
         }
       },
       "is_incremental": false,
@@ -1014,7 +1014,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Mods.ModAttribute.html",
-          "hash": "Gy88Y63deJzzomZKz50NfQ=="
+          "hash": "ux1squCj9DmhsQBYfqeRmQ=="
         }
       },
       "is_incremental": false,
@@ -1026,7 +1026,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Mods.ModContainer-1.html",
-          "hash": "Zi7iIBaO/yCfI8C6Gkshyg=="
+          "hash": "XA82gdFQxhcDG7dAj2SEPg=="
         }
       },
       "is_incremental": false,
@@ -1038,7 +1038,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Mods.ModContainer.html",
-          "hash": "QG3tJsV86E6cOAYUFBI/Ow=="
+          "hash": "TyhLyBoB+RDliMttTH0QuA=="
         }
       },
       "is_incremental": false,
@@ -1050,7 +1050,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Mods.ModDisableEvent.html",
-          "hash": "KKPIF7wJCKXRRYgeuv/EvA=="
+          "hash": "O0p4D1A8NlOPi4M9VQO+kA=="
         }
       },
       "is_incremental": false,
@@ -1062,7 +1062,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Mods.ModEnableEvent.html",
-          "hash": "U+TI3NcIOPtV9tGyuchJCQ=="
+          "hash": "Kv9rfZiHYqPHjNllUWrZzA=="
         }
       },
       "is_incremental": false,
@@ -1074,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Mods.ModEvent.html",
-          "hash": "lAwGnSqJ3EvsOMUkKf2GQA=="
+          "hash": "WA8jsINJaUOSNbnrDt6yzQ=="
         }
       },
       "is_incremental": false,
@@ -1086,7 +1086,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Mods.ModManager.html",
-          "hash": "9e2/aAk6Pk4P3rqB1Y2Gfg=="
+          "hash": "cFIrRgv6wQlI8kwn8jxO8w=="
         }
       },
       "is_incremental": false,
@@ -1098,7 +1098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Mods.ModReloadEvent.html",
-          "hash": "4KttLnUbU33uBvbi5zHkxg=="
+          "hash": "Db457gUNfbR/ddBfdrz2hw=="
         }
       },
       "is_incremental": false,
@@ -1122,7 +1122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Priority.html",
-          "hash": "jKWPHrfewEMAQV9+HxB8XA=="
+          "hash": "XWp50KmBfOupj4ZeTt9HIA=="
         }
       },
       "is_incremental": false,
@@ -1134,7 +1134,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.PriorityAttribute.html",
-          "hash": "b5grvJ/hnVVdvtFBGIpiXg=="
+          "hash": "Mp1xdhlN3UpSLspCIpLz/A=="
         }
       },
       "is_incremental": false,
@@ -1146,7 +1146,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.SixModLoader.html",
-          "hash": "y6jK7aKrpnE4EeVTCs8fQw=="
+          "hash": "9aRcuXFgmTFubkR3EMcJJA=="
         }
       },
       "is_incremental": false,
@@ -1158,7 +1158,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Utils.html",
-          "hash": "02X3RgS01h0M+6wHbn2D8w=="
+          "hash": "sir7dm7hkI5wINgc361dZw=="
         }
       },
       "is_incremental": false,
@@ -1182,7 +1182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "ZqALqbrOmXC4prlW1U8jcg=="
+          "hash": "jle+zIfoCFUS1mR2NN30sQ=="
         }
       },
       "is_incremental": false,
@@ -1206,7 +1206,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/installation.html",
-          "hash": "TU3+p+NeZ3EYXhhgrtixeA=="
+          "hash": "LD0d2YwkOJ43Llt3q1WsUA=="
         }
       },
       "is_incremental": false,
@@ -1252,7 +1252,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "tak4GWf4+cRR9o5kFnD8cA=="
+          "hash": "81rSoeH98T1Gr8cnbDWLVw=="
         }
       },
       "is_incremental": false,
