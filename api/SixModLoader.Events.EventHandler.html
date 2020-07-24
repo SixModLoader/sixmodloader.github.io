@@ -111,7 +111,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EventHandler(Type eventType, object instance, MethodInfo method)</code></pre>
+    <pre><code class="lang-csharp hljs">public EventHandler(Type eventType, [CanBeNull] object instance, [NotNull] MethodInfo method)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -185,7 +185,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public object Instance { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[CanBeNull]
+public object Instance { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -215,7 +216,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MethodInfo Method { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[NotNull]
+public MethodInfo Method { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

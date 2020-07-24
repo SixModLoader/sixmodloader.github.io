@@ -639,13 +639,13 @@ references:
   commentId: T:SixModLoader.Api.CustomEffectManager.SerializeAllPatch
   fullName: SixModLoader.Api.CustomEffectManager.SerializeAllPatch
   nameWithType: CustomEffectManager.SerializeAllPatch
-- uid: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Postfix(SyncList{System.Byte},System.Collections.Generic.IList{System.Byte})
+- uid: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Postfix(Mirror.SyncList{System.Byte},System.Collections.Generic.IList{System.Byte})
   name: Postfix(SyncList<Byte>, IList<Byte>)
-  href: api/SixModLoader.Api.CustomEffectManager.SerializeAllPatch.html#SixModLoader_Api_CustomEffectManager_SerializeAllPatch_Postfix_SyncList_System_Byte__System_Collections_Generic_IList_System_Byte__
-  commentId: M:SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Postfix(SyncList{System.Byte},System.Collections.Generic.IList{System.Byte})
+  href: api/SixModLoader.Api.CustomEffectManager.SerializeAllPatch.html#SixModLoader_Api_CustomEffectManager_SerializeAllPatch_Postfix_Mirror_SyncList_System_Byte__System_Collections_Generic_IList_System_Byte__
+  commentId: M:SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Postfix(Mirror.SyncList{System.Byte},System.Collections.Generic.IList{System.Byte})
   name.vb: Postfix(SyncList(Of Byte), IList(Of Byte))
-  fullName: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Postfix(SyncList<System.Byte>, System.Collections.Generic.IList<System.Byte>)
-  fullName.vb: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Postfix(SyncList(Of System.Byte), System.Collections.Generic.IList(Of System.Byte))
+  fullName: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Postfix(Mirror.SyncList<System.Byte>, System.Collections.Generic.IList<System.Byte>)
+  fullName.vb: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Postfix(Mirror.SyncList(Of System.Byte), System.Collections.Generic.IList(Of System.Byte))
   nameWithType: CustomEffectManager.SerializeAllPatch.Postfix(SyncList<Byte>, IList<Byte>)
   nameWithType.vb: CustomEffectManager.SerializeAllPatch.Postfix(SyncList(Of Byte), IList(Of Byte))
 - uid: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Postfix*
@@ -655,13 +655,13 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Postfix
   nameWithType: CustomEffectManager.SerializeAllPatch.Postfix
-- uid: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Prefix(SyncList{System.Byte},System.Collections.Generic.IList{System.Byte}@)
+- uid: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Prefix(Mirror.SyncList{System.Byte},System.Collections.Generic.IList{System.Byte}@)
   name: Prefix(SyncList<Byte>, out IList<Byte>)
-  href: api/SixModLoader.Api.CustomEffectManager.SerializeAllPatch.html#SixModLoader_Api_CustomEffectManager_SerializeAllPatch_Prefix_SyncList_System_Byte__System_Collections_Generic_IList_System_Byte___
-  commentId: M:SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Prefix(SyncList{System.Byte},System.Collections.Generic.IList{System.Byte}@)
+  href: api/SixModLoader.Api.CustomEffectManager.SerializeAllPatch.html#SixModLoader_Api_CustomEffectManager_SerializeAllPatch_Prefix_Mirror_SyncList_System_Byte__System_Collections_Generic_IList_System_Byte___
+  commentId: M:SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Prefix(Mirror.SyncList{System.Byte},System.Collections.Generic.IList{System.Byte}@)
   name.vb: Prefix(SyncList(Of Byte), ByRef IList(Of Byte))
-  fullName: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Prefix(SyncList<System.Byte>, out System.Collections.Generic.IList<System.Byte>)
-  fullName.vb: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Prefix(SyncList(Of System.Byte), ByRef System.Collections.Generic.IList(Of System.Byte))
+  fullName: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Prefix(Mirror.SyncList<System.Byte>, out System.Collections.Generic.IList<System.Byte>)
+  fullName.vb: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Prefix(Mirror.SyncList(Of System.Byte), ByRef System.Collections.Generic.IList(Of System.Byte))
   nameWithType: CustomEffectManager.SerializeAllPatch.Prefix(SyncList<Byte>, out IList<Byte>)
   nameWithType.vb: CustomEffectManager.SerializeAllPatch.Prefix(SyncList(Of Byte), ByRef IList(Of Byte))
 - uid: SixModLoader.Api.CustomEffectManager.SerializeAllPatch.Prefix*
@@ -677,13 +677,13 @@ references:
   commentId: T:SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch
   fullName: SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch
   nameWithType: CustomEffectManager.SerializeDeltaPatch
-- uid: SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.Prefix(SyncList{System.Byte},System.Collections.Generic.IList{System.Byte}@)
+- uid: SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.Prefix(Mirror.SyncList{System.Byte},System.Collections.Generic.IList{System.Byte}@)
   name: Prefix(SyncList<Byte>, out IList<Byte>)
-  href: api/SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.html#SixModLoader_Api_CustomEffectManager_SerializeDeltaPatch_Prefix_SyncList_System_Byte__System_Collections_Generic_IList_System_Byte___
-  commentId: M:SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.Prefix(SyncList{System.Byte},System.Collections.Generic.IList{System.Byte}@)
+  href: api/SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.html#SixModLoader_Api_CustomEffectManager_SerializeDeltaPatch_Prefix_Mirror_SyncList_System_Byte__System_Collections_Generic_IList_System_Byte___
+  commentId: M:SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.Prefix(Mirror.SyncList{System.Byte},System.Collections.Generic.IList{System.Byte}@)
   name.vb: Prefix(SyncList(Of Byte), ByRef IList(Of Byte))
-  fullName: SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.Prefix(SyncList<System.Byte>, out System.Collections.Generic.IList<System.Byte>)
-  fullName.vb: SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.Prefix(SyncList(Of System.Byte), ByRef System.Collections.Generic.IList(Of System.Byte))
+  fullName: SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.Prefix(Mirror.SyncList<System.Byte>, out System.Collections.Generic.IList<System.Byte>)
+  fullName.vb: SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.Prefix(Mirror.SyncList(Of System.Byte), ByRef System.Collections.Generic.IList(Of System.Byte))
   nameWithType: CustomEffectManager.SerializeDeltaPatch.Prefix(SyncList<Byte>, out IList<Byte>)
   nameWithType.vb: CustomEffectManager.SerializeDeltaPatch.Prefix(SyncList(Of Byte), ByRef IList(Of Byte))
 - uid: SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.Prefix*
@@ -959,11 +959,11 @@ references:
   commentId: T:SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.Patch
   fullName: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.Patch
   nameWithType: PlayerPickupItemEvent.Patch
-- uid: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.Patch.Prefix(ItemSearchCompletor)
+- uid: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.Patch.Prefix(Searching.ItemSearchCompletor)
   name: Prefix(ItemSearchCompletor)
-  href: api/SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.Patch.html#SixModLoader_Api_Events_Player_Inventory_PlayerPickupItemEvent_Patch_Prefix_ItemSearchCompletor_
-  commentId: M:SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.Patch.Prefix(ItemSearchCompletor)
-  fullName: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.Patch.Prefix(ItemSearchCompletor)
+  href: api/SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.Patch.html#SixModLoader_Api_Events_Player_Inventory_PlayerPickupItemEvent_Patch_Prefix_Searching_ItemSearchCompletor_
+  commentId: M:SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.Patch.Prefix(Searching.ItemSearchCompletor)
+  fullName: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.Patch.Prefix(Searching.ItemSearchCompletor)
   nameWithType: PlayerPickupItemEvent.Patch.Prefix(ItemSearchCompletor)
 - uid: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.Patch.Prefix*
   name: Prefix
@@ -1085,11 +1085,11 @@ references:
   commentId: T:SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.Patch
   fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.Patch
   nameWithType: PlayerShootEvent.Patch
-- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.Patch.Invoke(WeaponManager,GameObject,Vector3)
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.Patch.Invoke(WeaponManager,UnityEngine.GameObject,UnityEngine.Vector3)
   name: Invoke(WeaponManager, GameObject, Vector3)
-  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.Patch.html#SixModLoader_Api_Events_Player_Weapon_PlayerShootEvent_Patch_Invoke_WeaponManager_GameObject_Vector3_
-  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.Patch.Invoke(WeaponManager,GameObject,Vector3)
-  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.Patch.Invoke(WeaponManager, GameObject, Vector3)
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.Patch.html#SixModLoader_Api_Events_Player_Weapon_PlayerShootEvent_Patch_Invoke_WeaponManager_UnityEngine_GameObject_UnityEngine_Vector3_
+  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.Patch.Invoke(WeaponManager,UnityEngine.GameObject,UnityEngine.Vector3)
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.Patch.Invoke(WeaponManager, UnityEngine.GameObject, UnityEngine.Vector3)
   nameWithType: PlayerShootEvent.Patch.Invoke(WeaponManager, GameObject, Vector3)
 - uid: SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.Patch.Invoke*
   name: Invoke
@@ -1628,11 +1628,11 @@ references:
   commentId: T:SixModLoader.Api.Extensions.BroadcastExtensions.TargetAddElementPatch
   fullName: SixModLoader.Api.Extensions.BroadcastExtensions.TargetAddElementPatch
   nameWithType: BroadcastExtensions.TargetAddElementPatch
-- uid: SixModLoader.Api.Extensions.BroadcastExtensions.TargetAddElementPatch.Prefix(NetworkConnection,System.String,System.UInt32,Broadcast.BroadcastFlags)
+- uid: SixModLoader.Api.Extensions.BroadcastExtensions.TargetAddElementPatch.Prefix(Mirror.NetworkConnection,System.String,System.UInt32,Broadcast.BroadcastFlags)
   name: Prefix(NetworkConnection, String, UInt32, Broadcast.BroadcastFlags)
-  href: api/SixModLoader.Api.Extensions.BroadcastExtensions.TargetAddElementPatch.html#SixModLoader_Api_Extensions_BroadcastExtensions_TargetAddElementPatch_Prefix_NetworkConnection_System_String_System_UInt32_Broadcast_BroadcastFlags_
-  commentId: M:SixModLoader.Api.Extensions.BroadcastExtensions.TargetAddElementPatch.Prefix(NetworkConnection,System.String,System.UInt32,Broadcast.BroadcastFlags)
-  fullName: SixModLoader.Api.Extensions.BroadcastExtensions.TargetAddElementPatch.Prefix(NetworkConnection, System.String, System.UInt32, Broadcast.BroadcastFlags)
+  href: api/SixModLoader.Api.Extensions.BroadcastExtensions.TargetAddElementPatch.html#SixModLoader_Api_Extensions_BroadcastExtensions_TargetAddElementPatch_Prefix_Mirror_NetworkConnection_System_String_System_UInt32_Broadcast_BroadcastFlags_
+  commentId: M:SixModLoader.Api.Extensions.BroadcastExtensions.TargetAddElementPatch.Prefix(Mirror.NetworkConnection,System.String,System.UInt32,Broadcast.BroadcastFlags)
+  fullName: SixModLoader.Api.Extensions.BroadcastExtensions.TargetAddElementPatch.Prefix(Mirror.NetworkConnection, System.String, System.UInt32, Broadcast.BroadcastFlags)
   nameWithType: BroadcastExtensions.TargetAddElementPatch.Prefix(NetworkConnection, String, UInt32, Broadcast.BroadcastFlags)
 - uid: SixModLoader.Api.Extensions.BroadcastExtensions.TargetAddElementPatch.Prefix*
   name: Prefix
@@ -1647,11 +1647,11 @@ references:
   commentId: T:SixModLoader.Api.Extensions.BroadcastExtensions.TargetClearElementsPatch
   fullName: SixModLoader.Api.Extensions.BroadcastExtensions.TargetClearElementsPatch
   nameWithType: BroadcastExtensions.TargetClearElementsPatch
-- uid: SixModLoader.Api.Extensions.BroadcastExtensions.TargetClearElementsPatch.Prefix(NetworkConnection)
+- uid: SixModLoader.Api.Extensions.BroadcastExtensions.TargetClearElementsPatch.Prefix(Mirror.NetworkConnection)
   name: Prefix(NetworkConnection)
-  href: api/SixModLoader.Api.Extensions.BroadcastExtensions.TargetClearElementsPatch.html#SixModLoader_Api_Extensions_BroadcastExtensions_TargetClearElementsPatch_Prefix_NetworkConnection_
-  commentId: M:SixModLoader.Api.Extensions.BroadcastExtensions.TargetClearElementsPatch.Prefix(NetworkConnection)
-  fullName: SixModLoader.Api.Extensions.BroadcastExtensions.TargetClearElementsPatch.Prefix(NetworkConnection)
+  href: api/SixModLoader.Api.Extensions.BroadcastExtensions.TargetClearElementsPatch.html#SixModLoader_Api_Extensions_BroadcastExtensions_TargetClearElementsPatch_Prefix_Mirror_NetworkConnection_
+  commentId: M:SixModLoader.Api.Extensions.BroadcastExtensions.TargetClearElementsPatch.Prefix(Mirror.NetworkConnection)
+  fullName: SixModLoader.Api.Extensions.BroadcastExtensions.TargetClearElementsPatch.Prefix(Mirror.NetworkConnection)
   nameWithType: BroadcastExtensions.TargetClearElementsPatch.Prefix(NetworkConnection)
 - uid: SixModLoader.Api.Extensions.BroadcastExtensions.TargetClearElementsPatch.Prefix*
   name: Prefix
@@ -1666,11 +1666,11 @@ references:
   commentId: T:SixModLoader.Api.Extensions.BroadcastMessage
   fullName: SixModLoader.Api.Extensions.BroadcastMessage
   nameWithType: BroadcastMessage
-- uid: SixModLoader.Api.Extensions.BroadcastMessage.#ctor(System.String,System.Single,Broadcast.BroadcastFlags,NetworkConnection)
+- uid: SixModLoader.Api.Extensions.BroadcastMessage.#ctor(System.String,System.Single,Broadcast.BroadcastFlags,Mirror.NetworkConnection)
   name: BroadcastMessage(String, Single, Broadcast.BroadcastFlags, NetworkConnection)
-  href: api/SixModLoader.Api.Extensions.BroadcastMessage.html#SixModLoader_Api_Extensions_BroadcastMessage__ctor_System_String_System_Single_Broadcast_BroadcastFlags_NetworkConnection_
-  commentId: M:SixModLoader.Api.Extensions.BroadcastMessage.#ctor(System.String,System.Single,Broadcast.BroadcastFlags,NetworkConnection)
-  fullName: SixModLoader.Api.Extensions.BroadcastMessage.BroadcastMessage(System.String, System.Single, Broadcast.BroadcastFlags, NetworkConnection)
+  href: api/SixModLoader.Api.Extensions.BroadcastMessage.html#SixModLoader_Api_Extensions_BroadcastMessage__ctor_System_String_System_Single_Broadcast_BroadcastFlags_Mirror_NetworkConnection_
+  commentId: M:SixModLoader.Api.Extensions.BroadcastMessage.#ctor(System.String,System.Single,Broadcast.BroadcastFlags,Mirror.NetworkConnection)
+  fullName: SixModLoader.Api.Extensions.BroadcastMessage.BroadcastMessage(System.String, System.Single, Broadcast.BroadcastFlags, Mirror.NetworkConnection)
   nameWithType: BroadcastMessage.BroadcastMessage(String, Single, Broadcast.BroadcastFlags, NetworkConnection)
 - uid: SixModLoader.Api.Extensions.BroadcastMessage.#ctor*
   name: BroadcastMessage
@@ -1750,11 +1750,11 @@ references:
   commentId: T:SixModLoader.Api.Extensions.CommandExtensions
   fullName: SixModLoader.Api.Extensions.CommandExtensions
   nameWithType: CommandExtensions
-- uid: SixModLoader.Api.Extensions.CommandExtensions.CheckPermission(ICommandSender,System.String)
+- uid: SixModLoader.Api.Extensions.CommandExtensions.CheckPermission(CommandSystem.ICommandSender,System.String)
   name: CheckPermission(ICommandSender, String)
-  href: api/SixModLoader.Api.Extensions.CommandExtensions.html#SixModLoader_Api_Extensions_CommandExtensions_CheckPermission_ICommandSender_System_String_
-  commentId: M:SixModLoader.Api.Extensions.CommandExtensions.CheckPermission(ICommandSender,System.String)
-  fullName: SixModLoader.Api.Extensions.CommandExtensions.CheckPermission(ICommandSender, System.String)
+  href: api/SixModLoader.Api.Extensions.CommandExtensions.html#SixModLoader_Api_Extensions_CommandExtensions_CheckPermission_CommandSystem_ICommandSender_System_String_
+  commentId: M:SixModLoader.Api.Extensions.CommandExtensions.CheckPermission(CommandSystem.ICommandSender,System.String)
+  fullName: SixModLoader.Api.Extensions.CommandExtensions.CheckPermission(CommandSystem.ICommandSender, System.String)
   nameWithType: CommandExtensions.CheckPermission(ICommandSender, String)
 - uid: SixModLoader.Api.Extensions.CommandExtensions.CheckPermission(ReferenceHub,System.String)
   name: CheckPermission(ReferenceHub, String)
@@ -1769,11 +1769,11 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Extensions.CommandExtensions.CheckPermission
   nameWithType: CommandExtensions.CheckPermission
-- uid: SixModLoader.Api.Extensions.CommandExtensions.MatchPlayers(System.String,ICommandSender)
+- uid: SixModLoader.Api.Extensions.CommandExtensions.MatchPlayers(System.String,CommandSystem.ICommandSender)
   name: MatchPlayers(String, ICommandSender)
-  href: api/SixModLoader.Api.Extensions.CommandExtensions.html#SixModLoader_Api_Extensions_CommandExtensions_MatchPlayers_System_String_ICommandSender_
-  commentId: M:SixModLoader.Api.Extensions.CommandExtensions.MatchPlayers(System.String,ICommandSender)
-  fullName: SixModLoader.Api.Extensions.CommandExtensions.MatchPlayers(System.String, ICommandSender)
+  href: api/SixModLoader.Api.Extensions.CommandExtensions.html#SixModLoader_Api_Extensions_CommandExtensions_MatchPlayers_System_String_CommandSystem_ICommandSender_
+  commentId: M:SixModLoader.Api.Extensions.CommandExtensions.MatchPlayers(System.String,CommandSystem.ICommandSender)
+  fullName: SixModLoader.Api.Extensions.CommandExtensions.MatchPlayers(System.String, CommandSystem.ICommandSender)
   nameWithType: CommandExtensions.MatchPlayers(String, ICommandSender)
 - uid: SixModLoader.Api.Extensions.CommandExtensions.MatchPlayers*
   name: MatchPlayers
@@ -1801,11 +1801,11 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Extensions.Extensions.GetItemByUniq
   nameWithType: Extensions.GetItemByUniq
-- uid: SixModLoader.Api.Extensions.Extensions.OverridePosition(PlayerMovementSync,Vector3,System.Single,System.Boolean)
+- uid: SixModLoader.Api.Extensions.Extensions.OverridePosition(PlayerMovementSync,UnityEngine.Vector3,System.Single,System.Boolean)
   name: OverridePosition(PlayerMovementSync, Vector3, Single, Boolean)
-  href: api/SixModLoader.Api.Extensions.Extensions.html#SixModLoader_Api_Extensions_Extensions_OverridePosition_PlayerMovementSync_Vector3_System_Single_System_Boolean_
-  commentId: M:SixModLoader.Api.Extensions.Extensions.OverridePosition(PlayerMovementSync,Vector3,System.Single,System.Boolean)
-  fullName: SixModLoader.Api.Extensions.Extensions.OverridePosition(PlayerMovementSync, Vector3, System.Single, System.Boolean)
+  href: api/SixModLoader.Api.Extensions.Extensions.html#SixModLoader_Api_Extensions_Extensions_OverridePosition_PlayerMovementSync_UnityEngine_Vector3_System_Single_System_Boolean_
+  commentId: M:SixModLoader.Api.Extensions.Extensions.OverridePosition(PlayerMovementSync,UnityEngine.Vector3,System.Single,System.Boolean)
+  fullName: SixModLoader.Api.Extensions.Extensions.OverridePosition(PlayerMovementSync, UnityEngine.Vector3, System.Single, System.Boolean)
   nameWithType: Extensions.OverridePosition(PlayerMovementSync, Vector3, Single, Boolean)
 - uid: SixModLoader.Api.Extensions.Extensions.OverridePosition*
   name: OverridePosition
@@ -1814,11 +1814,11 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Extensions.Extensions.OverridePosition
   nameWithType: Extensions.OverridePosition
-- uid: SixModLoader.Api.Extensions.Extensions.SetScale(GameObject,Vector3)
+- uid: SixModLoader.Api.Extensions.Extensions.SetScale(UnityEngine.GameObject,UnityEngine.Vector3)
   name: SetScale(GameObject, Vector3)
-  href: api/SixModLoader.Api.Extensions.Extensions.html#SixModLoader_Api_Extensions_Extensions_SetScale_GameObject_Vector3_
-  commentId: M:SixModLoader.Api.Extensions.Extensions.SetScale(GameObject,Vector3)
-  fullName: SixModLoader.Api.Extensions.Extensions.SetScale(GameObject, Vector3)
+  href: api/SixModLoader.Api.Extensions.Extensions.html#SixModLoader_Api_Extensions_Extensions_SetScale_UnityEngine_GameObject_UnityEngine_Vector3_
+  commentId: M:SixModLoader.Api.Extensions.Extensions.SetScale(UnityEngine.GameObject,UnityEngine.Vector3)
+  fullName: SixModLoader.Api.Extensions.Extensions.SetScale(UnityEngine.GameObject, UnityEngine.Vector3)
   nameWithType: Extensions.SetScale(GameObject, Vector3)
 - uid: SixModLoader.Api.Extensions.Extensions.SetScale*
   name: SetScale
@@ -1833,12 +1833,6 @@ references:
   commentId: T:SixModLoader.Api.Extensions.FormatExtensions
   fullName: SixModLoader.Api.Extensions.FormatExtensions
   nameWithType: FormatExtensions
-- uid: SixModLoader.Api.Extensions.FormatExtensions.Color(System.String,Color)
-  name: Color(String, Color)
-  href: api/SixModLoader.Api.Extensions.FormatExtensions.html#SixModLoader_Api_Extensions_FormatExtensions_Color_System_String_Color_
-  commentId: M:SixModLoader.Api.Extensions.FormatExtensions.Color(System.String,Color)
-  fullName: SixModLoader.Api.Extensions.FormatExtensions.Color(System.String, Color)
-  nameWithType: FormatExtensions.Color(String, Color)
 - uid: SixModLoader.Api.Extensions.FormatExtensions.Color(System.String,ReferenceHub)
   name: Color(String, ReferenceHub)
   href: api/SixModLoader.Api.Extensions.FormatExtensions.html#SixModLoader_Api_Extensions_FormatExtensions_Color_System_String_ReferenceHub_
@@ -1851,6 +1845,12 @@ references:
   commentId: M:SixModLoader.Api.Extensions.FormatExtensions.Color(System.String,System.String)
   fullName: SixModLoader.Api.Extensions.FormatExtensions.Color(System.String, System.String)
   nameWithType: FormatExtensions.Color(String, String)
+- uid: SixModLoader.Api.Extensions.FormatExtensions.Color(System.String,UnityEngine.Color)
+  name: Color(String, Color)
+  href: api/SixModLoader.Api.Extensions.FormatExtensions.html#SixModLoader_Api_Extensions_FormatExtensions_Color_System_String_UnityEngine_Color_
+  commentId: M:SixModLoader.Api.Extensions.FormatExtensions.Color(System.String,UnityEngine.Color)
+  fullName: SixModLoader.Api.Extensions.FormatExtensions.Color(System.String, UnityEngine.Color)
+  nameWithType: FormatExtensions.Color(String, Color)
 - uid: SixModLoader.Api.Extensions.FormatExtensions.Color*
   name: Color
   href: api/SixModLoader.Api.Extensions.FormatExtensions.html#SixModLoader_Api_Extensions_FormatExtensions_Color_
@@ -2190,13 +2190,13 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.SixModLoaderCommand.Description
   nameWithType: SixModLoaderCommand.Description
-- uid: SixModLoader.Api.SixModLoaderCommand.ExecuteParent(System.ArraySegment{System.String},ICommandSender,System.String@)
+- uid: SixModLoader.Api.SixModLoaderCommand.ExecuteParent(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)
   name: ExecuteParent(ArraySegment<String>, ICommandSender, out String)
-  href: api/SixModLoader.Api.SixModLoaderCommand.html#SixModLoader_Api_SixModLoaderCommand_ExecuteParent_System_ArraySegment_System_String__ICommandSender_System_String__
-  commentId: M:SixModLoader.Api.SixModLoaderCommand.ExecuteParent(System.ArraySegment{System.String},ICommandSender,System.String@)
+  href: api/SixModLoader.Api.SixModLoaderCommand.html#SixModLoader_Api_SixModLoaderCommand_ExecuteParent_System_ArraySegment_System_String__CommandSystem_ICommandSender_System_String__
+  commentId: M:SixModLoader.Api.SixModLoaderCommand.ExecuteParent(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)
   name.vb: ExecuteParent(ArraySegment(Of String), ICommandSender, ByRef String)
-  fullName: SixModLoader.Api.SixModLoaderCommand.ExecuteParent(System.ArraySegment<System.String>, ICommandSender, out System.String)
-  fullName.vb: SixModLoader.Api.SixModLoaderCommand.ExecuteParent(System.ArraySegment(Of System.String), ICommandSender, ByRef System.String)
+  fullName: SixModLoader.Api.SixModLoaderCommand.ExecuteParent(System.ArraySegment<System.String>, CommandSystem.ICommandSender, out System.String)
+  fullName.vb: SixModLoader.Api.SixModLoaderCommand.ExecuteParent(System.ArraySegment(Of System.String), CommandSystem.ICommandSender, ByRef System.String)
   nameWithType: SixModLoaderCommand.ExecuteParent(ArraySegment<String>, ICommandSender, out String)
   nameWithType.vb: SixModLoaderCommand.ExecuteParent(ArraySegment(Of String), ICommandSender, ByRef String)
 - uid: SixModLoader.Api.SixModLoaderCommand.ExecuteParent*
@@ -2264,13 +2264,13 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.SixModLoaderCommand.ModsCommand.Description
   nameWithType: SixModLoaderCommand.ModsCommand.Description
-- uid: SixModLoader.Api.SixModLoaderCommand.ModsCommand.Execute(System.ArraySegment{System.String},ICommandSender,System.String@)
+- uid: SixModLoader.Api.SixModLoaderCommand.ModsCommand.Execute(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)
   name: Execute(ArraySegment<String>, ICommandSender, out String)
-  href: api/SixModLoader.Api.SixModLoaderCommand.ModsCommand.html#SixModLoader_Api_SixModLoaderCommand_ModsCommand_Execute_System_ArraySegment_System_String__ICommandSender_System_String__
-  commentId: M:SixModLoader.Api.SixModLoaderCommand.ModsCommand.Execute(System.ArraySegment{System.String},ICommandSender,System.String@)
+  href: api/SixModLoader.Api.SixModLoaderCommand.ModsCommand.html#SixModLoader_Api_SixModLoaderCommand_ModsCommand_Execute_System_ArraySegment_System_String__CommandSystem_ICommandSender_System_String__
+  commentId: M:SixModLoader.Api.SixModLoaderCommand.ModsCommand.Execute(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)
   name.vb: Execute(ArraySegment(Of String), ICommandSender, ByRef String)
-  fullName: SixModLoader.Api.SixModLoaderCommand.ModsCommand.Execute(System.ArraySegment<System.String>, ICommandSender, out System.String)
-  fullName.vb: SixModLoader.Api.SixModLoaderCommand.ModsCommand.Execute(System.ArraySegment(Of System.String), ICommandSender, ByRef System.String)
+  fullName: SixModLoader.Api.SixModLoaderCommand.ModsCommand.Execute(System.ArraySegment<System.String>, CommandSystem.ICommandSender, out System.String)
+  fullName.vb: SixModLoader.Api.SixModLoaderCommand.ModsCommand.Execute(System.ArraySegment(Of System.String), CommandSystem.ICommandSender, ByRef System.String)
   nameWithType: SixModLoaderCommand.ModsCommand.Execute(ArraySegment<String>, ICommandSender, out String)
   nameWithType.vb: SixModLoaderCommand.ModsCommand.Execute(ArraySegment(Of String), ICommandSender, ByRef String)
 - uid: SixModLoader.Api.SixModLoaderCommand.ModsCommand.Execute*
@@ -2325,13 +2325,13 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.SixModLoaderCommand.ReloadCommand.Description
   nameWithType: SixModLoaderCommand.ReloadCommand.Description
-- uid: SixModLoader.Api.SixModLoaderCommand.ReloadCommand.Execute(System.ArraySegment{System.String},ICommandSender,System.String@)
+- uid: SixModLoader.Api.SixModLoaderCommand.ReloadCommand.Execute(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)
   name: Execute(ArraySegment<String>, ICommandSender, out String)
-  href: api/SixModLoader.Api.SixModLoaderCommand.ReloadCommand.html#SixModLoader_Api_SixModLoaderCommand_ReloadCommand_Execute_System_ArraySegment_System_String__ICommandSender_System_String__
-  commentId: M:SixModLoader.Api.SixModLoaderCommand.ReloadCommand.Execute(System.ArraySegment{System.String},ICommandSender,System.String@)
+  href: api/SixModLoader.Api.SixModLoaderCommand.ReloadCommand.html#SixModLoader_Api_SixModLoaderCommand_ReloadCommand_Execute_System_ArraySegment_System_String__CommandSystem_ICommandSender_System_String__
+  commentId: M:SixModLoader.Api.SixModLoaderCommand.ReloadCommand.Execute(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)
   name.vb: Execute(ArraySegment(Of String), ICommandSender, ByRef String)
-  fullName: SixModLoader.Api.SixModLoaderCommand.ReloadCommand.Execute(System.ArraySegment<System.String>, ICommandSender, out System.String)
-  fullName.vb: SixModLoader.Api.SixModLoaderCommand.ReloadCommand.Execute(System.ArraySegment(Of System.String), ICommandSender, ByRef System.String)
+  fullName: SixModLoader.Api.SixModLoaderCommand.ReloadCommand.Execute(System.ArraySegment<System.String>, CommandSystem.ICommandSender, out System.String)
+  fullName.vb: SixModLoader.Api.SixModLoaderCommand.ReloadCommand.Execute(System.ArraySegment(Of System.String), CommandSystem.ICommandSender, ByRef System.String)
   nameWithType: SixModLoaderCommand.ReloadCommand.Execute(ArraySegment<String>, ICommandSender, out String)
   nameWithType.vb: SixModLoaderCommand.ReloadCommand.Execute(ArraySegment(Of String), ICommandSender, ByRef String)
 - uid: SixModLoader.Api.SixModLoaderCommand.ReloadCommand.Execute*
@@ -2386,13 +2386,13 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.SixModLoaderCommand.VersionCommand.Description
   nameWithType: SixModLoaderCommand.VersionCommand.Description
-- uid: SixModLoader.Api.SixModLoaderCommand.VersionCommand.Execute(System.ArraySegment{System.String},ICommandSender,System.String@)
+- uid: SixModLoader.Api.SixModLoaderCommand.VersionCommand.Execute(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)
   name: Execute(ArraySegment<String>, ICommandSender, out String)
-  href: api/SixModLoader.Api.SixModLoaderCommand.VersionCommand.html#SixModLoader_Api_SixModLoaderCommand_VersionCommand_Execute_System_ArraySegment_System_String__ICommandSender_System_String__
-  commentId: M:SixModLoader.Api.SixModLoaderCommand.VersionCommand.Execute(System.ArraySegment{System.String},ICommandSender,System.String@)
+  href: api/SixModLoader.Api.SixModLoaderCommand.VersionCommand.html#SixModLoader_Api_SixModLoaderCommand_VersionCommand_Execute_System_ArraySegment_System_String__CommandSystem_ICommandSender_System_String__
+  commentId: M:SixModLoader.Api.SixModLoaderCommand.VersionCommand.Execute(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)
   name.vb: Execute(ArraySegment(Of String), ICommandSender, ByRef String)
-  fullName: SixModLoader.Api.SixModLoaderCommand.VersionCommand.Execute(System.ArraySegment<System.String>, ICommandSender, out System.String)
-  fullName.vb: SixModLoader.Api.SixModLoaderCommand.VersionCommand.Execute(System.ArraySegment(Of System.String), ICommandSender, ByRef System.String)
+  fullName: SixModLoader.Api.SixModLoaderCommand.VersionCommand.Execute(System.ArraySegment<System.String>, CommandSystem.ICommandSender, out System.String)
+  fullName.vb: SixModLoader.Api.SixModLoaderCommand.VersionCommand.Execute(System.ArraySegment(Of System.String), CommandSystem.ICommandSender, ByRef System.String)
   nameWithType: SixModLoaderCommand.VersionCommand.Execute(ArraySegment<String>, ICommandSender, out String)
   nameWithType.vb: SixModLoaderCommand.VersionCommand.Execute(ArraySegment(Of String), ICommandSender, ByRef String)
 - uid: SixModLoader.Api.SixModLoaderCommand.VersionCommand.Execute*
@@ -2725,6 +2725,25 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Events.ICancellableEvent.Cancelled
   nameWithType: ICancellableEvent.Cancelled
+- uid: SixModLoader.GameVersionParser
+  name: GameVersionParser
+  href: api/SixModLoader.GameVersionParser.html
+  commentId: T:SixModLoader.GameVersionParser
+  fullName: SixModLoader.GameVersionParser
+  nameWithType: GameVersionParser
+- uid: SixModLoader.GameVersionParser.Parse
+  name: Parse()
+  href: api/SixModLoader.GameVersionParser.html#SixModLoader_GameVersionParser_Parse
+  commentId: M:SixModLoader.GameVersionParser.Parse
+  fullName: SixModLoader.GameVersionParser.Parse()
+  nameWithType: GameVersionParser.Parse()
+- uid: SixModLoader.GameVersionParser.Parse*
+  name: Parse
+  href: api/SixModLoader.GameVersionParser.html#SixModLoader_GameVersionParser_Parse_
+  commentId: Overload:SixModLoader.GameVersionParser.Parse
+  isSpec: "True"
+  fullName: SixModLoader.GameVersionParser.Parse
+  nameWithType: GameVersionParser.Parse
 - uid: SixModLoader.IdentifiedLogger
   name: IdentifiedLogger
   href: api/SixModLoader.IdentifiedLogger.html
@@ -3474,19 +3493,6 @@ references:
   isSpec: "True"
   fullName: SixModLoader.SixModLoader.BinPath
   nameWithType: SixModLoader.BinPath
-- uid: SixModLoader.SixModLoader.CompatibleGameVersions
-  name: CompatibleGameVersions
-  href: api/SixModLoader.SixModLoader.html#SixModLoader_SixModLoader_CompatibleGameVersions
-  commentId: P:SixModLoader.SixModLoader.CompatibleGameVersions
-  fullName: SixModLoader.SixModLoader.CompatibleGameVersions
-  nameWithType: SixModLoader.CompatibleGameVersions
-- uid: SixModLoader.SixModLoader.CompatibleGameVersions*
-  name: CompatibleGameVersions
-  href: api/SixModLoader.SixModLoader.html#SixModLoader_SixModLoader_CompatibleGameVersions_
-  commentId: Overload:SixModLoader.SixModLoader.CompatibleGameVersions
-  isSpec: "True"
-  fullName: SixModLoader.SixModLoader.CompatibleGameVersions
-  nameWithType: SixModLoader.CompatibleGameVersions
 - uid: SixModLoader.SixModLoader.DataPath
   name: DataPath
   href: api/SixModLoader.SixModLoader.html#SixModLoader_SixModLoader_DataPath
@@ -3617,6 +3623,19 @@ references:
   isSpec: "True"
   fullName: SixModLoader.SixModLoader.Services
   nameWithType: SixModLoader.Services
+- uid: SixModLoader.SixModLoader.TargetGameVersion
+  name: TargetGameVersion
+  href: api/SixModLoader.SixModLoader.html#SixModLoader_SixModLoader_TargetGameVersion
+  commentId: P:SixModLoader.SixModLoader.TargetGameVersion
+  fullName: SixModLoader.SixModLoader.TargetGameVersion
+  nameWithType: SixModLoader.TargetGameVersion
+- uid: SixModLoader.SixModLoader.TargetGameVersion*
+  name: TargetGameVersion
+  href: api/SixModLoader.SixModLoader.html#SixModLoader_SixModLoader_TargetGameVersion_
+  commentId: Overload:SixModLoader.SixModLoader.TargetGameVersion
+  isSpec: "True"
+  fullName: SixModLoader.SixModLoader.TargetGameVersion
+  nameWithType: SixModLoader.TargetGameVersion
 - uid: SixModLoader.SixModLoader.Version
   name: Version
   href: api/SixModLoader.SixModLoader.html#SixModLoader_SixModLoader_Version
@@ -3649,3 +3668,16 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Utils.Pluralize
   nameWithType: Utils.Pluralize
+- uid: SixModLoader.Utils.ToNuGetVersion(NuGet.Versioning.SemanticVersion)
+  name: ToNuGetVersion(SemanticVersion)
+  href: api/SixModLoader.Utils.html#SixModLoader_Utils_ToNuGetVersion_NuGet_Versioning_SemanticVersion_
+  commentId: M:SixModLoader.Utils.ToNuGetVersion(NuGet.Versioning.SemanticVersion)
+  fullName: SixModLoader.Utils.ToNuGetVersion(NuGet.Versioning.SemanticVersion)
+  nameWithType: Utils.ToNuGetVersion(SemanticVersion)
+- uid: SixModLoader.Utils.ToNuGetVersion*
+  name: ToNuGetVersion
+  href: api/SixModLoader.Utils.html#SixModLoader_Utils_ToNuGetVersion_
+  commentId: Overload:SixModLoader.Utils.ToNuGetVersion
+  isSpec: "True"
+  fullName: SixModLoader.Utils.ToNuGetVersion
+  nameWithType: Utils.ToNuGetVersion
