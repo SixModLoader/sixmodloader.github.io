@@ -218,6 +218,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SixModLoader.Api.DllLibraryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SixModLoader.Api.DllLibraryAttribute.html",
+          "hash": "8EjlDRQFaCsUxBeHIIywLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SixModLoader.Api.Events.Player.Inventory.PlayerChangeItemEvent.Patch.yml",
       "output": {
         ".html": {
@@ -758,6 +770,54 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SixModLoader.Api.LibraryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SixModLoader.Api.LibraryAttribute.html",
+          "hash": "YkqX8EUbG6iNDcXLtzLoaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SixModLoader.Api.LibraryManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SixModLoader.Api.LibraryManager.html",
+          "hash": "cUl1Mzl//M4Y88vriECFmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SixModLoader.Api.NuGetLibraryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SixModLoader.Api.NuGetLibraryAttribute.html",
+          "hash": "YjCoAHlpQVgUUFUNCSnIUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SixModLoader.Api.NuPkgLibraryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SixModLoader.Api.NuPkgLibraryAttribute.html",
+          "hash": "kcbLXc9BZRqPH8eQBFxAYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.yml",
       "output": {
         ".html": {
@@ -822,7 +882,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.SixModLoaderApi.html",
-          "hash": "voAFoQm5VxmNykClaXLYGA=="
+          "hash": "/KPl2CWiViuqVoRTqF+QuQ=="
         }
       },
       "is_incremental": false,
@@ -878,11 +938,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SixModLoader.Api.ZipLibraryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SixModLoader.Api.ZipLibraryAttribute.html",
+          "hash": "2IgCcYPvXMowgz8hcNCQYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SixModLoader.Api.yml",
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.html",
-          "hash": "UiHc5fGwV5lIx0zDF3b6Fw=="
+          "hash": "u3Hp8p7Pg3IPOGJ21xxZDg=="
         }
       },
       "is_incremental": false,
@@ -978,7 +1050,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.IdentifiedLogger.html",
-          "hash": "Pj1MWZ9dkkub1dsN6M6qFQ=="
+          "hash": "f0578BUEy+jaR8itxTy7Jg=="
         }
       },
       "is_incremental": false,
@@ -990,7 +1062,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.LogLevel.html",
-          "hash": "9vPNTsSKQpj21qQbKZ3ZbA=="
+          "hash": "zRBacunKjHorasHkoRo+mA=="
         }
       },
       "is_incremental": false,
@@ -1002,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Logger.html",
-          "hash": "KeOkqTEHGzVgItyuPEa73g=="
+          "hash": "a9abaCH+rOI9aJpErVzWZw=="
         }
       },
       "is_incremental": false,
@@ -1098,7 +1170,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Mods.ModManager.html",
-          "hash": "pZ7uw1Fb3KeBMxhad+Cybw=="
+          "hash": "6CT/9Wf9kfYu/0HISE4wSQ=="
         }
       },
       "is_incremental": false,
@@ -1206,7 +1278,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "NVGNaxH9FmegDa5MMDCjxQ=="
+          "hash": "3Q86pqMz2PA3D6IdkMpbtQ=="
         }
       },
       "is_incremental": false,
@@ -1314,7 +1386,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 98,
+          "total_file_count": 104,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
