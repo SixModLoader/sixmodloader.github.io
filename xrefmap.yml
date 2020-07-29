@@ -693,38 +693,38 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.CustomEffectManager.SerializeDeltaPatch.Prefix
   nameWithType: CustomEffectManager.SerializeDeltaPatch.Prefix
-- uid: SixModLoader.Api.DllLibraryAttribute
-  name: DllLibraryAttribute
-  href: api/SixModLoader.Api.DllLibraryAttribute.html
-  commentId: T:SixModLoader.Api.DllLibraryAttribute
-  fullName: SixModLoader.Api.DllLibraryAttribute
-  nameWithType: DllLibraryAttribute
-- uid: SixModLoader.Api.DllLibraryAttribute.#ctor(System.String,System.String,System.String)
-  name: DllLibraryAttribute(String, String, String)
-  href: api/SixModLoader.Api.DllLibraryAttribute.html#SixModLoader_Api_DllLibraryAttribute__ctor_System_String_System_String_System_String_
-  commentId: M:SixModLoader.Api.DllLibraryAttribute.#ctor(System.String,System.String,System.String)
-  fullName: SixModLoader.Api.DllLibraryAttribute.DllLibraryAttribute(System.String, System.String, System.String)
-  nameWithType: DllLibraryAttribute.DllLibraryAttribute(String, String, String)
-- uid: SixModLoader.Api.DllLibraryAttribute.#ctor*
-  name: DllLibraryAttribute
-  href: api/SixModLoader.Api.DllLibraryAttribute.html#SixModLoader_Api_DllLibraryAttribute__ctor_
-  commentId: Overload:SixModLoader.Api.DllLibraryAttribute.#ctor
+- uid: SixModLoader.Api.DllLibrary
+  name: DllLibrary
+  href: api/SixModLoader.Api.DllLibrary.html
+  commentId: T:SixModLoader.Api.DllLibrary
+  fullName: SixModLoader.Api.DllLibrary
+  nameWithType: DllLibrary
+- uid: SixModLoader.Api.DllLibrary.#ctor(System.String,System.String,System.String)
+  name: DllLibrary(String, String, String)
+  href: api/SixModLoader.Api.DllLibrary.html#SixModLoader_Api_DllLibrary__ctor_System_String_System_String_System_String_
+  commentId: M:SixModLoader.Api.DllLibrary.#ctor(System.String,System.String,System.String)
+  fullName: SixModLoader.Api.DllLibrary.DllLibrary(System.String, System.String, System.String)
+  nameWithType: DllLibrary.DllLibrary(String, String, String)
+- uid: SixModLoader.Api.DllLibrary.#ctor*
+  name: DllLibrary
+  href: api/SixModLoader.Api.DllLibrary.html#SixModLoader_Api_DllLibrary__ctor_
+  commentId: Overload:SixModLoader.Api.DllLibrary.#ctor
   isSpec: "True"
-  fullName: SixModLoader.Api.DllLibraryAttribute.DllLibraryAttribute
-  nameWithType: DllLibraryAttribute.DllLibraryAttribute
-- uid: SixModLoader.Api.DllLibraryAttribute.Url
+  fullName: SixModLoader.Api.DllLibrary.DllLibrary
+  nameWithType: DllLibrary.DllLibrary
+- uid: SixModLoader.Api.DllLibrary.Url
   name: Url
-  href: api/SixModLoader.Api.DllLibraryAttribute.html#SixModLoader_Api_DllLibraryAttribute_Url
-  commentId: P:SixModLoader.Api.DllLibraryAttribute.Url
-  fullName: SixModLoader.Api.DllLibraryAttribute.Url
-  nameWithType: DllLibraryAttribute.Url
-- uid: SixModLoader.Api.DllLibraryAttribute.Url*
+  href: api/SixModLoader.Api.DllLibrary.html#SixModLoader_Api_DllLibrary_Url
+  commentId: P:SixModLoader.Api.DllLibrary.Url
+  fullName: SixModLoader.Api.DllLibrary.Url
+  nameWithType: DllLibrary.Url
+- uid: SixModLoader.Api.DllLibrary.Url*
   name: Url
-  href: api/SixModLoader.Api.DllLibraryAttribute.html#SixModLoader_Api_DllLibraryAttribute_Url_
-  commentId: Overload:SixModLoader.Api.DllLibraryAttribute.Url
+  href: api/SixModLoader.Api.DllLibrary.html#SixModLoader_Api_DllLibrary_Url_
+  commentId: Overload:SixModLoader.Api.DllLibrary.Url
   isSpec: "True"
-  fullName: SixModLoader.Api.DllLibraryAttribute.Url
-  nameWithType: DllLibraryAttribute.Url
+  fullName: SixModLoader.Api.DllLibrary.Url
+  nameWithType: DllLibrary.Url
 - uid: SixModLoader.Api.Events.Player
   name: SixModLoader.Api.Events.Player
   href: api/SixModLoader.Api.Events.Player.html
@@ -1986,51 +1986,51 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Extensions.HarmonyExtensions.Unpatch
   nameWithType: HarmonyExtensions.Unpatch
-- uid: SixModLoader.Api.LibraryAttribute
-  name: LibraryAttribute
-  href: api/SixModLoader.Api.LibraryAttribute.html
-  commentId: T:SixModLoader.Api.LibraryAttribute
-  fullName: SixModLoader.Api.LibraryAttribute
-  nameWithType: LibraryAttribute
-- uid: SixModLoader.Api.LibraryAttribute.#ctor(System.String,System.String)
-  name: LibraryAttribute(String, String)
-  href: api/SixModLoader.Api.LibraryAttribute.html#SixModLoader_Api_LibraryAttribute__ctor_System_String_System_String_
-  commentId: M:SixModLoader.Api.LibraryAttribute.#ctor(System.String,System.String)
-  fullName: SixModLoader.Api.LibraryAttribute.LibraryAttribute(System.String, System.String)
-  nameWithType: LibraryAttribute.LibraryAttribute(String, String)
-- uid: SixModLoader.Api.LibraryAttribute.#ctor*
-  name: LibraryAttribute
-  href: api/SixModLoader.Api.LibraryAttribute.html#SixModLoader_Api_LibraryAttribute__ctor_
-  commentId: Overload:SixModLoader.Api.LibraryAttribute.#ctor
+- uid: SixModLoader.Api.Library
+  name: Library
+  href: api/SixModLoader.Api.Library.html
+  commentId: T:SixModLoader.Api.Library
+  fullName: SixModLoader.Api.Library
+  nameWithType: Library
+- uid: SixModLoader.Api.Library.#ctor(System.String,System.String)
+  name: Library(String, String)
+  href: api/SixModLoader.Api.Library.html#SixModLoader_Api_Library__ctor_System_String_System_String_
+  commentId: M:SixModLoader.Api.Library.#ctor(System.String,System.String)
+  fullName: SixModLoader.Api.Library.Library(System.String, System.String)
+  nameWithType: Library.Library(String, String)
+- uid: SixModLoader.Api.Library.#ctor*
+  name: Library
+  href: api/SixModLoader.Api.Library.html#SixModLoader_Api_Library__ctor_
+  commentId: Overload:SixModLoader.Api.Library.#ctor
   isSpec: "True"
-  fullName: SixModLoader.Api.LibraryAttribute.LibraryAttribute
-  nameWithType: LibraryAttribute.LibraryAttribute
-- uid: SixModLoader.Api.LibraryAttribute.Id
+  fullName: SixModLoader.Api.Library.Library
+  nameWithType: Library.Library
+- uid: SixModLoader.Api.Library.Id
   name: Id
-  href: api/SixModLoader.Api.LibraryAttribute.html#SixModLoader_Api_LibraryAttribute_Id
-  commentId: P:SixModLoader.Api.LibraryAttribute.Id
-  fullName: SixModLoader.Api.LibraryAttribute.Id
-  nameWithType: LibraryAttribute.Id
-- uid: SixModLoader.Api.LibraryAttribute.Id*
+  href: api/SixModLoader.Api.Library.html#SixModLoader_Api_Library_Id
+  commentId: P:SixModLoader.Api.Library.Id
+  fullName: SixModLoader.Api.Library.Id
+  nameWithType: Library.Id
+- uid: SixModLoader.Api.Library.Id*
   name: Id
-  href: api/SixModLoader.Api.LibraryAttribute.html#SixModLoader_Api_LibraryAttribute_Id_
-  commentId: Overload:SixModLoader.Api.LibraryAttribute.Id
+  href: api/SixModLoader.Api.Library.html#SixModLoader_Api_Library_Id_
+  commentId: Overload:SixModLoader.Api.Library.Id
   isSpec: "True"
-  fullName: SixModLoader.Api.LibraryAttribute.Id
-  nameWithType: LibraryAttribute.Id
-- uid: SixModLoader.Api.LibraryAttribute.Version
+  fullName: SixModLoader.Api.Library.Id
+  nameWithType: Library.Id
+- uid: SixModLoader.Api.Library.Version
   name: Version
-  href: api/SixModLoader.Api.LibraryAttribute.html#SixModLoader_Api_LibraryAttribute_Version
-  commentId: P:SixModLoader.Api.LibraryAttribute.Version
-  fullName: SixModLoader.Api.LibraryAttribute.Version
-  nameWithType: LibraryAttribute.Version
-- uid: SixModLoader.Api.LibraryAttribute.Version*
+  href: api/SixModLoader.Api.Library.html#SixModLoader_Api_Library_Version
+  commentId: P:SixModLoader.Api.Library.Version
+  fullName: SixModLoader.Api.Library.Version
+  nameWithType: Library.Version
+- uid: SixModLoader.Api.Library.Version*
   name: Version
-  href: api/SixModLoader.Api.LibraryAttribute.html#SixModLoader_Api_LibraryAttribute_Version_
-  commentId: Overload:SixModLoader.Api.LibraryAttribute.Version
+  href: api/SixModLoader.Api.Library.html#SixModLoader_Api_Library_Version_
+  commentId: Overload:SixModLoader.Api.Library.Version
   isSpec: "True"
-  fullName: SixModLoader.Api.LibraryAttribute.Version
-  nameWithType: LibraryAttribute.Version
+  fullName: SixModLoader.Api.Library.Version
+  nameWithType: Library.Version
 - uid: SixModLoader.Api.LibraryManager
   name: LibraryManager
   href: api/SixModLoader.Api.LibraryManager.html
@@ -2043,15 +2043,15 @@ references:
   commentId: M:SixModLoader.Api.LibraryManager.Download
   fullName: SixModLoader.Api.LibraryManager.Download()
   nameWithType: LibraryManager.Download()
-- uid: SixModLoader.Api.LibraryManager.Download(SixModLoader.Api.LibraryAttribute[])
-  name: Download(LibraryAttribute[])
-  href: api/SixModLoader.Api.LibraryManager.html#SixModLoader_Api_LibraryManager_Download_SixModLoader_Api_LibraryAttribute___
-  commentId: M:SixModLoader.Api.LibraryManager.Download(SixModLoader.Api.LibraryAttribute[])
-  name.vb: Download(LibraryAttribute())
-  fullName: SixModLoader.Api.LibraryManager.Download(SixModLoader.Api.LibraryAttribute[])
-  fullName.vb: SixModLoader.Api.LibraryManager.Download(SixModLoader.Api.LibraryAttribute())
-  nameWithType: LibraryManager.Download(LibraryAttribute[])
-  nameWithType.vb: LibraryManager.Download(LibraryAttribute())
+- uid: SixModLoader.Api.LibraryManager.Download(SixModLoader.Api.Library[])
+  name: Download(Library[])
+  href: api/SixModLoader.Api.LibraryManager.html#SixModLoader_Api_LibraryManager_Download_SixModLoader_Api_Library___
+  commentId: M:SixModLoader.Api.LibraryManager.Download(SixModLoader.Api.Library[])
+  name.vb: Download(Library())
+  fullName: SixModLoader.Api.LibraryManager.Download(SixModLoader.Api.Library[])
+  fullName.vb: SixModLoader.Api.LibraryManager.Download(SixModLoader.Api.Library())
+  nameWithType: LibraryManager.Download(Library[])
+  nameWithType.vb: LibraryManager.Download(Library())
 - uid: SixModLoader.Api.LibraryManager.Download*
   name: Download
   href: api/SixModLoader.Api.LibraryManager.html#SixModLoader_Api_LibraryManager_Download_
@@ -2059,57 +2059,57 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.LibraryManager.Download
   nameWithType: LibraryManager.Download
-- uid: SixModLoader.Api.NuGetLibraryAttribute
-  name: NuGetLibraryAttribute
-  href: api/SixModLoader.Api.NuGetLibraryAttribute.html
-  commentId: T:SixModLoader.Api.NuGetLibraryAttribute
-  fullName: SixModLoader.Api.NuGetLibraryAttribute
-  nameWithType: NuGetLibraryAttribute
-- uid: SixModLoader.Api.NuGetLibraryAttribute.#ctor(System.String,System.String,System.String)
-  name: NuGetLibraryAttribute(String, String, String)
-  href: api/SixModLoader.Api.NuGetLibraryAttribute.html#SixModLoader_Api_NuGetLibraryAttribute__ctor_System_String_System_String_System_String_
-  commentId: M:SixModLoader.Api.NuGetLibraryAttribute.#ctor(System.String,System.String,System.String)
-  fullName: SixModLoader.Api.NuGetLibraryAttribute.NuGetLibraryAttribute(System.String, System.String, System.String)
-  nameWithType: NuGetLibraryAttribute.NuGetLibraryAttribute(String, String, String)
-- uid: SixModLoader.Api.NuGetLibraryAttribute.#ctor*
-  name: NuGetLibraryAttribute
-  href: api/SixModLoader.Api.NuGetLibraryAttribute.html#SixModLoader_Api_NuGetLibraryAttribute__ctor_
-  commentId: Overload:SixModLoader.Api.NuGetLibraryAttribute.#ctor
+- uid: SixModLoader.Api.NuGetLibrary
+  name: NuGetLibrary
+  href: api/SixModLoader.Api.NuGetLibrary.html
+  commentId: T:SixModLoader.Api.NuGetLibrary
+  fullName: SixModLoader.Api.NuGetLibrary
+  nameWithType: NuGetLibrary
+- uid: SixModLoader.Api.NuGetLibrary.#ctor(System.String,System.String,System.String)
+  name: NuGetLibrary(String, String, String)
+  href: api/SixModLoader.Api.NuGetLibrary.html#SixModLoader_Api_NuGetLibrary__ctor_System_String_System_String_System_String_
+  commentId: M:SixModLoader.Api.NuGetLibrary.#ctor(System.String,System.String,System.String)
+  fullName: SixModLoader.Api.NuGetLibrary.NuGetLibrary(System.String, System.String, System.String)
+  nameWithType: NuGetLibrary.NuGetLibrary(String, String, String)
+- uid: SixModLoader.Api.NuGetLibrary.#ctor*
+  name: NuGetLibrary
+  href: api/SixModLoader.Api.NuGetLibrary.html#SixModLoader_Api_NuGetLibrary__ctor_
+  commentId: Overload:SixModLoader.Api.NuGetLibrary.#ctor
   isSpec: "True"
-  fullName: SixModLoader.Api.NuGetLibraryAttribute.NuGetLibraryAttribute
-  nameWithType: NuGetLibraryAttribute.NuGetLibraryAttribute
-- uid: SixModLoader.Api.NuPkgLibraryAttribute
-  name: NuPkgLibraryAttribute
-  href: api/SixModLoader.Api.NuPkgLibraryAttribute.html
-  commentId: T:SixModLoader.Api.NuPkgLibraryAttribute
-  fullName: SixModLoader.Api.NuPkgLibraryAttribute
-  nameWithType: NuPkgLibraryAttribute
-- uid: SixModLoader.Api.NuPkgLibraryAttribute.#ctor(System.String,System.String,System.String,System.String)
-  name: NuPkgLibraryAttribute(String, String, String, String)
-  href: api/SixModLoader.Api.NuPkgLibraryAttribute.html#SixModLoader_Api_NuPkgLibraryAttribute__ctor_System_String_System_String_System_String_System_String_
-  commentId: M:SixModLoader.Api.NuPkgLibraryAttribute.#ctor(System.String,System.String,System.String,System.String)
-  fullName: SixModLoader.Api.NuPkgLibraryAttribute.NuPkgLibraryAttribute(System.String, System.String, System.String, System.String)
-  nameWithType: NuPkgLibraryAttribute.NuPkgLibraryAttribute(String, String, String, String)
-- uid: SixModLoader.Api.NuPkgLibraryAttribute.#ctor*
-  name: NuPkgLibraryAttribute
-  href: api/SixModLoader.Api.NuPkgLibraryAttribute.html#SixModLoader_Api_NuPkgLibraryAttribute__ctor_
-  commentId: Overload:SixModLoader.Api.NuPkgLibraryAttribute.#ctor
+  fullName: SixModLoader.Api.NuGetLibrary.NuGetLibrary
+  nameWithType: NuGetLibrary.NuGetLibrary
+- uid: SixModLoader.Api.NuPkgLibrary
+  name: NuPkgLibrary
+  href: api/SixModLoader.Api.NuPkgLibrary.html
+  commentId: T:SixModLoader.Api.NuPkgLibrary
+  fullName: SixModLoader.Api.NuPkgLibrary
+  nameWithType: NuPkgLibrary
+- uid: SixModLoader.Api.NuPkgLibrary.#ctor(System.String,System.String,System.String,System.String)
+  name: NuPkgLibrary(String, String, String, String)
+  href: api/SixModLoader.Api.NuPkgLibrary.html#SixModLoader_Api_NuPkgLibrary__ctor_System_String_System_String_System_String_System_String_
+  commentId: M:SixModLoader.Api.NuPkgLibrary.#ctor(System.String,System.String,System.String,System.String)
+  fullName: SixModLoader.Api.NuPkgLibrary.NuPkgLibrary(System.String, System.String, System.String, System.String)
+  nameWithType: NuPkgLibrary.NuPkgLibrary(String, String, String, String)
+- uid: SixModLoader.Api.NuPkgLibrary.#ctor*
+  name: NuPkgLibrary
+  href: api/SixModLoader.Api.NuPkgLibrary.html#SixModLoader_Api_NuPkgLibrary__ctor_
+  commentId: Overload:SixModLoader.Api.NuPkgLibrary.#ctor
   isSpec: "True"
-  fullName: SixModLoader.Api.NuPkgLibraryAttribute.NuPkgLibraryAttribute
-  nameWithType: NuPkgLibraryAttribute.NuPkgLibraryAttribute
-- uid: SixModLoader.Api.NuPkgLibraryAttribute.Framework
+  fullName: SixModLoader.Api.NuPkgLibrary.NuPkgLibrary
+  nameWithType: NuPkgLibrary.NuPkgLibrary
+- uid: SixModLoader.Api.NuPkgLibrary.Framework
   name: Framework
-  href: api/SixModLoader.Api.NuPkgLibraryAttribute.html#SixModLoader_Api_NuPkgLibraryAttribute_Framework
-  commentId: P:SixModLoader.Api.NuPkgLibraryAttribute.Framework
-  fullName: SixModLoader.Api.NuPkgLibraryAttribute.Framework
-  nameWithType: NuPkgLibraryAttribute.Framework
-- uid: SixModLoader.Api.NuPkgLibraryAttribute.Framework*
+  href: api/SixModLoader.Api.NuPkgLibrary.html#SixModLoader_Api_NuPkgLibrary_Framework
+  commentId: P:SixModLoader.Api.NuPkgLibrary.Framework
+  fullName: SixModLoader.Api.NuPkgLibrary.Framework
+  nameWithType: NuPkgLibrary.Framework
+- uid: SixModLoader.Api.NuPkgLibrary.Framework*
   name: Framework
-  href: api/SixModLoader.Api.NuPkgLibraryAttribute.html#SixModLoader_Api_NuPkgLibraryAttribute_Framework_
-  commentId: Overload:SixModLoader.Api.NuPkgLibraryAttribute.Framework
+  href: api/SixModLoader.Api.NuPkgLibrary.html#SixModLoader_Api_NuPkgLibrary_Framework_
+  commentId: Overload:SixModLoader.Api.NuPkgLibrary.Framework
   isSpec: "True"
-  fullName: SixModLoader.Api.NuPkgLibraryAttribute.Framework
-  nameWithType: NuPkgLibraryAttribute.Framework
+  fullName: SixModLoader.Api.NuPkgLibrary.Framework
+  nameWithType: NuPkgLibrary.Framework
 - uid: SixModLoader.Api.Patches
   name: SixModLoader.Api.Patches
   href: api/SixModLoader.Api.Patches.html
@@ -2571,41 +2571,41 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.SixModLoaderCommand.VersionCommand.Execute
   nameWithType: SixModLoaderCommand.VersionCommand.Execute
-- uid: SixModLoader.Api.ZipLibraryAttribute
-  name: ZipLibraryAttribute
-  href: api/SixModLoader.Api.ZipLibraryAttribute.html
-  commentId: T:SixModLoader.Api.ZipLibraryAttribute
-  fullName: SixModLoader.Api.ZipLibraryAttribute
-  nameWithType: ZipLibraryAttribute
-- uid: SixModLoader.Api.ZipLibraryAttribute.#ctor(System.String,System.String,System.String,System.String[])
-  name: ZipLibraryAttribute(String, String, String, String[])
-  href: api/SixModLoader.Api.ZipLibraryAttribute.html#SixModLoader_Api_ZipLibraryAttribute__ctor_System_String_System_String_System_String_System_String___
-  commentId: M:SixModLoader.Api.ZipLibraryAttribute.#ctor(System.String,System.String,System.String,System.String[])
-  name.vb: ZipLibraryAttribute(String, String, String, String())
-  fullName: SixModLoader.Api.ZipLibraryAttribute.ZipLibraryAttribute(System.String, System.String, System.String, System.String[])
-  fullName.vb: SixModLoader.Api.ZipLibraryAttribute.ZipLibraryAttribute(System.String, System.String, System.String, System.String())
-  nameWithType: ZipLibraryAttribute.ZipLibraryAttribute(String, String, String, String[])
-  nameWithType.vb: ZipLibraryAttribute.ZipLibraryAttribute(String, String, String, String())
-- uid: SixModLoader.Api.ZipLibraryAttribute.#ctor*
-  name: ZipLibraryAttribute
-  href: api/SixModLoader.Api.ZipLibraryAttribute.html#SixModLoader_Api_ZipLibraryAttribute__ctor_
-  commentId: Overload:SixModLoader.Api.ZipLibraryAttribute.#ctor
+- uid: SixModLoader.Api.ZipLibrary
+  name: ZipLibrary
+  href: api/SixModLoader.Api.ZipLibrary.html
+  commentId: T:SixModLoader.Api.ZipLibrary
+  fullName: SixModLoader.Api.ZipLibrary
+  nameWithType: ZipLibrary
+- uid: SixModLoader.Api.ZipLibrary.#ctor(System.String,System.String,System.String,System.String[])
+  name: ZipLibrary(String, String, String, String[])
+  href: api/SixModLoader.Api.ZipLibrary.html#SixModLoader_Api_ZipLibrary__ctor_System_String_System_String_System_String_System_String___
+  commentId: M:SixModLoader.Api.ZipLibrary.#ctor(System.String,System.String,System.String,System.String[])
+  name.vb: ZipLibrary(String, String, String, String())
+  fullName: SixModLoader.Api.ZipLibrary.ZipLibrary(System.String, System.String, System.String, System.String[])
+  fullName.vb: SixModLoader.Api.ZipLibrary.ZipLibrary(System.String, System.String, System.String, System.String())
+  nameWithType: ZipLibrary.ZipLibrary(String, String, String, String[])
+  nameWithType.vb: ZipLibrary.ZipLibrary(String, String, String, String())
+- uid: SixModLoader.Api.ZipLibrary.#ctor*
+  name: ZipLibrary
+  href: api/SixModLoader.Api.ZipLibrary.html#SixModLoader_Api_ZipLibrary__ctor_
+  commentId: Overload:SixModLoader.Api.ZipLibrary.#ctor
   isSpec: "True"
-  fullName: SixModLoader.Api.ZipLibraryAttribute.ZipLibraryAttribute
-  nameWithType: ZipLibraryAttribute.ZipLibraryAttribute
-- uid: SixModLoader.Api.ZipLibraryAttribute.Files
+  fullName: SixModLoader.Api.ZipLibrary.ZipLibrary
+  nameWithType: ZipLibrary.ZipLibrary
+- uid: SixModLoader.Api.ZipLibrary.Files
   name: Files
-  href: api/SixModLoader.Api.ZipLibraryAttribute.html#SixModLoader_Api_ZipLibraryAttribute_Files
-  commentId: P:SixModLoader.Api.ZipLibraryAttribute.Files
-  fullName: SixModLoader.Api.ZipLibraryAttribute.Files
-  nameWithType: ZipLibraryAttribute.Files
-- uid: SixModLoader.Api.ZipLibraryAttribute.Files*
+  href: api/SixModLoader.Api.ZipLibrary.html#SixModLoader_Api_ZipLibrary_Files
+  commentId: P:SixModLoader.Api.ZipLibrary.Files
+  fullName: SixModLoader.Api.ZipLibrary.Files
+  nameWithType: ZipLibrary.Files
+- uid: SixModLoader.Api.ZipLibrary.Files*
   name: Files
-  href: api/SixModLoader.Api.ZipLibraryAttribute.html#SixModLoader_Api_ZipLibraryAttribute_Files_
-  commentId: Overload:SixModLoader.Api.ZipLibraryAttribute.Files
+  href: api/SixModLoader.Api.ZipLibrary.html#SixModLoader_Api_ZipLibrary_Files_
+  commentId: Overload:SixModLoader.Api.ZipLibrary.Files
   isSpec: "True"
-  fullName: SixModLoader.Api.ZipLibraryAttribute.Files
-  nameWithType: ZipLibraryAttribute.Files
+  fullName: SixModLoader.Api.ZipLibrary.Files
+  nameWithType: ZipLibrary.Files
 - uid: SixModLoader.Events
   name: SixModLoader.Events
   href: api/SixModLoader.Events.html

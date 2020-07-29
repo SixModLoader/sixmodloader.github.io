@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DllLibraryAttribute
+    <title>Class NuPkgLibrary
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DllLibraryAttribute
+    <meta name="title" content="Class NuPkgLibrary
    ">
     <meta name="generator" content="docfx 2.56.0.0">
     
@@ -78,10 +78,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SixModLoader.Api.DllLibraryAttribute">
+            <article class="content wrap" id="_content" data-uid="SixModLoader.Api.NuPkgLibrary">
   
   
-  <h1 id="SixModLoader_Api_DllLibraryAttribute" data-uid="SixModLoader.Api.DllLibraryAttribute" class="text-break">Class DllLibraryAttribute
+  <h1 id="SixModLoader_Api_NuPkgLibrary" data-uid="SixModLoader.Api.NuPkgLibrary" class="text-break">Class NuPkgLibrary
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -89,43 +89,46 @@
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">System.Attribute</span></div>
-    <div class="level2"><a class="xref" href="SixModLoader.Api.LibraryAttribute.html">LibraryAttribute</a></div>
-    <div class="level3"><span class="xref">DllLibraryAttribute</span></div>
-      <div class="level4"><a class="xref" href="SixModLoader.Api.NuPkgLibraryAttribute.html">NuPkgLibraryAttribute</a></div>
-      <div class="level4"><a class="xref" href="SixModLoader.Api.ZipLibraryAttribute.html">ZipLibraryAttribute</a></div>
+    <div class="level2"><a class="xref" href="SixModLoader.Api.Library.html">Library</a></div>
+    <div class="level3"><a class="xref" href="SixModLoader.Api.DllLibrary.html">DllLibrary</a></div>
+    <div class="level4"><span class="xref">NuPkgLibrary</span></div>
+      <div class="level5"><a class="xref" href="SixModLoader.Api.NuGetLibrary.html">NuGetLibrary</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="SixModLoader.Api.LibraryAttribute.html#SixModLoader_Api_LibraryAttribute_Id">LibraryAttribute.Id</a>
+      <a class="xref" href="SixModLoader.Api.DllLibrary.html#SixModLoader_Api_DllLibrary_Url">DllLibrary.Url</a>
     </div>
     <div>
-      <a class="xref" href="SixModLoader.Api.LibraryAttribute.html#SixModLoader_Api_LibraryAttribute_Version">LibraryAttribute.Version</a>
+      <a class="xref" href="SixModLoader.Api.Library.html#SixModLoader_Api_Library_Id">Library.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="SixModLoader.Api.Library.html#SixModLoader_Api_Library_Version">Library.Version</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="SixModLoader.Api.html">SixModLoader.Api</a></h6>
   <h6><strong>Assembly</strong>: SixModLoader.Api.dll</h6>
-  <h5 id="SixModLoader_Api_DllLibraryAttribute_syntax">Syntax</h5>
+  <h5 id="SixModLoader_Api_NuPkgLibrary_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class, AllowMultiple = true)]
-public class DllLibraryAttribute : LibraryAttribute, _Attribute</code></pre>
+public class NuPkgLibrary : DllLibrary, _Attribute</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_DllLibraryAttribute__ctor_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20SixModLoader.Api.DllLibraryAttribute.%23ctor(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_NuPkgLibrary__ctor_System_String_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20SixModLoader.Api.NuPkgLibrary.%23ctor(System.String%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/LibraryManager.cs/#L37">View Source</a>
+    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/LibraryManager.cs/#L96">View Source</a>
   </span>
-  <a id="SixModLoader_Api_DllLibraryAttribute__ctor_" data-uid="SixModLoader.Api.DllLibraryAttribute.#ctor*"></a>
-  <h4 id="SixModLoader_Api_DllLibraryAttribute__ctor_System_String_System_String_System_String_" data-uid="SixModLoader.Api.DllLibraryAttribute.#ctor(System.String,System.String,System.String)">DllLibraryAttribute(String, String, String)</h4>
+  <a id="SixModLoader_Api_NuPkgLibrary__ctor_" data-uid="SixModLoader.Api.NuPkgLibrary.#ctor*"></a>
+  <h4 id="SixModLoader_Api_NuPkgLibrary__ctor_System_String_System_String_System_String_System_String_" data-uid="SixModLoader.Api.NuPkgLibrary.#ctor(System.String,System.String,System.String,System.String)">NuPkgLibrary(String, String, String, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DllLibraryAttribute(string id, string version, string url)</code></pre>
+    <pre><code class="lang-csharp hljs">public NuPkgLibrary(string id, string version, string url, string framework)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -150,7 +153,14 @@ public class DllLibraryAttribute : LibraryAttribute, _Attribute</code></pre>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">url</span></td>
-        <td></td>
+        <td><p>Example: <a href="https://www.nuget.org/api/v2/package/LiteDB/5.0.8">https://www.nuget.org/api/v2/package/LiteDB/5.0.8</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">framework</span></td>
+        <td><p>Example: net472</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -158,18 +168,18 @@ public class DllLibraryAttribute : LibraryAttribute, _Attribute</code></pre>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_DllLibraryAttribute_Url.md&amp;value=---%0Auid%3A%20SixModLoader.Api.DllLibraryAttribute.Url%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_NuPkgLibrary_Framework.md&amp;value=---%0Auid%3A%20SixModLoader.Api.NuPkgLibrary.Framework%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/LibraryManager.cs/#L34">View Source</a>
+    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/LibraryManager.cs/#L92">View Source</a>
   </span>
-  <a id="SixModLoader_Api_DllLibraryAttribute_Url_" data-uid="SixModLoader.Api.DllLibraryAttribute.Url*"></a>
-  <h4 id="SixModLoader_Api_DllLibraryAttribute_Url" data-uid="SixModLoader.Api.DllLibraryAttribute.Url">Url</h4>
+  <a id="SixModLoader_Api_NuPkgLibrary_Framework_" data-uid="SixModLoader.Api.NuPkgLibrary.Framework*"></a>
+  <h4 id="SixModLoader_Api_NuPkgLibrary_Framework" data-uid="SixModLoader.Api.NuPkgLibrary.Framework">Framework</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Url { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Framework { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -194,10 +204,10 @@ public class DllLibraryAttribute : LibraryAttribute, _Attribute</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_DllLibraryAttribute.md&amp;value=---%0Auid%3A%20SixModLoader.Api.DllLibraryAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_NuPkgLibrary.md&amp;value=---%0Auid%3A%20SixModLoader.Api.NuPkgLibrary%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/LibraryManager.cs/#L31" class="contribution-link">View Source</a>
+                    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/LibraryManager.cs/#L89" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

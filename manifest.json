@@ -218,11 +218,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SixModLoader.Api.DllLibraryAttribute.yml",
+      "source_relative_path": "api/SixModLoader.Api.DllLibrary.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SixModLoader.Api.DllLibraryAttribute.html",
-          "hash": "8EjlDRQFaCsUxBeHIIywLw=="
+          "relative_path": "api/SixModLoader.Api.DllLibrary.html",
+          "hash": "UUm0mouf5FDmDKZG9noXxA=="
         }
       },
       "is_incremental": false,
@@ -770,11 +770,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SixModLoader.Api.LibraryAttribute.yml",
+      "source_relative_path": "api/SixModLoader.Api.Library.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SixModLoader.Api.LibraryAttribute.html",
-          "hash": "YkqX8EUbG6iNDcXLtzLoaw=="
+          "relative_path": "api/SixModLoader.Api.Library.html",
+          "hash": "8xyvb09tG2dgmm3E3s8wDw=="
         }
       },
       "is_incremental": false,
@@ -786,7 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.LibraryManager.html",
-          "hash": "cUl1Mzl//M4Y88vriECFmQ=="
+          "hash": "V1wOcOwo0UEqPLz2930DCg=="
         }
       },
       "is_incremental": false,
@@ -794,11 +794,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SixModLoader.Api.NuGetLibraryAttribute.yml",
+      "source_relative_path": "api/SixModLoader.Api.NuGetLibrary.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SixModLoader.Api.NuGetLibraryAttribute.html",
-          "hash": "YjCoAHlpQVgUUFUNCSnIUA=="
+          "relative_path": "api/SixModLoader.Api.NuGetLibrary.html",
+          "hash": "xEuFVZwg8Fs4SN07j8oRVw=="
         }
       },
       "is_incremental": false,
@@ -806,11 +806,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SixModLoader.Api.NuPkgLibraryAttribute.yml",
+      "source_relative_path": "api/SixModLoader.Api.NuPkgLibrary.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SixModLoader.Api.NuPkgLibraryAttribute.html",
-          "hash": "kcbLXc9BZRqPH8eQBFxAYQ=="
+          "relative_path": "api/SixModLoader.Api.NuPkgLibrary.html",
+          "hash": "sqxvMhnpoQCAN/zR3UEjkg=="
         }
       },
       "is_incremental": false,
@@ -882,7 +882,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.SixModLoaderApi.html",
-          "hash": "/KPl2CWiViuqVoRTqF+QuQ=="
+          "hash": "Ko3fly8XX9Lru+WBrSsYSw=="
         }
       },
       "is_incremental": false,
@@ -938,11 +938,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SixModLoader.Api.ZipLibraryAttribute.yml",
+      "source_relative_path": "api/SixModLoader.Api.ZipLibrary.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SixModLoader.Api.ZipLibraryAttribute.html",
-          "hash": "2IgCcYPvXMowgz8hcNCQYQ=="
+          "relative_path": "api/SixModLoader.Api.ZipLibrary.html",
+          "hash": "RhQQHG2/k1O9wUgVvXBNfQ=="
         }
       },
       "is_incremental": false,
@@ -954,7 +954,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SixModLoader.Api.html",
-          "hash": "u3Hp8p7Pg3IPOGJ21xxZDg=="
+          "hash": "zLS7YUVU4HUgep7tG0s1pA=="
         }
       },
       "is_incremental": false,
@@ -1278,7 +1278,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "3Q86pqMz2PA3D6IdkMpbtQ=="
+          "hash": "N/g4Fm1OoaY0OslUihU9wg=="
         }
       },
       "is_incremental": false,
