@@ -319,10 +319,15 @@
     "title": "Namespace SixModLoader.Api.Extensions",
     "keywords": "Namespace SixModLoader.Api.Extensions Classes AutoCommandHandlerAttribute AutoHarmonyAttribute BroadcastConnection BroadcastExtensions This thing is weird and very experimental, but provides nice way to display forever staying broadcast BroadcastExtensions.RpcAddElementPatch BroadcastExtensions.RpcClearElementsPatch BroadcastExtensions.TargetAddElementPatch BroadcastExtensions.TargetClearElementsPatch BroadcastMessage CommandExtensions Extensions FormatExtensions HarmonyExtensions HarmonyExtensions.Patch Enums AmmoType"
   },
+  "api/SixModLoader.Api.GithubPackageLibrary.html": {
+    "href": "api/SixModLoader.Api.GithubPackageLibrary.html",
+    "title": "Class GithubPackageLibrary",
+    "keywords": "Class GithubPackageLibrary Inheritance System.Object System.Attribute Library DllLibrary NuPkgLibrary GithubPackageLibrary Inherited Members NuPkgLibrary.Framework DllLibrary.Url Library.Id Library.Version Namespace : SixModLoader.Api Assembly : SixModLoader.Api.dll Syntax [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class, AllowMultiple = true)] public class GithubPackageLibrary : NuPkgLibrary, _Attribute Constructors | Improve this Doc View Source GithubPackageLibrary(String, String, String, String) Declaration public GithubPackageLibrary(string id, string version, string owner, string framework) Parameters Type Name Description System.String id System.String version System.String owner System.String framework"
+  },
   "api/SixModLoader.Api.html": {
     "href": "api/SixModLoader.Api.html",
     "title": "Namespace SixModLoader.Api",
-    "keywords": "Namespace SixModLoader.Api Classes CommandManager CustomEffectManager CustomEffectManager.EffectsRegistryPatch Patch injecting custom effects to PlayerEffectsController CustomEffectManager.SerializeAllPatch Dirty workaround to hide custom effects from client CustomEffectManager.SerializeDeltaPatch Dirty workaround to hide custom effects from client DllLibrary Library LibraryManager NuGetLibrary NuPkgLibrary SixModLoaderApi SixModLoaderCommand SixModLoaderCommand.ModsCommand SixModLoaderCommand.ReloadCommand SixModLoaderCommand.VersionCommand ZipLibrary"
+    "keywords": "Namespace SixModLoader.Api Classes CommandManager CustomEffectManager CustomEffectManager.EffectsRegistryPatch Patch injecting custom effects to PlayerEffectsController CustomEffectManager.SerializeAllPatch Dirty workaround to hide custom effects from client CustomEffectManager.SerializeDeltaPatch Dirty workaround to hide custom effects from client DllLibrary GithubPackageLibrary Library LibraryManager NuGetLibrary NuPkgLibrary SixModLoaderApi SixModLoaderCommand SixModLoaderCommand.ModsCommand SixModLoaderCommand.ReloadCommand SixModLoaderCommand.VersionCommand ZipLibrary"
   },
   "api/SixModLoader.Api.Library.html": {
     "href": "api/SixModLoader.Api.Library.html",
@@ -342,7 +347,7 @@
   "api/SixModLoader.Api.NuPkgLibrary.html": {
     "href": "api/SixModLoader.Api.NuPkgLibrary.html",
     "title": "Class NuPkgLibrary",
-    "keywords": "Class NuPkgLibrary Inheritance System.Object System.Attribute Library DllLibrary NuPkgLibrary NuGetLibrary Inherited Members DllLibrary.Url Library.Id Library.Version Namespace : SixModLoader.Api Assembly : SixModLoader.Api.dll Syntax [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class, AllowMultiple = true)] public class NuPkgLibrary : DllLibrary, _Attribute Constructors | Improve this Doc View Source NuPkgLibrary(String, String, String, String) Declaration public NuPkgLibrary(string id, string version, string url, string framework) Parameters Type Name Description System.String id System.String version System.String url Example: https://www.nuget.org/api/v2/package/LiteDB/5.0.8 System.String framework Example: net472 Properties | Improve this Doc View Source Framework Declaration public string Framework { get; } Property Value Type Description System.String"
+    "keywords": "Class NuPkgLibrary Inheritance System.Object System.Attribute Library DllLibrary NuPkgLibrary GithubPackageLibrary NuGetLibrary Inherited Members DllLibrary.Url Library.Id Library.Version Namespace : SixModLoader.Api Assembly : SixModLoader.Api.dll Syntax [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class, AllowMultiple = true)] public class NuPkgLibrary : DllLibrary, _Attribute Constructors | Improve this Doc View Source NuPkgLibrary(String, String, String, String) Declaration public NuPkgLibrary(string id, string version, string url, string framework) Parameters Type Name Description System.String id System.String version System.String url Example: https://www.nuget.org/api/v2/package/LiteDB/5.0.8 System.String framework Example: net472 Properties | Improve this Doc View Source Framework Declaration public string Framework { get; } Property Value Type Description System.String"
   },
   "api/SixModLoader.Api.Patches.CommandProcessorPatch.html": {
     "href": "api/SixModLoader.Api.Patches.CommandProcessorPatch.html",

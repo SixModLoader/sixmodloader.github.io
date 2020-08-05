@@ -1986,6 +1986,25 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Extensions.HarmonyExtensions.Unpatch
   nameWithType: HarmonyExtensions.Unpatch
+- uid: SixModLoader.Api.GithubPackageLibrary
+  name: GithubPackageLibrary
+  href: api/SixModLoader.Api.GithubPackageLibrary.html
+  commentId: T:SixModLoader.Api.GithubPackageLibrary
+  fullName: SixModLoader.Api.GithubPackageLibrary
+  nameWithType: GithubPackageLibrary
+- uid: SixModLoader.Api.GithubPackageLibrary.#ctor(System.String,System.String,System.String,System.String)
+  name: GithubPackageLibrary(String, String, String, String)
+  href: api/SixModLoader.Api.GithubPackageLibrary.html#SixModLoader_Api_GithubPackageLibrary__ctor_System_String_System_String_System_String_System_String_
+  commentId: M:SixModLoader.Api.GithubPackageLibrary.#ctor(System.String,System.String,System.String,System.String)
+  fullName: SixModLoader.Api.GithubPackageLibrary.GithubPackageLibrary(System.String, System.String, System.String, System.String)
+  nameWithType: GithubPackageLibrary.GithubPackageLibrary(String, String, String, String)
+- uid: SixModLoader.Api.GithubPackageLibrary.#ctor*
+  name: GithubPackageLibrary
+  href: api/SixModLoader.Api.GithubPackageLibrary.html#SixModLoader_Api_GithubPackageLibrary__ctor_
+  commentId: Overload:SixModLoader.Api.GithubPackageLibrary.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Api.GithubPackageLibrary.GithubPackageLibrary
+  nameWithType: GithubPackageLibrary.GithubPackageLibrary
 - uid: SixModLoader.Api.Library
   name: Library
   href: api/SixModLoader.Api.Library.html
