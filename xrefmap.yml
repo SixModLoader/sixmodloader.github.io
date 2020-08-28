@@ -303,6 +303,19 @@ references:
   commentId: T:SixModLoader.Api.Configuration.ConfigurationManager
   fullName: SixModLoader.Api.Configuration.ConfigurationManager
   nameWithType: ConfigurationManager
+- uid: SixModLoader.Api.Configuration.ConfigurationManager.Converters
+  name: Converters
+  href: api/SixModLoader.Api.Configuration.ConfigurationManager.html#SixModLoader_Api_Configuration_ConfigurationManager_Converters
+  commentId: P:SixModLoader.Api.Configuration.ConfigurationManager.Converters
+  fullName: SixModLoader.Api.Configuration.ConfigurationManager.Converters
+  nameWithType: ConfigurationManager.Converters
+- uid: SixModLoader.Api.Configuration.ConfigurationManager.Converters*
+  name: Converters
+  href: api/SixModLoader.Api.Configuration.ConfigurationManager.html#SixModLoader_Api_Configuration_ConfigurationManager_Converters_
+  commentId: Overload:SixModLoader.Api.Configuration.ConfigurationManager.Converters
+  isSpec: "True"
+  fullName: SixModLoader.Api.Configuration.ConfigurationManager.Converters
+  nameWithType: ConfigurationManager.Converters
 - uid: SixModLoader.Api.Configuration.ConfigurationManager.Deserializer
   name: Deserializer
   href: api/SixModLoader.Api.Configuration.ConfigurationManager.html#SixModLoader_Api_Configuration_ConfigurationManager_Deserializer
@@ -370,6 +383,28 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Configuration.ConfigurationManager.Patch.Prefix
   nameWithType: ConfigurationManager.Patch.Prefix
+- uid: SixModLoader.Api.Configuration.ConfigurationManager.RegisterTagMapping(System.Type)
+  name: RegisterTagMapping(Type)
+  href: api/SixModLoader.Api.Configuration.ConfigurationManager.html#SixModLoader_Api_Configuration_ConfigurationManager_RegisterTagMapping_System_Type_
+  commentId: M:SixModLoader.Api.Configuration.ConfigurationManager.RegisterTagMapping(System.Type)
+  fullName: SixModLoader.Api.Configuration.ConfigurationManager.RegisterTagMapping(System.Type)
+  nameWithType: ConfigurationManager.RegisterTagMapping(Type)
+- uid: SixModLoader.Api.Configuration.ConfigurationManager.RegisterTagMapping*
+  name: RegisterTagMapping
+  href: api/SixModLoader.Api.Configuration.ConfigurationManager.html#SixModLoader_Api_Configuration_ConfigurationManager_RegisterTagMapping_
+  commentId: Overload:SixModLoader.Api.Configuration.ConfigurationManager.RegisterTagMapping
+  isSpec: "True"
+  fullName: SixModLoader.Api.Configuration.ConfigurationManager.RegisterTagMapping
+  nameWithType: ConfigurationManager.RegisterTagMapping
+- uid: SixModLoader.Api.Configuration.ConfigurationManager.RegisterTagMapping``1
+  name: RegisterTagMapping<T>()
+  href: api/SixModLoader.Api.Configuration.ConfigurationManager.html#SixModLoader_Api_Configuration_ConfigurationManager_RegisterTagMapping__1
+  commentId: M:SixModLoader.Api.Configuration.ConfigurationManager.RegisterTagMapping``1
+  name.vb: RegisterTagMapping(Of T)()
+  fullName: SixModLoader.Api.Configuration.ConfigurationManager.RegisterTagMapping<T>()
+  fullName.vb: SixModLoader.Api.Configuration.ConfigurationManager.RegisterTagMapping(Of T)()
+  nameWithType: ConfigurationManager.RegisterTagMapping<T>()
+  nameWithType.vb: ConfigurationManager.RegisterTagMapping(Of T)()
 - uid: SixModLoader.Api.Configuration.ConfigurationManager.Serializer
   name: Serializer
   href: api/SixModLoader.Api.Configuration.ConfigurationManager.html#SixModLoader_Api_Configuration_ConfigurationManager_Serializer
@@ -383,6 +418,19 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Configuration.ConfigurationManager.Serializer
   nameWithType: ConfigurationManager.Serializer
+- uid: SixModLoader.Api.Configuration.ConfigurationManager.TagMappings
+  name: TagMappings
+  href: api/SixModLoader.Api.Configuration.ConfigurationManager.html#SixModLoader_Api_Configuration_ConfigurationManager_TagMappings
+  commentId: P:SixModLoader.Api.Configuration.ConfigurationManager.TagMappings
+  fullName: SixModLoader.Api.Configuration.ConfigurationManager.TagMappings
+  nameWithType: ConfigurationManager.TagMappings
+- uid: SixModLoader.Api.Configuration.ConfigurationManager.TagMappings*
+  name: TagMappings
+  href: api/SixModLoader.Api.Configuration.ConfigurationManager.html#SixModLoader_Api_Configuration_ConfigurationManager_TagMappings_
+  commentId: Overload:SixModLoader.Api.Configuration.ConfigurationManager.TagMappings
+  isSpec: "True"
+  fullName: SixModLoader.Api.Configuration.ConfigurationManager.TagMappings
+  nameWithType: ConfigurationManager.TagMappings
 - uid: SixModLoader.Api.Configuration.ConfigurationType
   name: ConfigurationType
   href: api/SixModLoader.Api.Configuration.ConfigurationType.html
@@ -566,6 +614,70 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Configuration.ForceQuotedStringValuesEventEmitter.Emit
   nameWithType: ForceQuotedStringValuesEventEmitter.Emit
+- uid: SixModLoader.Api.Configuration.YamlDeserializerBuildEvent
+  name: YamlDeserializerBuildEvent
+  href: api/SixModLoader.Api.Configuration.YamlDeserializerBuildEvent.html
+  commentId: T:SixModLoader.Api.Configuration.YamlDeserializerBuildEvent
+  fullName: SixModLoader.Api.Configuration.YamlDeserializerBuildEvent
+  nameWithType: YamlDeserializerBuildEvent
+- uid: SixModLoader.Api.Configuration.YamlDeserializerBuildEvent.#ctor(YamlDotNet.Serialization.DeserializerBuilder)
+  name: YamlDeserializerBuildEvent(DeserializerBuilder)
+  href: api/SixModLoader.Api.Configuration.YamlDeserializerBuildEvent.html#SixModLoader_Api_Configuration_YamlDeserializerBuildEvent__ctor_YamlDotNet_Serialization_DeserializerBuilder_
+  commentId: M:SixModLoader.Api.Configuration.YamlDeserializerBuildEvent.#ctor(YamlDotNet.Serialization.DeserializerBuilder)
+  fullName: SixModLoader.Api.Configuration.YamlDeserializerBuildEvent.YamlDeserializerBuildEvent(YamlDotNet.Serialization.DeserializerBuilder)
+  nameWithType: YamlDeserializerBuildEvent.YamlDeserializerBuildEvent(DeserializerBuilder)
+- uid: SixModLoader.Api.Configuration.YamlDeserializerBuildEvent.#ctor*
+  name: YamlDeserializerBuildEvent
+  href: api/SixModLoader.Api.Configuration.YamlDeserializerBuildEvent.html#SixModLoader_Api_Configuration_YamlDeserializerBuildEvent__ctor_
+  commentId: Overload:SixModLoader.Api.Configuration.YamlDeserializerBuildEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Api.Configuration.YamlDeserializerBuildEvent.YamlDeserializerBuildEvent
+  nameWithType: YamlDeserializerBuildEvent.YamlDeserializerBuildEvent
+- uid: SixModLoader.Api.Configuration.YamlDeserializerBuildEvent.Builder
+  name: Builder
+  href: api/SixModLoader.Api.Configuration.YamlDeserializerBuildEvent.html#SixModLoader_Api_Configuration_YamlDeserializerBuildEvent_Builder
+  commentId: P:SixModLoader.Api.Configuration.YamlDeserializerBuildEvent.Builder
+  fullName: SixModLoader.Api.Configuration.YamlDeserializerBuildEvent.Builder
+  nameWithType: YamlDeserializerBuildEvent.Builder
+- uid: SixModLoader.Api.Configuration.YamlDeserializerBuildEvent.Builder*
+  name: Builder
+  href: api/SixModLoader.Api.Configuration.YamlDeserializerBuildEvent.html#SixModLoader_Api_Configuration_YamlDeserializerBuildEvent_Builder_
+  commentId: Overload:SixModLoader.Api.Configuration.YamlDeserializerBuildEvent.Builder
+  isSpec: "True"
+  fullName: SixModLoader.Api.Configuration.YamlDeserializerBuildEvent.Builder
+  nameWithType: YamlDeserializerBuildEvent.Builder
+- uid: SixModLoader.Api.Configuration.YamlSerializerBuildEvent
+  name: YamlSerializerBuildEvent
+  href: api/SixModLoader.Api.Configuration.YamlSerializerBuildEvent.html
+  commentId: T:SixModLoader.Api.Configuration.YamlSerializerBuildEvent
+  fullName: SixModLoader.Api.Configuration.YamlSerializerBuildEvent
+  nameWithType: YamlSerializerBuildEvent
+- uid: SixModLoader.Api.Configuration.YamlSerializerBuildEvent.#ctor(YamlDotNet.Serialization.SerializerBuilder)
+  name: YamlSerializerBuildEvent(SerializerBuilder)
+  href: api/SixModLoader.Api.Configuration.YamlSerializerBuildEvent.html#SixModLoader_Api_Configuration_YamlSerializerBuildEvent__ctor_YamlDotNet_Serialization_SerializerBuilder_
+  commentId: M:SixModLoader.Api.Configuration.YamlSerializerBuildEvent.#ctor(YamlDotNet.Serialization.SerializerBuilder)
+  fullName: SixModLoader.Api.Configuration.YamlSerializerBuildEvent.YamlSerializerBuildEvent(YamlDotNet.Serialization.SerializerBuilder)
+  nameWithType: YamlSerializerBuildEvent.YamlSerializerBuildEvent(SerializerBuilder)
+- uid: SixModLoader.Api.Configuration.YamlSerializerBuildEvent.#ctor*
+  name: YamlSerializerBuildEvent
+  href: api/SixModLoader.Api.Configuration.YamlSerializerBuildEvent.html#SixModLoader_Api_Configuration_YamlSerializerBuildEvent__ctor_
+  commentId: Overload:SixModLoader.Api.Configuration.YamlSerializerBuildEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Api.Configuration.YamlSerializerBuildEvent.YamlSerializerBuildEvent
+  nameWithType: YamlSerializerBuildEvent.YamlSerializerBuildEvent
+- uid: SixModLoader.Api.Configuration.YamlSerializerBuildEvent.Builder
+  name: Builder
+  href: api/SixModLoader.Api.Configuration.YamlSerializerBuildEvent.html#SixModLoader_Api_Configuration_YamlSerializerBuildEvent_Builder
+  commentId: P:SixModLoader.Api.Configuration.YamlSerializerBuildEvent.Builder
+  fullName: SixModLoader.Api.Configuration.YamlSerializerBuildEvent.Builder
+  nameWithType: YamlSerializerBuildEvent.Builder
+- uid: SixModLoader.Api.Configuration.YamlSerializerBuildEvent.Builder*
+  name: Builder
+  href: api/SixModLoader.Api.Configuration.YamlSerializerBuildEvent.html#SixModLoader_Api_Configuration_YamlSerializerBuildEvent_Builder_
+  commentId: Overload:SixModLoader.Api.Configuration.YamlSerializerBuildEvent.Builder
+  isSpec: "True"
+  fullName: SixModLoader.Api.Configuration.YamlSerializerBuildEvent.Builder
+  nameWithType: YamlSerializerBuildEvent.Builder
 - uid: SixModLoader.Api.CustomEffectManager
   name: CustomEffectManager
   href: api/SixModLoader.Api.CustomEffectManager.html
@@ -731,6 +843,131 @@ references:
   commentId: N:SixModLoader.Api.Events.Player
   fullName: SixModLoader.Api.Events.Player
   nameWithType: SixModLoader.Api.Events.Player
+- uid: SixModLoader.Api.Events.Player.Class
+  name: SixModLoader.Api.Events.Player.Class
+  href: api/SixModLoader.Api.Events.Player.Class.html
+  commentId: N:SixModLoader.Api.Events.Player.Class
+  fullName: SixModLoader.Api.Events.Player.Class
+  nameWithType: SixModLoader.Api.Events.Player.Class
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent
+  name: PlayerRoleChangeEvent
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.html
+  commentId: T:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent
+  nameWithType: PlayerRoleChangeEvent
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Cancelled
+  name: Cancelled
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent_Cancelled
+  commentId: P:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Cancelled
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Cancelled
+  nameWithType: PlayerRoleChangeEvent.Cancelled
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Cancelled*
+  name: Cancelled
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent_Cancelled_
+  commentId: Overload:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Cancelled
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Cancelled
+  nameWithType: PlayerRoleChangeEvent.Cancelled
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Escape
+  name: Escape
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent_Escape
+  commentId: P:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Escape
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Escape
+  nameWithType: PlayerRoleChangeEvent.Escape
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Escape*
+  name: Escape
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent_Escape_
+  commentId: Overload:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Escape
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Escape
+  nameWithType: PlayerRoleChangeEvent.Escape
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Items
+  name: Items
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent_Items
+  commentId: P:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Items
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Items
+  nameWithType: PlayerRoleChangeEvent.Items
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Items*
+  name: Items
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent_Items_
+  commentId: Overload:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Items
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Items
+  nameWithType: PlayerRoleChangeEvent.Items
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Lite
+  name: Lite
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent_Lite
+  commentId: P:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Lite
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Lite
+  nameWithType: PlayerRoleChangeEvent.Lite
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Lite*
+  name: Lite
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent_Lite_
+  commentId: Overload:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Lite
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Lite
+  nameWithType: PlayerRoleChangeEvent.Lite
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch
+  name: PlayerRoleChangeEvent.Patch
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.html
+  commentId: T:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch
+  nameWithType: PlayerRoleChangeEvent.Patch
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.Invoke(ReferenceHub,RoleType,System.Boolean,System.Boolean)
+  name: Invoke(ReferenceHub, RoleType, Boolean, Boolean)
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent_Patch_Invoke_ReferenceHub_RoleType_System_Boolean_System_Boolean_
+  commentId: M:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.Invoke(ReferenceHub,RoleType,System.Boolean,System.Boolean)
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.Invoke(ReferenceHub, RoleType, System.Boolean, System.Boolean)
+  nameWithType: PlayerRoleChangeEvent.Patch.Invoke(ReferenceHub, RoleType, Boolean, Boolean)
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.Invoke*
+  name: Invoke
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent_Patch_Invoke_
+  commentId: Overload:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.Invoke
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.Invoke
+  nameWithType: PlayerRoleChangeEvent.Patch.Invoke
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction},System.Reflection.Emit.ILGenerator)
+  name: Transpiler(IEnumerable<CodeInstruction>, ILGenerator)
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent_Patch_Transpiler_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__System_Reflection_Emit_ILGenerator_
+  commentId: M:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction},System.Reflection.Emit.ILGenerator)
+  name.vb: Transpiler(IEnumerable(Of CodeInstruction), ILGenerator)
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.Transpiler(System.Collections.Generic.IEnumerable<HarmonyLib.CodeInstruction>, System.Reflection.Emit.ILGenerator)
+  fullName.vb: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.Transpiler(System.Collections.Generic.IEnumerable(Of HarmonyLib.CodeInstruction), System.Reflection.Emit.ILGenerator)
+  nameWithType: PlayerRoleChangeEvent.Patch.Transpiler(IEnumerable<CodeInstruction>, ILGenerator)
+  nameWithType.vb: PlayerRoleChangeEvent.Patch.Transpiler(IEnumerable(Of CodeInstruction), ILGenerator)
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.Transpiler*
+  name: Transpiler
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent_Patch_Transpiler_
+  commentId: Overload:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.Transpiler
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Patch.Transpiler
+  nameWithType: PlayerRoleChangeEvent.Patch.Transpiler
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.RoleType
+  name: RoleType
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent_RoleType
+  commentId: P:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.RoleType
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.RoleType
+  nameWithType: PlayerRoleChangeEvent.RoleType
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.RoleType*
+  name: RoleType
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent_RoleType_
+  commentId: Overload:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.RoleType
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.RoleType
+  nameWithType: PlayerRoleChangeEvent.RoleType
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.ToString
+  name: ToString()
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent_ToString
+  commentId: M:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.ToString
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.ToString()
+  nameWithType: PlayerRoleChangeEvent.ToString()
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.ToString*
+  name: ToString
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent_ToString_
+  commentId: Overload:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.ToString
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.ToString
+  nameWithType: PlayerRoleChangeEvent.ToString
 - uid: SixModLoader.Api.Events.Player.Inventory
   name: SixModLoader.Api.Events.Player.Inventory
   href: api/SixModLoader.Api.Events.Player.Inventory.html
@@ -1230,18 +1467,31 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitboxType
   nameWithType: PlayerShotByPlayerEvent.HitboxType
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitInfo
+  name: HitInfo
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_HitInfo
+  commentId: P:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitInfo
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitInfo
+  nameWithType: PlayerShotByPlayerEvent.HitInfo
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitInfo*
+  name: HitInfo
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_HitInfo_
+  commentId: Overload:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitInfo
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitInfo
+  nameWithType: PlayerShotByPlayerEvent.HitInfo
 - uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch
   name: PlayerShotByPlayerEvent.Patch
   href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.html
   commentId: T:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch
   fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch
   nameWithType: PlayerShotByPlayerEvent.Patch
-- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager,CharacterClassManager,System.Single,System.Single,System.String)
-  name: Invoke(WeaponManager, CharacterClassManager, Single, Single, String)
-  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_Patch_Invoke_WeaponManager_CharacterClassManager_System_Single_System_Single_System_String_
-  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager,CharacterClassManager,System.Single,System.Single,System.String)
-  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager, CharacterClassManager, System.Single, System.Single, System.String)
-  nameWithType: PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager, CharacterClassManager, Single, Single, String)
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager,CharacterClassManager,PlayerStats.HitInfo,System.Single,System.String)
+  name: Invoke(WeaponManager, CharacterClassManager, PlayerStats.HitInfo, Single, String)
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_Patch_Invoke_WeaponManager_CharacterClassManager_PlayerStats_HitInfo_System_Single_System_String_
+  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager,CharacterClassManager,PlayerStats.HitInfo,System.Single,System.String)
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager, CharacterClassManager, PlayerStats.HitInfo, System.Single, System.String)
+  nameWithType: PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager, CharacterClassManager, PlayerStats.HitInfo, Single, String)
 - uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke*
   name: Invoke
   href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_Patch_Invoke_
@@ -1278,6 +1528,19 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Shooter
   nameWithType: PlayerShotByPlayerEvent.Shooter
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.ToString
+  name: ToString()
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_ToString
+  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.ToString
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.ToString()
+  nameWithType: PlayerShotByPlayerEvent.ToString()
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.ToString*
+  name: ToString
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_ToString_
+  commentId: Overload:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.ToString
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.ToString
+  nameWithType: PlayerShotByPlayerEvent.ToString
 - uid: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent
   name: PlayerWeaponChangeAttachmentsEvent
   href: api/SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.html
@@ -1569,29 +1832,74 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Extensions.BroadcastConnection.Player
   nameWithType: BroadcastConnection.Player
-- uid: SixModLoader.Api.Extensions.BroadcastConnection.Status
-  name: Status
-  href: api/SixModLoader.Api.Extensions.BroadcastConnection.html#SixModLoader_Api_Extensions_BroadcastConnection_Status
-  commentId: P:SixModLoader.Api.Extensions.BroadcastConnection.Status
-  fullName: SixModLoader.Api.Extensions.BroadcastConnection.Status
-  nameWithType: BroadcastConnection.Status
-- uid: SixModLoader.Api.Extensions.BroadcastConnection.Status*
-  name: Status
-  href: api/SixModLoader.Api.Extensions.BroadcastConnection.html#SixModLoader_Api_Extensions_BroadcastConnection_Status_
-  commentId: Overload:SixModLoader.Api.Extensions.BroadcastConnection.Status
+- uid: SixModLoader.Api.Extensions.BroadcastConnection.StaticMessages
+  name: StaticMessages
+  href: api/SixModLoader.Api.Extensions.BroadcastConnection.html#SixModLoader_Api_Extensions_BroadcastConnection_StaticMessages
+  commentId: P:SixModLoader.Api.Extensions.BroadcastConnection.StaticMessages
+  fullName: SixModLoader.Api.Extensions.BroadcastConnection.StaticMessages
+  nameWithType: BroadcastConnection.StaticMessages
+- uid: SixModLoader.Api.Extensions.BroadcastConnection.StaticMessages*
+  name: StaticMessages
+  href: api/SixModLoader.Api.Extensions.BroadcastConnection.html#SixModLoader_Api_Extensions_BroadcastConnection_StaticMessages_
+  commentId: Overload:SixModLoader.Api.Extensions.BroadcastConnection.StaticMessages
   isSpec: "True"
-  fullName: SixModLoader.Api.Extensions.BroadcastConnection.Status
-  nameWithType: BroadcastConnection.Status
+  fullName: SixModLoader.Api.Extensions.BroadcastConnection.StaticMessages
+  nameWithType: BroadcastConnection.StaticMessages
 - uid: SixModLoader.Api.Extensions.BroadcastExtensions
   name: BroadcastExtensions
   href: api/SixModLoader.Api.Extensions.BroadcastExtensions.html
   commentId: T:SixModLoader.Api.Extensions.BroadcastExtensions
   fullName: SixModLoader.Api.Extensions.BroadcastExtensions
   nameWithType: BroadcastExtensions
+- uid: SixModLoader.Api.Extensions.BroadcastExtensions.Broadcast(ReferenceHub,System.String,System.UInt16,Broadcast.BroadcastFlags)
+  name: Broadcast(ReferenceHub, String, UInt16, Broadcast.BroadcastFlags)
+  href: api/SixModLoader.Api.Extensions.BroadcastExtensions.html#SixModLoader_Api_Extensions_BroadcastExtensions_Broadcast_ReferenceHub_System_String_System_UInt16_Broadcast_BroadcastFlags_
+  commentId: M:SixModLoader.Api.Extensions.BroadcastExtensions.Broadcast(ReferenceHub,System.String,System.UInt16,Broadcast.BroadcastFlags)
+  fullName: SixModLoader.Api.Extensions.BroadcastExtensions.Broadcast(ReferenceHub, System.String, System.UInt16, Broadcast.BroadcastFlags)
+  nameWithType: BroadcastExtensions.Broadcast(ReferenceHub, String, UInt16, Broadcast.BroadcastFlags)
+- uid: SixModLoader.Api.Extensions.BroadcastExtensions.Broadcast(System.String,System.UInt16,Broadcast.BroadcastFlags)
+  name: Broadcast(String, UInt16, Broadcast.BroadcastFlags)
+  href: api/SixModLoader.Api.Extensions.BroadcastExtensions.html#SixModLoader_Api_Extensions_BroadcastExtensions_Broadcast_System_String_System_UInt16_Broadcast_BroadcastFlags_
+  commentId: M:SixModLoader.Api.Extensions.BroadcastExtensions.Broadcast(System.String,System.UInt16,Broadcast.BroadcastFlags)
+  fullName: SixModLoader.Api.Extensions.BroadcastExtensions.Broadcast(System.String, System.UInt16, Broadcast.BroadcastFlags)
+  nameWithType: BroadcastExtensions.Broadcast(String, UInt16, Broadcast.BroadcastFlags)
+- uid: SixModLoader.Api.Extensions.BroadcastExtensions.Broadcast*
+  name: Broadcast
+  href: api/SixModLoader.Api.Extensions.BroadcastExtensions.html#SixModLoader_Api_Extensions_BroadcastExtensions_Broadcast_
+  commentId: Overload:SixModLoader.Api.Extensions.BroadcastExtensions.Broadcast
+  isSpec: "True"
+  fullName: SixModLoader.Api.Extensions.BroadcastExtensions.Broadcast
+  nameWithType: BroadcastExtensions.Broadcast
+- uid: SixModLoader.Api.Extensions.BroadcastExtensions.ClearBroadcasts
+  name: ClearBroadcasts()
+  href: api/SixModLoader.Api.Extensions.BroadcastExtensions.html#SixModLoader_Api_Extensions_BroadcastExtensions_ClearBroadcasts
+  commentId: M:SixModLoader.Api.Extensions.BroadcastExtensions.ClearBroadcasts
+  fullName: SixModLoader.Api.Extensions.BroadcastExtensions.ClearBroadcasts()
+  nameWithType: BroadcastExtensions.ClearBroadcasts()
+- uid: SixModLoader.Api.Extensions.BroadcastExtensions.ClearBroadcasts(ReferenceHub)
+  name: ClearBroadcasts(ReferenceHub)
+  href: api/SixModLoader.Api.Extensions.BroadcastExtensions.html#SixModLoader_Api_Extensions_BroadcastExtensions_ClearBroadcasts_ReferenceHub_
+  commentId: M:SixModLoader.Api.Extensions.BroadcastExtensions.ClearBroadcasts(ReferenceHub)
+  fullName: SixModLoader.Api.Extensions.BroadcastExtensions.ClearBroadcasts(ReferenceHub)
+  nameWithType: BroadcastExtensions.ClearBroadcasts(ReferenceHub)
+- uid: SixModLoader.Api.Extensions.BroadcastExtensions.ClearBroadcasts*
+  name: ClearBroadcasts
+  href: api/SixModLoader.Api.Extensions.BroadcastExtensions.html#SixModLoader_Api_Extensions_BroadcastExtensions_ClearBroadcasts_
+  commentId: Overload:SixModLoader.Api.Extensions.BroadcastExtensions.ClearBroadcasts
+  isSpec: "True"
+  fullName: SixModLoader.Api.Extensions.BroadcastExtensions.ClearBroadcasts
+  nameWithType: BroadcastExtensions.ClearBroadcasts
 - uid: SixModLoader.Api.Extensions.BroadcastExtensions.Connections
   name: Connections
   href: api/SixModLoader.Api.Extensions.BroadcastExtensions.html#SixModLoader_Api_Extensions_BroadcastExtensions_Connections
-  commentId: F:SixModLoader.Api.Extensions.BroadcastExtensions.Connections
+  commentId: P:SixModLoader.Api.Extensions.BroadcastExtensions.Connections
+  fullName: SixModLoader.Api.Extensions.BroadcastExtensions.Connections
+  nameWithType: BroadcastExtensions.Connections
+- uid: SixModLoader.Api.Extensions.BroadcastExtensions.Connections*
+  name: Connections
+  href: api/SixModLoader.Api.Extensions.BroadcastExtensions.html#SixModLoader_Api_Extensions_BroadcastExtensions_Connections_
+  commentId: Overload:SixModLoader.Api.Extensions.BroadcastExtensions.Connections
+  isSpec: "True"
   fullName: SixModLoader.Api.Extensions.BroadcastExtensions.Connections
   nameWithType: BroadcastExtensions.Connections
 - uid: SixModLoader.Api.Extensions.BroadcastExtensions.MaxBroadcastTime
@@ -1638,22 +1946,22 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Extensions.BroadcastExtensions.RpcClearElementsPatch.Prefix
   nameWithType: BroadcastExtensions.RpcClearElementsPatch.Prefix
-- uid: SixModLoader.Api.Extensions.BroadcastExtensions.SetStatus(ReferenceHub,System.Int32,System.String,System.Nullable{System.Single})
-  name: SetStatus(ReferenceHub, Int32, String, Nullable<Single>)
-  href: api/SixModLoader.Api.Extensions.BroadcastExtensions.html#SixModLoader_Api_Extensions_BroadcastExtensions_SetStatus_ReferenceHub_System_Int32_System_String_System_Nullable_System_Single__
-  commentId: M:SixModLoader.Api.Extensions.BroadcastExtensions.SetStatus(ReferenceHub,System.Int32,System.String,System.Nullable{System.Single})
-  name.vb: SetStatus(ReferenceHub, Int32, String, Nullable(Of Single))
-  fullName: SixModLoader.Api.Extensions.BroadcastExtensions.SetStatus(ReferenceHub, System.Int32, System.String, System.Nullable<System.Single>)
-  fullName.vb: SixModLoader.Api.Extensions.BroadcastExtensions.SetStatus(ReferenceHub, System.Int32, System.String, System.Nullable(Of System.Single))
-  nameWithType: BroadcastExtensions.SetStatus(ReferenceHub, Int32, String, Nullable<Single>)
-  nameWithType.vb: BroadcastExtensions.SetStatus(ReferenceHub, Int32, String, Nullable(Of Single))
-- uid: SixModLoader.Api.Extensions.BroadcastExtensions.SetStatus*
-  name: SetStatus
-  href: api/SixModLoader.Api.Extensions.BroadcastExtensions.html#SixModLoader_Api_Extensions_BroadcastExtensions_SetStatus_
-  commentId: Overload:SixModLoader.Api.Extensions.BroadcastExtensions.SetStatus
+- uid: SixModLoader.Api.Extensions.BroadcastExtensions.SetStaticMessage(ReferenceHub,System.Int32,System.String,System.Nullable{System.Single})
+  name: SetStaticMessage(ReferenceHub, Int32, String, Nullable<Single>)
+  href: api/SixModLoader.Api.Extensions.BroadcastExtensions.html#SixModLoader_Api_Extensions_BroadcastExtensions_SetStaticMessage_ReferenceHub_System_Int32_System_String_System_Nullable_System_Single__
+  commentId: M:SixModLoader.Api.Extensions.BroadcastExtensions.SetStaticMessage(ReferenceHub,System.Int32,System.String,System.Nullable{System.Single})
+  name.vb: SetStaticMessage(ReferenceHub, Int32, String, Nullable(Of Single))
+  fullName: SixModLoader.Api.Extensions.BroadcastExtensions.SetStaticMessage(ReferenceHub, System.Int32, System.String, System.Nullable<System.Single>)
+  fullName.vb: SixModLoader.Api.Extensions.BroadcastExtensions.SetStaticMessage(ReferenceHub, System.Int32, System.String, System.Nullable(Of System.Single))
+  nameWithType: BroadcastExtensions.SetStaticMessage(ReferenceHub, Int32, String, Nullable<Single>)
+  nameWithType.vb: BroadcastExtensions.SetStaticMessage(ReferenceHub, Int32, String, Nullable(Of Single))
+- uid: SixModLoader.Api.Extensions.BroadcastExtensions.SetStaticMessage*
+  name: SetStaticMessage
+  href: api/SixModLoader.Api.Extensions.BroadcastExtensions.html#SixModLoader_Api_Extensions_BroadcastExtensions_SetStaticMessage_
+  commentId: Overload:SixModLoader.Api.Extensions.BroadcastExtensions.SetStaticMessage
   isSpec: "True"
-  fullName: SixModLoader.Api.Extensions.BroadcastExtensions.SetStatus
-  nameWithType: BroadcastExtensions.SetStatus
+  fullName: SixModLoader.Api.Extensions.BroadcastExtensions.SetStaticMessage
+  nameWithType: BroadcastExtensions.SetStaticMessage
 - uid: SixModLoader.Api.Extensions.BroadcastExtensions.TargetAddElementPatch
   name: BroadcastExtensions.TargetAddElementPatch
   href: api/SixModLoader.Api.Extensions.BroadcastExtensions.TargetAddElementPatch.html
@@ -1782,25 +2090,6 @@ references:
   commentId: T:SixModLoader.Api.Extensions.CommandExtensions
   fullName: SixModLoader.Api.Extensions.CommandExtensions
   nameWithType: CommandExtensions
-- uid: SixModLoader.Api.Extensions.CommandExtensions.CheckPermission(CommandSystem.ICommandSender,System.String)
-  name: CheckPermission(ICommandSender, String)
-  href: api/SixModLoader.Api.Extensions.CommandExtensions.html#SixModLoader_Api_Extensions_CommandExtensions_CheckPermission_CommandSystem_ICommandSender_System_String_
-  commentId: M:SixModLoader.Api.Extensions.CommandExtensions.CheckPermission(CommandSystem.ICommandSender,System.String)
-  fullName: SixModLoader.Api.Extensions.CommandExtensions.CheckPermission(CommandSystem.ICommandSender, System.String)
-  nameWithType: CommandExtensions.CheckPermission(ICommandSender, String)
-- uid: SixModLoader.Api.Extensions.CommandExtensions.CheckPermission(ReferenceHub,System.String)
-  name: CheckPermission(ReferenceHub, String)
-  href: api/SixModLoader.Api.Extensions.CommandExtensions.html#SixModLoader_Api_Extensions_CommandExtensions_CheckPermission_ReferenceHub_System_String_
-  commentId: M:SixModLoader.Api.Extensions.CommandExtensions.CheckPermission(ReferenceHub,System.String)
-  fullName: SixModLoader.Api.Extensions.CommandExtensions.CheckPermission(ReferenceHub, System.String)
-  nameWithType: CommandExtensions.CheckPermission(ReferenceHub, String)
-- uid: SixModLoader.Api.Extensions.CommandExtensions.CheckPermission*
-  name: CheckPermission
-  href: api/SixModLoader.Api.Extensions.CommandExtensions.html#SixModLoader_Api_Extensions_CommandExtensions_CheckPermission_
-  commentId: Overload:SixModLoader.Api.Extensions.CommandExtensions.CheckPermission
-  isSpec: "True"
-  fullName: SixModLoader.Api.Extensions.CommandExtensions.CheckPermission
-  nameWithType: CommandExtensions.CheckPermission
 - uid: SixModLoader.Api.Extensions.CommandExtensions.MatchPlayers(System.String,CommandSystem.ICommandSender)
   name: MatchPlayers(String, ICommandSender)
   href: api/SixModLoader.Api.Extensions.CommandExtensions.html#SixModLoader_Api_Extensions_CommandExtensions_MatchPlayers_System_String_CommandSystem_ICommandSender_
@@ -1986,6 +2275,69 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Extensions.HarmonyExtensions.Unpatch
   nameWithType: HarmonyExtensions.Unpatch
+- uid: SixModLoader.Api.Extensions.IPermissionProvider
+  name: IPermissionProvider
+  href: api/SixModLoader.Api.Extensions.IPermissionProvider.html
+  commentId: T:SixModLoader.Api.Extensions.IPermissionProvider
+  fullName: SixModLoader.Api.Extensions.IPermissionProvider
+  nameWithType: IPermissionProvider
+- uid: SixModLoader.Api.Extensions.IPermissionProvider.HasPermission(CommandSystem.ICommandSender,System.String)
+  name: HasPermission(ICommandSender, String)
+  href: api/SixModLoader.Api.Extensions.IPermissionProvider.html#SixModLoader_Api_Extensions_IPermissionProvider_HasPermission_CommandSystem_ICommandSender_System_String_
+  commentId: M:SixModLoader.Api.Extensions.IPermissionProvider.HasPermission(CommandSystem.ICommandSender,System.String)
+  fullName: SixModLoader.Api.Extensions.IPermissionProvider.HasPermission(CommandSystem.ICommandSender, System.String)
+  nameWithType: IPermissionProvider.HasPermission(ICommandSender, String)
+- uid: SixModLoader.Api.Extensions.IPermissionProvider.HasPermission(ReferenceHub,System.String)
+  name: HasPermission(ReferenceHub, String)
+  href: api/SixModLoader.Api.Extensions.IPermissionProvider.html#SixModLoader_Api_Extensions_IPermissionProvider_HasPermission_ReferenceHub_System_String_
+  commentId: M:SixModLoader.Api.Extensions.IPermissionProvider.HasPermission(ReferenceHub,System.String)
+  fullName: SixModLoader.Api.Extensions.IPermissionProvider.HasPermission(ReferenceHub, System.String)
+  nameWithType: IPermissionProvider.HasPermission(ReferenceHub, String)
+- uid: SixModLoader.Api.Extensions.IPermissionProvider.HasPermission*
+  name: HasPermission
+  href: api/SixModLoader.Api.Extensions.IPermissionProvider.html#SixModLoader_Api_Extensions_IPermissionProvider_HasPermission_
+  commentId: Overload:SixModLoader.Api.Extensions.IPermissionProvider.HasPermission
+  isSpec: "True"
+  fullName: SixModLoader.Api.Extensions.IPermissionProvider.HasPermission
+  nameWithType: IPermissionProvider.HasPermission
+- uid: SixModLoader.Api.Extensions.PermissionExtensions
+  name: PermissionExtensions
+  href: api/SixModLoader.Api.Extensions.PermissionExtensions.html
+  commentId: T:SixModLoader.Api.Extensions.PermissionExtensions
+  fullName: SixModLoader.Api.Extensions.PermissionExtensions
+  nameWithType: PermissionExtensions
+- uid: SixModLoader.Api.Extensions.PermissionExtensions.HasPermission(CommandSystem.ICommandSender,System.String)
+  name: HasPermission(ICommandSender, String)
+  href: api/SixModLoader.Api.Extensions.PermissionExtensions.html#SixModLoader_Api_Extensions_PermissionExtensions_HasPermission_CommandSystem_ICommandSender_System_String_
+  commentId: M:SixModLoader.Api.Extensions.PermissionExtensions.HasPermission(CommandSystem.ICommandSender,System.String)
+  fullName: SixModLoader.Api.Extensions.PermissionExtensions.HasPermission(CommandSystem.ICommandSender, System.String)
+  nameWithType: PermissionExtensions.HasPermission(ICommandSender, String)
+- uid: SixModLoader.Api.Extensions.PermissionExtensions.HasPermission(ReferenceHub,System.String)
+  name: HasPermission(ReferenceHub, String)
+  href: api/SixModLoader.Api.Extensions.PermissionExtensions.html#SixModLoader_Api_Extensions_PermissionExtensions_HasPermission_ReferenceHub_System_String_
+  commentId: M:SixModLoader.Api.Extensions.PermissionExtensions.HasPermission(ReferenceHub,System.String)
+  fullName: SixModLoader.Api.Extensions.PermissionExtensions.HasPermission(ReferenceHub, System.String)
+  nameWithType: PermissionExtensions.HasPermission(ReferenceHub, String)
+- uid: SixModLoader.Api.Extensions.PermissionExtensions.HasPermission*
+  name: HasPermission
+  href: api/SixModLoader.Api.Extensions.PermissionExtensions.html#SixModLoader_Api_Extensions_PermissionExtensions_HasPermission_
+  commentId: Overload:SixModLoader.Api.Extensions.PermissionExtensions.HasPermission
+  isSpec: "True"
+  fullName: SixModLoader.Api.Extensions.PermissionExtensions.HasPermission
+  nameWithType: PermissionExtensions.HasPermission
+- uid: SixModLoader.Api.Extensions.PermissionExtensions.Provider
+  name: Provider
+  href: api/SixModLoader.Api.Extensions.PermissionExtensions.html#SixModLoader_Api_Extensions_PermissionExtensions_Provider
+  commentId: P:SixModLoader.Api.Extensions.PermissionExtensions.Provider
+  fullName: SixModLoader.Api.Extensions.PermissionExtensions.Provider
+  nameWithType: PermissionExtensions.Provider
+- uid: SixModLoader.Api.Extensions.PermissionExtensions.Provider*
+  name: Provider
+  href: api/SixModLoader.Api.Extensions.PermissionExtensions.html#SixModLoader_Api_Extensions_PermissionExtensions_Provider_
+  commentId: Overload:SixModLoader.Api.Extensions.PermissionExtensions.Provider
+  isSpec: "True"
+  fullName: SixModLoader.Api.Extensions.PermissionExtensions.Provider
+  nameWithType: PermissionExtensions.Provider
 - uid: SixModLoader.Api.GithubPackageLibrary
   name: GithubPackageLibrary
   href: api/SixModLoader.Api.GithubPackageLibrary.html

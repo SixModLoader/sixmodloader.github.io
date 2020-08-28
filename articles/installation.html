@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> </title>
+    <title>Installation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" ">
+    <meta name="title" content="Installation ">
     <meta name="generator" content="docfx 2.56.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -77,8 +77,24 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+<h1 id="installation">Installation</h1>
 
-<p>yes</p>
+<p>Recommended way to install SixModLoader is using <a href="https://github.com/SixModLoader/SixModLoader.Launcher">SixModLoader.Launcher</a>.</p>
+<ol>
+<li>Install <a href="https://dotnet.microsoft.com/download/dotnet-core">.NET Core 3.1+</a> <em>or not recommended <a href="https://www.mono-project.com/download/stable/">Mono</a></em></li>
+<li>Download launcher from <a href="https://github.com/SixModLoader/SixModLoader.Launcher/releases/latest">release page</a>
+<em>(recommended .net core <code>linux</code> or <code>win</code>, or <code>net472</code> for mono/windows only, but only if you have to)</em></li>
+<li>Extract launcher executable from zip to server directory</li>
+<li>Just run <code>SixModLoader[.exe] launch &quot;LocalAdmin[.exe] 7777&quot;</code> and it will download/update SixModLoader, configure Doorstop and launch SCP:SL with mod loader injected!</li>
+</ol>
+<p><em>TIP for people using hosting providers, if your provider allows replacing LocalAdmin/MultiAdmin, you can replace it with launcher and write your arguments in <code>jumploader.txt</code></em></p>
+<p>Manual installation is a bit more complicated.</p>
+<ol>
+<li>Extract <a href="https://github.com/SixModLoader/SixModLoader/releases/latest">SixModLoader zip</a> to zip to server directory</li>
+<li>Download Doorstop (<a href="https://github.com/NeighTools/UnityDoorstop.Unix">Unix</a> or <a href="https://github.com/NeighTools/UnityDoorstop">Windows</a>)</li>
+<li>Configure Doorstop to load <code>SixModLoader/bin/SixModLoader.dll</code></li>
+<li>Launch and you should be done <em>but without auto updates :(</em></li>
+</ol>
 </article>
           </div>
           
