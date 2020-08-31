@@ -94,24 +94,24 @@
   <h6><strong>Assembly</strong>: SixModLoader.dll</h6>
   <h5 id="SixModLoader_Events_EventHandler_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EventHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public class EventHandler : object</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Events_EventHandler__ctor_System_Type_System_Object_System_Reflection_MethodInfo_.md&amp;value=---%0Auid%3A%20SixModLoader.Events.EventHandler.%23ctor(System.Type%2CSystem.Object%2CSystem.Reflection.MethodInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Events_EventHandler__ctor_Type_System_Object_MethodInfo_.md&amp;value=---%0Auid%3A%20SixModLoader.Events.EventHandler.%23ctor(Type%2CSystem.Object%2CMethodInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader/Events/EventManager.cs/#L22">View Source</a>
   </span>
   <a id="SixModLoader_Events_EventHandler__ctor_" data-uid="SixModLoader.Events.EventHandler.#ctor*"></a>
-  <h4 id="SixModLoader_Events_EventHandler__ctor_System_Type_System_Object_System_Reflection_MethodInfo_" data-uid="SixModLoader.Events.EventHandler.#ctor(System.Type,System.Object,System.Reflection.MethodInfo)">EventHandler(Type, Object, MethodInfo)</h4>
+  <h4 id="SixModLoader_Events_EventHandler__ctor_Type_System_Object_MethodInfo_" data-uid="SixModLoader.Events.EventHandler.#ctor(Type,System.Object,MethodInfo)">EventHandler(Type, Object, MethodInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EventHandler(Type eventType, [CanBeNull] object instance, [NotNull] MethodInfo method)</code></pre>
+    <pre><code class="lang-csharp hljs">public EventHandler(Type eventType, object instance, MethodInfo method)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -124,7 +124,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Type</span></td>
+        <td><span class="xref">Type</span></td>
         <td><span class="parametername">eventType</span></td>
         <td></td>
       </tr>
@@ -134,7 +134,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="xref">MethodInfo</span></td>
         <td><span class="parametername">method</span></td>
         <td></td>
       </tr>
@@ -167,7 +167,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Type</span></td>
+        <td><span class="xref">Type</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -185,8 +185,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[CanBeNull]
-public object Instance { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public object Instance { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -216,8 +215,7 @@ public object Instance { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotNull]
-public MethodInfo Method { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public MethodInfo Method { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -229,7 +227,7 @@ public MethodInfo Method { get; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="xref">MethodInfo</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -296,8 +294,6 @@ public MethodInfo Method { get; }</code></pre>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.ToString()</span></div>
 </article>
           </div>
           

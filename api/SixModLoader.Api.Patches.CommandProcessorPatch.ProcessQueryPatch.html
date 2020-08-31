@@ -94,8 +94,7 @@
   <h6><strong>Assembly</strong>: SixModLoader.Api.dll</h6>
   <h5 id="SixModLoader_Api_Patches_CommandProcessorPatch_ProcessQueryPatch_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[HarmonyPatch]
-public class ProcessQueryPatch</code></pre>
+    <pre><code class="lang-csharp hljs">public class ProcessQueryPatch : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -124,20 +123,20 @@ public class ProcessQueryPatch</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.MethodBase</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">MethodBase</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_Patches_CommandProcessorPatch_ProcessQueryPatch_Transpiler_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__System_Reflection_MethodBase_.md&amp;value=---%0Auid%3A%20SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.Transpiler(System.Collections.Generic.IEnumerable%7BHarmonyLib.CodeInstruction%7D%2CSystem.Reflection.MethodBase)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_Patches_CommandProcessorPatch_ProcessQueryPatch_Transpiler_IEnumerable_CodeInstruction__MethodBase_.md&amp;value=---%0Auid%3A%20SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.Transpiler(IEnumerable%7BCodeInstruction%7D%2CMethodBase)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/Patches/CommandPatch.cs/#L29">View Source</a>
   </span>
   <a id="SixModLoader_Api_Patches_CommandProcessorPatch_ProcessQueryPatch_Transpiler_" data-uid="SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.Transpiler*"></a>
-  <h4 id="SixModLoader_Api_Patches_CommandProcessorPatch_ProcessQueryPatch_Transpiler_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__System_Reflection_MethodBase_" data-uid="SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction},System.Reflection.MethodBase)">Transpiler(IEnumerable&lt;CodeInstruction&gt;, MethodBase)</h4>
+  <h4 id="SixModLoader_Api_Patches_CommandProcessorPatch_ProcessQueryPatch_Transpiler_IEnumerable_CodeInstruction__MethodBase_" data-uid="SixModLoader.Api.Patches.CommandProcessorPatch.ProcessQueryPatch.Transpiler(IEnumerable{CodeInstruction},MethodBase)">Transpiler(IEnumerable&lt;CodeInstruction&gt;, MethodBase)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -155,12 +154,12 @@ public class ProcessQueryPatch</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">HarmonyLib.CodeInstruction</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">CodeInstruction</span>&gt;</td>
         <td><span class="parametername">instructions</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Reflection.MethodBase</span></td>
+        <td><span class="xref">MethodBase</span></td>
         <td><span class="parametername">original</span></td>
         <td></td>
       </tr>
@@ -176,7 +175,7 @@ public class ProcessQueryPatch</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">HarmonyLib.CodeInstruction</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">CodeInstruction</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>

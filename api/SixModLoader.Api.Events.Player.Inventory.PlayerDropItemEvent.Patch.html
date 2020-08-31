@@ -94,8 +94,7 @@
   <h6><strong>Assembly</strong>: SixModLoader.Api.dll</h6>
   <h5 id="SixModLoader_Api_Events_Player_Inventory_PlayerDropItemEvent_Patch_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[HarmonyPatch(typeof(Inventory), &quot;CallCmdDropItem&quot;)]
-public class Patch</code></pre>
+    <pre><code class="lang-csharp hljs">public class Patch : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -153,13 +152,13 @@ public class Patch</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_Events_Player_Inventory_PlayerDropItemEvent_Patch_Transpiler_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__System_Reflection_Emit_ILGenerator_.md&amp;value=---%0Auid%3A%20SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.Patch.Transpiler(System.Collections.Generic.IEnumerable%7BHarmonyLib.CodeInstruction%7D%2CSystem.Reflection.Emit.ILGenerator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_Events_Player_Inventory_PlayerDropItemEvent_Patch_Transpiler_IEnumerable_CodeInstruction__ILGenerator_.md&amp;value=---%0Auid%3A%20SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.Patch.Transpiler(IEnumerable%7BCodeInstruction%7D%2CILGenerator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/Events/Player/Inventory/PlayerDropItemEvent.cs/#L35">View Source</a>
   </span>
   <a id="SixModLoader_Api_Events_Player_Inventory_PlayerDropItemEvent_Patch_Transpiler_" data-uid="SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.Patch.Transpiler*"></a>
-  <h4 id="SixModLoader_Api_Events_Player_Inventory_PlayerDropItemEvent_Patch_Transpiler_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__System_Reflection_Emit_ILGenerator_" data-uid="SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.Patch.Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction},System.Reflection.Emit.ILGenerator)">Transpiler(IEnumerable&lt;CodeInstruction&gt;, ILGenerator)</h4>
+  <h4 id="SixModLoader_Api_Events_Player_Inventory_PlayerDropItemEvent_Patch_Transpiler_IEnumerable_CodeInstruction__ILGenerator_" data-uid="SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.Patch.Transpiler(IEnumerable{CodeInstruction},ILGenerator)">Transpiler(IEnumerable&lt;CodeInstruction&gt;, ILGenerator)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -177,12 +176,12 @@ public class Patch</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">HarmonyLib.CodeInstruction</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">CodeInstruction</span>&gt;</td>
         <td><span class="parametername">instructions</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Reflection.Emit.ILGenerator</span></td>
+        <td><span class="xref">ILGenerator</span></td>
         <td><span class="parametername">iLGenerator</span></td>
         <td></td>
       </tr>
@@ -198,7 +197,7 @@ public class Patch</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">HarmonyLib.CodeInstruction</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">CodeInstruction</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
