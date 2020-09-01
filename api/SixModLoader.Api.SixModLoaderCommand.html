@@ -88,13 +88,49 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">SixModLoaderCommand</span></div>
+    <div class="level1"><span class="xref">CommandSystem.CommandHandler</span></div>
+    <div class="level2"><span class="xref">ParentCommand</span></div>
+    <div class="level3"><span class="xref">SixModLoaderCommand</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">CommandSystem.ICommandHandler</span></div>
+    <div><span class="xref">CommandSystem.ICommand</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">ParentCommand.Execute(System.ArraySegment&lt;System.String&gt;, CommandSystem.ICommandSender, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">CommandSystem.CommandHandler.Commands</span>
+    </div>
+    <div>
+      <span class="xref">CommandSystem.CommandHandler.CommandAliases</span>
+    </div>
+    <div>
+      <span class="xref">CommandSystem.CommandHandler.TryGetCommand(System.String, CommandSystem.ICommand)</span>
+    </div>
+    <div>
+      <span class="xref">CommandSystem.CommandHandler.RegisterCommand(CommandSystem.ICommand)</span>
+    </div>
+    <div>
+      <span class="xref">CommandSystem.CommandHandler.UnregisterCommand(CommandSystem.ICommand)</span>
+    </div>
+    <div>
+      <span class="xref">CommandSystem.CommandHandler.ClearCommands()</span>
+    </div>
+    <div>
+      <span class="xref">CommandSystem.CommandHandler.AllCommands</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="SixModLoader.Api.html">SixModLoader.Api</a></h6>
   <h6><strong>Assembly</strong>: SixModLoader.Api.dll</h6>
   <h5 id="SixModLoader_Api_SixModLoaderCommand_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SixModLoaderCommand : ParentCommand</code></pre>
+    <pre><code class="lang-csharp hljs">[AutoCommandHandler(typeof(GameConsoleCommandHandler))]
+[AutoCommandHandler(typeof(RemoteAdminCommandHandler))]
+public class SixModLoaderCommand : ParentCommand, ICommandHandler, ICommand</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -139,7 +175,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ICommand</span></td>
+        <td><span class="xref">CommandSystem.ICommand</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -176,6 +212,8 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">ParentCommand.Aliases</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_SixModLoaderCommand_Command.md&amp;value=---%0Auid%3A%20SixModLoader.Api.SixModLoaderCommand.Command%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -206,6 +244,8 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">ParentCommand.Command</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_SixModLoaderCommand_Description.md&amp;value=---%0Auid%3A%20SixModLoader.Api.SixModLoaderCommand.Description%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -236,17 +276,19 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">ParentCommand.Description</span></div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_SixModLoaderCommand_ExecuteParent_ArraySegment_System_String__ICommandSender_System_String__.md&amp;value=---%0Auid%3A%20SixModLoader.Api.SixModLoaderCommand.ExecuteParent(ArraySegment%7BSystem.String%7D%2CICommandSender%2CSystem.String%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_SixModLoaderCommand_ExecuteParent_System_ArraySegment_System_String__CommandSystem_ICommandSender_System_String__.md&amp;value=---%0Auid%3A%20SixModLoader.Api.SixModLoaderCommand.ExecuteParent(System.ArraySegment%7BSystem.String%7D%2CCommandSystem.ICommandSender%2CSystem.String%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/SixModLoaderCommand.cs/#L13">View Source</a>
   </span>
   <a id="SixModLoader_Api_SixModLoaderCommand_ExecuteParent_" data-uid="SixModLoader.Api.SixModLoaderCommand.ExecuteParent*"></a>
-  <h4 id="SixModLoader_Api_SixModLoaderCommand_ExecuteParent_ArraySegment_System_String__ICommandSender_System_String__" data-uid="SixModLoader.Api.SixModLoaderCommand.ExecuteParent(ArraySegment{System.String},ICommandSender,System.String@)">ExecuteParent(ArraySegment&lt;String&gt;, ICommandSender, out String)</h4>
+  <h4 id="SixModLoader_Api_SixModLoaderCommand_ExecuteParent_System_ArraySegment_System_String__CommandSystem_ICommandSender_System_String__" data-uid="SixModLoader.Api.SixModLoaderCommand.ExecuteParent(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)">ExecuteParent(ArraySegment&lt;String&gt;, ICommandSender, out String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -264,12 +306,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ArraySegment</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.ArraySegment</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">arguments</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">ICommandSender</span></td>
+        <td><span class="xref">CommandSystem.ICommandSender</span></td>
         <td><span class="parametername">sender</span></td>
         <td></td>
       </tr>
@@ -295,6 +337,8 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">ParentCommand.ExecuteParent(System.ArraySegment&lt;System.String&gt;, CommandSystem.ICommandSender, System.String)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_SixModLoaderCommand_LoadGeneratedCommands.md&amp;value=---%0Auid%3A%20SixModLoader.Api.SixModLoaderCommand.LoadGeneratedCommands%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -309,6 +353,15 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override sealed void LoadGeneratedCommands()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">CommandSystem.CommandHandler.LoadGeneratedCommands()</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">CommandSystem.ICommandHandler</span>
+  </div>
+  <div>
+      <span class="xref">CommandSystem.ICommand</span>
   </div>
 </article>
           </div>

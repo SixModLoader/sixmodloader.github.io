@@ -94,24 +94,24 @@
   <h6><strong>Assembly</strong>: SixModLoader.Api.dll</h6>
   <h5 id="SixModLoader_Api_Extensions_BroadcastMessage_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BroadcastMessage : object</code></pre>
+    <pre><code class="lang-csharp hljs">public class BroadcastMessage</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_Extensions_BroadcastMessage__ctor_System_String_System_Single_Broadcast_BroadcastFlags_NetworkConnection_.md&amp;value=---%0Auid%3A%20SixModLoader.Api.Extensions.BroadcastMessage.%23ctor(System.String%2CSystem.Single%2CBroadcast.BroadcastFlags%2CNetworkConnection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_Extensions_BroadcastMessage__ctor_System_String_System_Single_Broadcast_BroadcastFlags_Mirror_NetworkConnection_.md&amp;value=---%0Auid%3A%20SixModLoader.Api.Extensions.BroadcastMessage.%23ctor(System.String%2CSystem.Single%2CBroadcast.BroadcastFlags%2CMirror.NetworkConnection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/Extensions/BroadcastExtensions.cs/#L21">View Source</a>
   </span>
   <a id="SixModLoader_Api_Extensions_BroadcastMessage__ctor_" data-uid="SixModLoader.Api.Extensions.BroadcastMessage.#ctor*"></a>
-  <h4 id="SixModLoader_Api_Extensions_BroadcastMessage__ctor_System_String_System_Single_Broadcast_BroadcastFlags_NetworkConnection_" data-uid="SixModLoader.Api.Extensions.BroadcastMessage.#ctor(System.String,System.Single,Broadcast.BroadcastFlags,NetworkConnection)">BroadcastMessage(String, Single, Broadcast.BroadcastFlags, NetworkConnection)</h4>
+  <h4 id="SixModLoader_Api_Extensions_BroadcastMessage__ctor_System_String_System_Single_Broadcast_BroadcastFlags_Mirror_NetworkConnection_" data-uid="SixModLoader.Api.Extensions.BroadcastMessage.#ctor(System.String,System.Single,Broadcast.BroadcastFlags,Mirror.NetworkConnection)">BroadcastMessage(String, Single, Broadcast.BroadcastFlags, NetworkConnection)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BroadcastMessage(string data, float time, Broadcast.BroadcastFlags flags = null, NetworkConnection connection = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public BroadcastMessage(string data, float time, Broadcast.BroadcastFlags flags = Broadcast.BroadcastFlags.Normal, NetworkConnection connection = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -139,7 +139,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">NetworkConnection</span></td>
+        <td><span class="xref">Mirror.NetworkConnection</span></td>
         <td><span class="parametername">connection</span></td>
         <td></td>
       </tr>
@@ -172,7 +172,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">NetworkConnection</span></td>
+        <td><span class="xref">Mirror.NetworkConnection</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -262,7 +262,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DateTimeOffset</span></td>
+        <td><span class="xref">System.DateTimeOffset</span></td>
         <td></td>
       </tr>
     </tbody>

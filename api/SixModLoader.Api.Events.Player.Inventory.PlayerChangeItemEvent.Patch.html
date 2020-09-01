@@ -94,7 +94,8 @@
   <h6><strong>Assembly</strong>: SixModLoader.Api.dll</h6>
   <h5 id="SixModLoader_Api_Events_Player_Inventory_PlayerChangeItemEvent_Patch_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Patch : object</code></pre>
+    <pre><code class="lang-csharp hljs">[HarmonyPatch(typeof(Inventory), &quot;NetworkitemUniq&quot;, MethodType.Setter)]
+public class Patch</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>

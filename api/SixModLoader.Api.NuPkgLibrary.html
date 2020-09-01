@@ -88,11 +88,12 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="SixModLoader.Api.Library.html">Library</a></div>
-    <div class="level2"><a class="xref" href="SixModLoader.Api.DllLibrary.html">DllLibrary</a></div>
-    <div class="level3"><span class="xref">NuPkgLibrary</span></div>
-      <div class="level4"><a class="xref" href="SixModLoader.Api.GithubPackageLibrary.html">GithubPackageLibrary</a></div>
-      <div class="level4"><a class="xref" href="SixModLoader.Api.NuGetLibrary.html">NuGetLibrary</a></div>
+    <div class="level1"><span class="xref">System.Attribute</span></div>
+    <div class="level2"><a class="xref" href="SixModLoader.Api.Library.html">Library</a></div>
+    <div class="level3"><a class="xref" href="SixModLoader.Api.DllLibrary.html">DllLibrary</a></div>
+    <div class="level4"><span class="xref">NuPkgLibrary</span></div>
+      <div class="level5"><a class="xref" href="SixModLoader.Api.GithubPackageLibrary.html">GithubPackageLibrary</a></div>
+      <div class="level5"><a class="xref" href="SixModLoader.Api.NuGetLibrary.html">NuGetLibrary</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -110,7 +111,8 @@
   <h6><strong>Assembly</strong>: SixModLoader.Api.dll</h6>
   <h5 id="SixModLoader_Api_NuPkgLibrary_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NuPkgLibrary : DllLibrary</code></pre>
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class, AllowMultiple = true)]
+public class NuPkgLibrary : DllLibrary, _Attribute</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>

@@ -88,13 +88,15 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ModAttribute</span></div>
+    <div class="level1"><span class="xref">System.Attribute</span></div>
+    <div class="level2"><span class="xref">ModAttribute</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="SixModLoader.Mods.html">SixModLoader.Mods</a></h6>
   <h6><strong>Assembly</strong>: SixModLoader.dll</h6>
   <h5 id="SixModLoader_Mods_ModAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ModAttribute : Attribute</code></pre>
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Class)]
+public class ModAttribute : Attribute, _Attribute</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -108,9 +110,9 @@
   <a id="SixModLoader_Mods_ModAttribute__ctor_" data-uid="SixModLoader.Mods.ModAttribute.#ctor*"></a>
   <h4 id="SixModLoader_Mods_ModAttribute__ctor_System_String_" data-uid="SixModLoader.Mods.ModAttribute.#ctor(System.String)">ModAttribute(String)</h4>
   <div class="markdown level1 summary"><p>Automatically get mod info from assembly
-<br><a class="xref" href="SixModLoader.Mods.ModAttribute.html#SixModLoader_Mods_ModAttribute_Name">Name</a> from <see cref="!:AssemblyTitleAttribute.Title"></see> or <see cref="!:AssemblyName.Name"></see>
-<br><a class="xref" href="SixModLoader.Mods.ModAttribute.html#SixModLoader_Mods_ModAttribute_Version">Version</a> from <see cref="!:AssemblyInformationalVersionAttribute.InformationalVersion"></see> or <see cref="!:AssemblyName.Version"></see>
-<br><a class="xref" href="SixModLoader.Mods.ModAttribute.html#SixModLoader_Mods_ModAttribute_Authors">Authors</a> from <see cref="!:AssemblyCompanyAttribute.Company"></see> (split by &quot;,&quot;)</p>
+<br><a class="xref" href="SixModLoader.Mods.ModAttribute.html#SixModLoader_Mods_ModAttribute_Name">Name</a> from <span class="xref">System.Reflection.AssemblyTitleAttribute.Title</span> or <span class="xref">System.Reflection.AssemblyName.Name</span>
+<br><a class="xref" href="SixModLoader.Mods.ModAttribute.html#SixModLoader_Mods_ModAttribute_Version">Version</a> from <span class="xref">System.Reflection.AssemblyInformationalVersionAttribute.InformationalVersion</span> or <span class="xref">System.Reflection.AssemblyName.Version</span>
+<br><a class="xref" href="SixModLoader.Mods.ModAttribute.html#SixModLoader_Mods_ModAttribute_Authors">Authors</a> from <span class="xref">System.Reflection.AssemblyCompanyAttribute.Company</span> (split by &quot;,&quot;)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -328,7 +330,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SemanticVersion</span></td>
+        <td><span class="xref">NuGet.Versioning.SemanticVersion</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -365,15 +367,17 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Mods_ModAttribute_Update_Type_.md&amp;value=---%0Auid%3A%20SixModLoader.Mods.ModAttribute.Update(Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Mods_ModAttribute_Update_System_Type_.md&amp;value=---%0Auid%3A%20SixModLoader.Mods.ModAttribute.Update(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader/Mods/Attributes.cs/#L45">View Source</a>
   </span>
   <a id="SixModLoader_Mods_ModAttribute_Update_" data-uid="SixModLoader.Mods.ModAttribute.Update*"></a>
-  <h4 id="SixModLoader_Mods_ModAttribute_Update_Type_" data-uid="SixModLoader.Mods.ModAttribute.Update(Type)">Update(Type)</h4>
+  <h4 id="SixModLoader_Mods_ModAttribute_Update_System_Type_" data-uid="SixModLoader.Mods.ModAttribute.Update(System.Type)">Update(Type)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -391,7 +395,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">type</span></td>
         <td></td>
       </tr>
