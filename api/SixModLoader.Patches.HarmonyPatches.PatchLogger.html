@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Utils
+    <title>Class HarmonyPatches.PatchLogger
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Utils
+    <meta name="title" content="Class HarmonyPatches.PatchLogger
    ">
     <meta name="generator" content="docfx 2.56.0.0">
     
@@ -78,40 +78,41 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SixModLoader.Utils">
+            <article class="content wrap" id="_content" data-uid="SixModLoader.Patches.HarmonyPatches.PatchLogger">
   
   
-  <h1 id="SixModLoader_Utils" data-uid="SixModLoader.Utils" class="text-break">Class Utils
+  <h1 id="SixModLoader_Patches_HarmonyPatches_PatchLogger" data-uid="SixModLoader.Patches.HarmonyPatches.PatchLogger" class="text-break">Class HarmonyPatches.PatchLogger
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Utils</span></div>
+    <div class="level1"><span class="xref">HarmonyPatches.PatchLogger</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SixModLoader.html">SixModLoader</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SixModLoader.Patches.html">SixModLoader.Patches</a></h6>
   <h6><strong>Assembly</strong>: SixModLoader.dll</h6>
-  <h5 id="SixModLoader_Utils_syntax">Syntax</h5>
+  <h5 id="SixModLoader_Patches_HarmonyPatches_PatchLogger_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Utils</code></pre>
+    <pre><code class="lang-csharp hljs">[HarmonyPatch(typeof(PatchClassProcessor), &quot;Patch&quot;)]
+public static class PatchLogger</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SixModLoader/SixModLoader/new/796b31627873f86d33dfb08d3fb01da54931ed93/apiSpec/new?filename=SixModLoader_Utils_Pluralize_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20SixModLoader.Utils.Pluralize(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Patches_HarmonyPatches_PatchLogger_Postfix_HarmonyLib_PatchClassProcessor_System_Collections_Generic_List_System_Reflection_MethodInfo__HarmonyLib_Harmony_.md&amp;value=---%0Auid%3A%20SixModLoader.Patches.HarmonyPatches.PatchLogger.Postfix(HarmonyLib.PatchClassProcessor%2CSystem.Collections.Generic.List%7BSystem.Reflection.MethodInfo%7D%2CHarmonyLib.Harmony)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SixModLoader/SixModLoader/blob/796b31627873f86d33dfb08d3fb01da54931ed93/SixModLoader/Utils.cs/#L7">View Source</a>
+    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader/Patches/HarmonyPatches.cs/#L33">View Source</a>
   </span>
-  <a id="SixModLoader_Utils_Pluralize_" data-uid="SixModLoader.Utils.Pluralize*"></a>
-  <h4 id="SixModLoader_Utils_Pluralize_System_String_System_Int32_" data-uid="SixModLoader.Utils.Pluralize(System.String,System.Int32)">Pluralize(String, Int32)</h4>
+  <a id="SixModLoader_Patches_HarmonyPatches_PatchLogger_Postfix_" data-uid="SixModLoader.Patches.HarmonyPatches.PatchLogger.Postfix*"></a>
+  <h4 id="SixModLoader_Patches_HarmonyPatches_PatchLogger_Postfix_HarmonyLib_PatchClassProcessor_System_Collections_Generic_List_System_Reflection_MethodInfo__HarmonyLib_Harmony_" data-uid="SixModLoader.Patches.HarmonyPatches.PatchLogger.Postfix(HarmonyLib.PatchClassProcessor,System.Collections.Generic.List{System.Reflection.MethodInfo},HarmonyLib.Harmony)">Postfix(PatchClassProcessor, List&lt;MethodInfo&gt;, Harmony)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string Pluralize(this string text, int count)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Postfix(PatchClassProcessor __instance, List&lt;MethodInfo&gt; __result, Harmony ___instance)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -124,75 +125,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">text</span></td>
+        <td><span class="xref">HarmonyLib.PatchClassProcessor</span></td>
+        <td><span class="parametername">__instance</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">count</span></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Reflection.MethodInfo</span>&gt;</td>
+        <td><span class="parametername">__result</span></td>
         <td></td>
       </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/SixModLoader/SixModLoader/new/796b31627873f86d33dfb08d3fb01da54931ed93/apiSpec/new?filename=SixModLoader_Utils_ToNuGetVersion_NuGet_Versioning_SemanticVersion_.md&amp;value=---%0Auid%3A%20SixModLoader.Utils.ToNuGetVersion(NuGet.Versioning.SemanticVersion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SixModLoader/SixModLoader/blob/796b31627873f86d33dfb08d3fb01da54931ed93/SixModLoader/Utils.cs/#L12">View Source</a>
-  </span>
-  <a id="SixModLoader_Utils_ToNuGetVersion_" data-uid="SixModLoader.Utils.ToNuGetVersion*"></a>
-  <h4 id="SixModLoader_Utils_ToNuGetVersion_NuGet_Versioning_SemanticVersion_" data-uid="SixModLoader.Utils.ToNuGetVersion(NuGet.Versioning.SemanticVersion)">ToNuGetVersion(SemanticVersion)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static NuGetVersion ToNuGetVersion(this SemanticVersion semanticVersion)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">NuGet.Versioning.SemanticVersion</span></td>
-        <td><span class="parametername">semanticVersion</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">NuGet.Versioning.NuGetVersion</span></td>
+        <td><span class="xref">HarmonyLib.Harmony</span></td>
+        <td><span class="parametername">___instance</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -205,10 +149,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/SixModLoader/SixModLoader/new/796b31627873f86d33dfb08d3fb01da54931ed93/apiSpec/new?filename=SixModLoader_Utils.md&amp;value=---%0Auid%3A%20SixModLoader.Utils%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Patches_HarmonyPatches_PatchLogger.md&amp;value=---%0Auid%3A%20SixModLoader.Patches.HarmonyPatches.PatchLogger%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/SixModLoader/SixModLoader/blob/796b31627873f86d33dfb08d3fb01da54931ed93/SixModLoader/Utils.cs/#L5" class="contribution-link">View Source</a>
+                    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader/Patches/HarmonyPatches.cs/#L30" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

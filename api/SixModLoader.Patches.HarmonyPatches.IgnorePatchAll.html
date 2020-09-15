@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class LibraryManager
+    <title>Class HarmonyPatches.IgnorePatchAll
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class LibraryManager
+    <meta name="title" content="Class HarmonyPatches.IgnorePatchAll
    ">
     <meta name="generator" content="docfx 2.56.0.0">
     
@@ -78,55 +78,41 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SixModLoader.Api.LibraryManager">
+            <article class="content wrap" id="_content" data-uid="SixModLoader.Patches.HarmonyPatches.IgnorePatchAll">
   
   
-  <h1 id="SixModLoader_Api_LibraryManager" data-uid="SixModLoader.Api.LibraryManager" class="text-break">Class LibraryManager
+  <h1 id="SixModLoader_Patches_HarmonyPatches_IgnorePatchAll" data-uid="SixModLoader.Patches.HarmonyPatches.IgnorePatchAll" class="text-break">Class HarmonyPatches.IgnorePatchAll
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">LibraryManager</span></div>
+    <div class="level1"><span class="xref">HarmonyPatches.IgnorePatchAll</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SixModLoader.Api.html">SixModLoader.Api</a></h6>
-  <h6><strong>Assembly</strong>: SixModLoader.Api.dll</h6>
-  <h5 id="SixModLoader_Api_LibraryManager_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SixModLoader.Patches.html">SixModLoader.Patches</a></h6>
+  <h6><strong>Assembly</strong>: SixModLoader.dll</h6>
+  <h5 id="SixModLoader_Patches_HarmonyPatches_IgnorePatchAll_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LibraryManager</code></pre>
+    <pre><code class="lang-csharp hljs">[HarmonyPatch(typeof(Harmony), &quot;PatchAll&quot;, new Type[]{typeof(Assembly)})]
+public static class IgnorePatchAll</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_LibraryManager_Download.md&amp;value=---%0Auid%3A%20SixModLoader.Api.LibraryManager.Download%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Patches_HarmonyPatches_IgnorePatchAll_Proxy_System_Reflection_Assembly_.md&amp;value=---%0Auid%3A%20SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Proxy(System.Reflection.Assembly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/LibraryManager.cs/#L156">View Source</a>
+    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader/Patches/HarmonyPatches.cs/#L16">View Source</a>
   </span>
-  <a id="SixModLoader_Api_LibraryManager_Download_" data-uid="SixModLoader.Api.LibraryManager.Download*"></a>
-  <h4 id="SixModLoader_Api_LibraryManager_Download" data-uid="SixModLoader.Api.LibraryManager.Download">Download()</h4>
+  <a id="SixModLoader_Patches_HarmonyPatches_IgnorePatchAll_Proxy_" data-uid="SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Proxy*"></a>
+  <h4 id="SixModLoader_Patches_HarmonyPatches_IgnorePatchAll_Proxy_System_Reflection_Assembly_" data-uid="SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Proxy(System.Reflection.Assembly)">Proxy(Assembly)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Download()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_LibraryManager_Download_SixModLoader_Api_Library___.md&amp;value=---%0Auid%3A%20SixModLoader.Api.LibraryManager.Download(SixModLoader.Api.Library%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/LibraryManager.cs/#L164">View Source</a>
-  </span>
-  <a id="SixModLoader_Api_LibraryManager_Download_" data-uid="SixModLoader.Api.LibraryManager.Download*"></a>
-  <h4 id="SixModLoader_Api_LibraryManager_Download_SixModLoader_Api_Library___" data-uid="SixModLoader.Api.LibraryManager.Download(SixModLoader.Api.Library[])">Download(Library[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Download(params Library[] libraries)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Type[] Proxy(Assembly assembly)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -139,8 +125,70 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SixModLoader.Api.Library.html">Library</a>[]</td>
-        <td><span class="parametername">libraries</span></td>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td><span class="parametername">assembly</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Patches_HarmonyPatches_IgnorePatchAll_Transpiler_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__.md&amp;value=---%0Auid%3A%20SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Transpiler(System.Collections.Generic.IEnumerable%7BHarmonyLib.CodeInstruction%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader/Patches/HarmonyPatches.cs/#L24">View Source</a>
+  </span>
+  <a id="SixModLoader_Patches_HarmonyPatches_IgnorePatchAll_Transpiler_" data-uid="SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Transpiler*"></a>
+  <h4 id="SixModLoader_Patches_HarmonyPatches_IgnorePatchAll_Transpiler_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__" data-uid="SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction})">Transpiler(IEnumerable&lt;CodeInstruction&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CodeInstruction&gt; Transpiler(IEnumerable&lt;CodeInstruction&gt; instructions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">HarmonyLib.CodeInstruction</span>&gt;</td>
+        <td><span class="parametername">instructions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">HarmonyLib.CodeInstruction</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -153,10 +201,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_LibraryManager.md&amp;value=---%0Auid%3A%20SixModLoader.Api.LibraryManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Patches_HarmonyPatches_IgnorePatchAll.md&amp;value=---%0Auid%3A%20SixModLoader.Patches.HarmonyPatches.IgnorePatchAll%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/LibraryManager.cs/#L154" class="contribution-link">View Source</a>
+                    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader/Patches/HarmonyPatches.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -329,19 +329,6 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Configuration.ConfigurationManager.Deserializer
   nameWithType: ConfigurationManager.Deserializer
-- uid: SixModLoader.Api.Configuration.ConfigurationManager.Initialize
-  name: Initialize()
-  href: api/SixModLoader.Api.Configuration.ConfigurationManager.html#SixModLoader_Api_Configuration_ConfigurationManager_Initialize
-  commentId: M:SixModLoader.Api.Configuration.ConfigurationManager.Initialize
-  fullName: SixModLoader.Api.Configuration.ConfigurationManager.Initialize()
-  nameWithType: ConfigurationManager.Initialize()
-- uid: SixModLoader.Api.Configuration.ConfigurationManager.Initialize*
-  name: Initialize
-  href: api/SixModLoader.Api.Configuration.ConfigurationManager.html#SixModLoader_Api_Configuration_ConfigurationManager_Initialize_
-  commentId: Overload:SixModLoader.Api.Configuration.ConfigurationManager.Initialize
-  isSpec: "True"
-  fullName: SixModLoader.Api.Configuration.ConfigurationManager.Initialize
-  nameWithType: ConfigurationManager.Initialize
 - uid: SixModLoader.Api.Configuration.ConfigurationManager.LoadConfigurationFile(System.Type,System.String,System.Object)
   name: LoadConfigurationFile(Type, String, Object)
   href: api/SixModLoader.Api.Configuration.ConfigurationManager.html#SixModLoader_Api_Configuration_ConfigurationManager_LoadConfigurationFile_System_Type_System_String_System_Object_
@@ -1409,6 +1396,19 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.TargetPos
   nameWithType: PlayerShootEvent.TargetPos
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.ToString
+  name: ToString()
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShootEvent_ToString
+  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.ToString
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.ToString()
+  nameWithType: PlayerShootEvent.ToString()
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.ToString*
+  name: ToString
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShootEvent_ToString_
+  commentId: Overload:SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.ToString
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.ToString
+  nameWithType: PlayerShootEvent.ToString
 - uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent
   name: PlayerShotByPlayerEvent
   href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.html
@@ -1870,6 +1870,19 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Extensions.BroadcastExtensions.Broadcast
   nameWithType: BroadcastExtensions.Broadcast
+- uid: SixModLoader.Api.Extensions.BroadcastExtensions.BroadcastComponent
+  name: BroadcastComponent
+  href: api/SixModLoader.Api.Extensions.BroadcastExtensions.html#SixModLoader_Api_Extensions_BroadcastExtensions_BroadcastComponent
+  commentId: P:SixModLoader.Api.Extensions.BroadcastExtensions.BroadcastComponent
+  fullName: SixModLoader.Api.Extensions.BroadcastExtensions.BroadcastComponent
+  nameWithType: BroadcastExtensions.BroadcastComponent
+- uid: SixModLoader.Api.Extensions.BroadcastExtensions.BroadcastComponent*
+  name: BroadcastComponent
+  href: api/SixModLoader.Api.Extensions.BroadcastExtensions.html#SixModLoader_Api_Extensions_BroadcastExtensions_BroadcastComponent_
+  commentId: Overload:SixModLoader.Api.Extensions.BroadcastExtensions.BroadcastComponent
+  isSpec: "True"
+  fullName: SixModLoader.Api.Extensions.BroadcastExtensions.BroadcastComponent
+  nameWithType: BroadcastExtensions.BroadcastComponent
 - uid: SixModLoader.Api.Extensions.BroadcastExtensions.ClearBroadcasts
   name: ClearBroadcasts()
   href: api/SixModLoader.Api.Extensions.BroadcastExtensions.html#SixModLoader_Api_Extensions_BroadcastExtensions_ClearBroadcasts
@@ -2160,6 +2173,18 @@ references:
   commentId: M:SixModLoader.Api.Extensions.FormatExtensions.Color(System.String,ReferenceHub)
   fullName: SixModLoader.Api.Extensions.FormatExtensions.Color(System.String, ReferenceHub)
   nameWithType: FormatExtensions.Color(String, ReferenceHub)
+- uid: SixModLoader.Api.Extensions.FormatExtensions.Color(System.String,Role)
+  name: Color(String, Role)
+  href: api/SixModLoader.Api.Extensions.FormatExtensions.html#SixModLoader_Api_Extensions_FormatExtensions_Color_System_String_Role_
+  commentId: M:SixModLoader.Api.Extensions.FormatExtensions.Color(System.String,Role)
+  fullName: SixModLoader.Api.Extensions.FormatExtensions.Color(System.String, Role)
+  nameWithType: FormatExtensions.Color(String, Role)
+- uid: SixModLoader.Api.Extensions.FormatExtensions.Color(System.String,RoleType)
+  name: Color(String, RoleType)
+  href: api/SixModLoader.Api.Extensions.FormatExtensions.html#SixModLoader_Api_Extensions_FormatExtensions_Color_System_String_RoleType_
+  commentId: M:SixModLoader.Api.Extensions.FormatExtensions.Color(System.String,RoleType)
+  fullName: SixModLoader.Api.Extensions.FormatExtensions.Color(System.String, RoleType)
+  nameWithType: FormatExtensions.Color(String, RoleType)
 - uid: SixModLoader.Api.Extensions.FormatExtensions.Color(System.String,System.String)
   name: Color(String, String)
   href: api/SixModLoader.Api.Extensions.FormatExtensions.html#SixModLoader_Api_Extensions_FormatExtensions_Color_System_String_System_String_
@@ -2230,19 +2255,6 @@ references:
   commentId: T:SixModLoader.Api.Extensions.HarmonyExtensions
   fullName: SixModLoader.Api.Extensions.HarmonyExtensions
   nameWithType: HarmonyExtensions
-- uid: SixModLoader.Api.Extensions.HarmonyExtensions.Initialize
-  name: Initialize()
-  href: api/SixModLoader.Api.Extensions.HarmonyExtensions.html#SixModLoader_Api_Extensions_HarmonyExtensions_Initialize
-  commentId: M:SixModLoader.Api.Extensions.HarmonyExtensions.Initialize
-  fullName: SixModLoader.Api.Extensions.HarmonyExtensions.Initialize()
-  nameWithType: HarmonyExtensions.Initialize()
-- uid: SixModLoader.Api.Extensions.HarmonyExtensions.Initialize*
-  name: Initialize
-  href: api/SixModLoader.Api.Extensions.HarmonyExtensions.html#SixModLoader_Api_Extensions_HarmonyExtensions_Initialize_
-  commentId: Overload:SixModLoader.Api.Extensions.HarmonyExtensions.Initialize
-  isSpec: "True"
-  fullName: SixModLoader.Api.Extensions.HarmonyExtensions.Initialize
-  nameWithType: HarmonyExtensions.Initialize
 - uid: SixModLoader.Api.Extensions.HarmonyExtensions.Patch
   name: HarmonyExtensions.Patch
   href: api/SixModLoader.Api.Extensions.HarmonyExtensions.Patch.html
@@ -2820,6 +2832,67 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.SixModLoaderCommand.ModsCommand.Execute
   nameWithType: SixModLoaderCommand.ModsCommand.Execute
+- uid: SixModLoader.Api.SixModLoaderCommand.PatchesCommand
+  name: SixModLoaderCommand.PatchesCommand
+  href: api/SixModLoader.Api.SixModLoaderCommand.PatchesCommand.html
+  commentId: T:SixModLoader.Api.SixModLoaderCommand.PatchesCommand
+  fullName: SixModLoader.Api.SixModLoaderCommand.PatchesCommand
+  nameWithType: SixModLoaderCommand.PatchesCommand
+- uid: SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Aliases
+  name: Aliases
+  href: api/SixModLoader.Api.SixModLoaderCommand.PatchesCommand.html#SixModLoader_Api_SixModLoaderCommand_PatchesCommand_Aliases
+  commentId: P:SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Aliases
+  fullName: SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Aliases
+  nameWithType: SixModLoaderCommand.PatchesCommand.Aliases
+- uid: SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Aliases*
+  name: Aliases
+  href: api/SixModLoader.Api.SixModLoaderCommand.PatchesCommand.html#SixModLoader_Api_SixModLoaderCommand_PatchesCommand_Aliases_
+  commentId: Overload:SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Aliases
+  isSpec: "True"
+  fullName: SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Aliases
+  nameWithType: SixModLoaderCommand.PatchesCommand.Aliases
+- uid: SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Command
+  name: Command
+  href: api/SixModLoader.Api.SixModLoaderCommand.PatchesCommand.html#SixModLoader_Api_SixModLoaderCommand_PatchesCommand_Command
+  commentId: P:SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Command
+  fullName: SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Command
+  nameWithType: SixModLoaderCommand.PatchesCommand.Command
+- uid: SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Command*
+  name: Command
+  href: api/SixModLoader.Api.SixModLoaderCommand.PatchesCommand.html#SixModLoader_Api_SixModLoaderCommand_PatchesCommand_Command_
+  commentId: Overload:SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Command
+  isSpec: "True"
+  fullName: SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Command
+  nameWithType: SixModLoaderCommand.PatchesCommand.Command
+- uid: SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Description
+  name: Description
+  href: api/SixModLoader.Api.SixModLoaderCommand.PatchesCommand.html#SixModLoader_Api_SixModLoaderCommand_PatchesCommand_Description
+  commentId: P:SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Description
+  fullName: SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Description
+  nameWithType: SixModLoaderCommand.PatchesCommand.Description
+- uid: SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Description*
+  name: Description
+  href: api/SixModLoader.Api.SixModLoaderCommand.PatchesCommand.html#SixModLoader_Api_SixModLoaderCommand_PatchesCommand_Description_
+  commentId: Overload:SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Description
+  isSpec: "True"
+  fullName: SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Description
+  nameWithType: SixModLoaderCommand.PatchesCommand.Description
+- uid: SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Execute(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)
+  name: Execute(ArraySegment<String>, ICommandSender, out String)
+  href: api/SixModLoader.Api.SixModLoaderCommand.PatchesCommand.html#SixModLoader_Api_SixModLoaderCommand_PatchesCommand_Execute_System_ArraySegment_System_String__CommandSystem_ICommandSender_System_String__
+  commentId: M:SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Execute(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)
+  name.vb: Execute(ArraySegment(Of String), ICommandSender, ByRef String)
+  fullName: SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Execute(System.ArraySegment<System.String>, CommandSystem.ICommandSender, out System.String)
+  fullName.vb: SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Execute(System.ArraySegment(Of System.String), CommandSystem.ICommandSender, ByRef System.String)
+  nameWithType: SixModLoaderCommand.PatchesCommand.Execute(ArraySegment<String>, ICommandSender, out String)
+  nameWithType.vb: SixModLoaderCommand.PatchesCommand.Execute(ArraySegment(Of String), ICommandSender, ByRef String)
+- uid: SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Execute*
+  name: Execute
+  href: api/SixModLoader.Api.SixModLoaderCommand.PatchesCommand.html#SixModLoader_Api_SixModLoaderCommand_PatchesCommand_Execute_
+  commentId: Overload:SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Execute
+  isSpec: "True"
+  fullName: SixModLoader.Api.SixModLoaderCommand.PatchesCommand.Execute
+  nameWithType: SixModLoaderCommand.PatchesCommand.Execute
 - uid: SixModLoader.Api.SixModLoaderCommand.ReloadCommand
   name: SixModLoaderCommand.ReloadCommand
   href: api/SixModLoader.Api.SixModLoaderCommand.ReloadCommand.html
@@ -3300,6 +3373,60 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Events.ICancellableEvent.Cancelled
   nameWithType: ICancellableEvent.Cancelled
+- uid: SixModLoader.Extensions
+  name: Extensions
+  href: api/SixModLoader.Extensions.html
+  commentId: T:SixModLoader.Extensions
+  fullName: SixModLoader.Extensions
+  nameWithType: Extensions
+- uid: SixModLoader.Extensions.PatchAll(HarmonyLib.Harmony,System.Type)
+  name: PatchAll(Harmony, Type)
+  href: api/SixModLoader.Extensions.html#SixModLoader_Extensions_PatchAll_HarmonyLib_Harmony_System_Type_
+  commentId: M:SixModLoader.Extensions.PatchAll(HarmonyLib.Harmony,System.Type)
+  fullName: SixModLoader.Extensions.PatchAll(HarmonyLib.Harmony, System.Type)
+  nameWithType: Extensions.PatchAll(Harmony, Type)
+- uid: SixModLoader.Extensions.PatchAll*
+  name: PatchAll
+  href: api/SixModLoader.Extensions.html#SixModLoader_Extensions_PatchAll_
+  commentId: Overload:SixModLoader.Extensions.PatchAll
+  isSpec: "True"
+  fullName: SixModLoader.Extensions.PatchAll
+  nameWithType: Extensions.PatchAll
+- uid: SixModLoader.Extensions.PatchAll``1(HarmonyLib.Harmony)
+  name: PatchAll<T>(Harmony)
+  href: api/SixModLoader.Extensions.html#SixModLoader_Extensions_PatchAll__1_HarmonyLib_Harmony_
+  commentId: M:SixModLoader.Extensions.PatchAll``1(HarmonyLib.Harmony)
+  name.vb: PatchAll(Of T)(Harmony)
+  fullName: SixModLoader.Extensions.PatchAll<T>(HarmonyLib.Harmony)
+  fullName.vb: SixModLoader.Extensions.PatchAll(Of T)(HarmonyLib.Harmony)
+  nameWithType: Extensions.PatchAll<T>(Harmony)
+  nameWithType.vb: Extensions.PatchAll(Of T)(Harmony)
+- uid: SixModLoader.Extensions.Pluralize(System.String,System.Int32)
+  name: Pluralize(String, Int32)
+  href: api/SixModLoader.Extensions.html#SixModLoader_Extensions_Pluralize_System_String_System_Int32_
+  commentId: M:SixModLoader.Extensions.Pluralize(System.String,System.Int32)
+  fullName: SixModLoader.Extensions.Pluralize(System.String, System.Int32)
+  nameWithType: Extensions.Pluralize(String, Int32)
+- uid: SixModLoader.Extensions.Pluralize*
+  name: Pluralize
+  href: api/SixModLoader.Extensions.html#SixModLoader_Extensions_Pluralize_
+  commentId: Overload:SixModLoader.Extensions.Pluralize
+  isSpec: "True"
+  fullName: SixModLoader.Extensions.Pluralize
+  nameWithType: Extensions.Pluralize
+- uid: SixModLoader.Extensions.ToNuGetVersion(NuGet.Versioning.SemanticVersion)
+  name: ToNuGetVersion(SemanticVersion)
+  href: api/SixModLoader.Extensions.html#SixModLoader_Extensions_ToNuGetVersion_NuGet_Versioning_SemanticVersion_
+  commentId: M:SixModLoader.Extensions.ToNuGetVersion(NuGet.Versioning.SemanticVersion)
+  fullName: SixModLoader.Extensions.ToNuGetVersion(NuGet.Versioning.SemanticVersion)
+  nameWithType: Extensions.ToNuGetVersion(SemanticVersion)
+- uid: SixModLoader.Extensions.ToNuGetVersion*
+  name: ToNuGetVersion
+  href: api/SixModLoader.Extensions.html#SixModLoader_Extensions_ToNuGetVersion_
+  commentId: Overload:SixModLoader.Extensions.ToNuGetVersion
+  isSpec: "True"
+  fullName: SixModLoader.Extensions.ToNuGetVersion
+  nameWithType: Extensions.ToNuGetVersion
 - uid: SixModLoader.GameVersionParser
   name: GameVersionParser
   href: api/SixModLoader.GameVersionParser.html
@@ -3982,6 +4109,75 @@ references:
   commentId: T:SixModLoader.Mods.ModReloadEvent
   fullName: SixModLoader.Mods.ModReloadEvent
   nameWithType: ModReloadEvent
+- uid: SixModLoader.Patches
+  name: SixModLoader.Patches
+  href: api/SixModLoader.Patches.html
+  commentId: N:SixModLoader.Patches
+  fullName: SixModLoader.Patches
+  nameWithType: SixModLoader.Patches
+- uid: SixModLoader.Patches.HarmonyPatches
+  name: HarmonyPatches
+  href: api/SixModLoader.Patches.HarmonyPatches.html
+  commentId: T:SixModLoader.Patches.HarmonyPatches
+  fullName: SixModLoader.Patches.HarmonyPatches
+  nameWithType: HarmonyPatches
+- uid: SixModLoader.Patches.HarmonyPatches.IgnorePatchAll
+  name: HarmonyPatches.IgnorePatchAll
+  href: api/SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.html
+  commentId: T:SixModLoader.Patches.HarmonyPatches.IgnorePatchAll
+  fullName: SixModLoader.Patches.HarmonyPatches.IgnorePatchAll
+  nameWithType: HarmonyPatches.IgnorePatchAll
+- uid: SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Proxy(System.Reflection.Assembly)
+  name: Proxy(Assembly)
+  href: api/SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.html#SixModLoader_Patches_HarmonyPatches_IgnorePatchAll_Proxy_System_Reflection_Assembly_
+  commentId: M:SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Proxy(System.Reflection.Assembly)
+  fullName: SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Proxy(System.Reflection.Assembly)
+  nameWithType: HarmonyPatches.IgnorePatchAll.Proxy(Assembly)
+- uid: SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Proxy*
+  name: Proxy
+  href: api/SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.html#SixModLoader_Patches_HarmonyPatches_IgnorePatchAll_Proxy_
+  commentId: Overload:SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Proxy
+  isSpec: "True"
+  fullName: SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Proxy
+  nameWithType: HarmonyPatches.IgnorePatchAll.Proxy
+- uid: SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction})
+  name: Transpiler(IEnumerable<CodeInstruction>)
+  href: api/SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.html#SixModLoader_Patches_HarmonyPatches_IgnorePatchAll_Transpiler_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__
+  commentId: M:SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction})
+  name.vb: Transpiler(IEnumerable(Of CodeInstruction))
+  fullName: SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Transpiler(System.Collections.Generic.IEnumerable<HarmonyLib.CodeInstruction>)
+  fullName.vb: SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Transpiler(System.Collections.Generic.IEnumerable(Of HarmonyLib.CodeInstruction))
+  nameWithType: HarmonyPatches.IgnorePatchAll.Transpiler(IEnumerable<CodeInstruction>)
+  nameWithType.vb: HarmonyPatches.IgnorePatchAll.Transpiler(IEnumerable(Of CodeInstruction))
+- uid: SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Transpiler*
+  name: Transpiler
+  href: api/SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.html#SixModLoader_Patches_HarmonyPatches_IgnorePatchAll_Transpiler_
+  commentId: Overload:SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Transpiler
+  isSpec: "True"
+  fullName: SixModLoader.Patches.HarmonyPatches.IgnorePatchAll.Transpiler
+  nameWithType: HarmonyPatches.IgnorePatchAll.Transpiler
+- uid: SixModLoader.Patches.HarmonyPatches.PatchLogger
+  name: HarmonyPatches.PatchLogger
+  href: api/SixModLoader.Patches.HarmonyPatches.PatchLogger.html
+  commentId: T:SixModLoader.Patches.HarmonyPatches.PatchLogger
+  fullName: SixModLoader.Patches.HarmonyPatches.PatchLogger
+  nameWithType: HarmonyPatches.PatchLogger
+- uid: SixModLoader.Patches.HarmonyPatches.PatchLogger.Postfix(HarmonyLib.PatchClassProcessor,System.Collections.Generic.List{System.Reflection.MethodInfo},HarmonyLib.Harmony)
+  name: Postfix(PatchClassProcessor, List<MethodInfo>, Harmony)
+  href: api/SixModLoader.Patches.HarmonyPatches.PatchLogger.html#SixModLoader_Patches_HarmonyPatches_PatchLogger_Postfix_HarmonyLib_PatchClassProcessor_System_Collections_Generic_List_System_Reflection_MethodInfo__HarmonyLib_Harmony_
+  commentId: M:SixModLoader.Patches.HarmonyPatches.PatchLogger.Postfix(HarmonyLib.PatchClassProcessor,System.Collections.Generic.List{System.Reflection.MethodInfo},HarmonyLib.Harmony)
+  name.vb: Postfix(PatchClassProcessor, List(Of MethodInfo), Harmony)
+  fullName: SixModLoader.Patches.HarmonyPatches.PatchLogger.Postfix(HarmonyLib.PatchClassProcessor, System.Collections.Generic.List<System.Reflection.MethodInfo>, HarmonyLib.Harmony)
+  fullName.vb: SixModLoader.Patches.HarmonyPatches.PatchLogger.Postfix(HarmonyLib.PatchClassProcessor, System.Collections.Generic.List(Of System.Reflection.MethodInfo), HarmonyLib.Harmony)
+  nameWithType: HarmonyPatches.PatchLogger.Postfix(PatchClassProcessor, List<MethodInfo>, Harmony)
+  nameWithType.vb: HarmonyPatches.PatchLogger.Postfix(PatchClassProcessor, List(Of MethodInfo), Harmony)
+- uid: SixModLoader.Patches.HarmonyPatches.PatchLogger.Postfix*
+  name: Postfix
+  href: api/SixModLoader.Patches.HarmonyPatches.PatchLogger.html#SixModLoader_Patches_HarmonyPatches_PatchLogger_Postfix_
+  commentId: Overload:SixModLoader.Patches.HarmonyPatches.PatchLogger.Postfix
+  isSpec: "True"
+  fullName: SixModLoader.Patches.HarmonyPatches.PatchLogger.Postfix
+  nameWithType: HarmonyPatches.PatchLogger.Postfix
 - uid: SixModLoader.Priority
   name: Priority
   href: api/SixModLoader.Priority.html
@@ -4231,35 +4427,3 @@ references:
   isSpec: "True"
   fullName: SixModLoader.SixModLoader.Version
   nameWithType: SixModLoader.Version
-- uid: SixModLoader.Utils
-  name: Utils
-  href: api/SixModLoader.Utils.html
-  commentId: T:SixModLoader.Utils
-  fullName: SixModLoader.Utils
-  nameWithType: Utils
-- uid: SixModLoader.Utils.Pluralize(System.String,System.Int32)
-  name: Pluralize(String, Int32)
-  href: api/SixModLoader.Utils.html#SixModLoader_Utils_Pluralize_System_String_System_Int32_
-  commentId: M:SixModLoader.Utils.Pluralize(System.String,System.Int32)
-  fullName: SixModLoader.Utils.Pluralize(System.String, System.Int32)
-  nameWithType: Utils.Pluralize(String, Int32)
-- uid: SixModLoader.Utils.Pluralize*
-  name: Pluralize
-  href: api/SixModLoader.Utils.html#SixModLoader_Utils_Pluralize_
-  commentId: Overload:SixModLoader.Utils.Pluralize
-  isSpec: "True"
-  fullName: SixModLoader.Utils.Pluralize
-  nameWithType: Utils.Pluralize
-- uid: SixModLoader.Utils.ToNuGetVersion(NuGet.Versioning.SemanticVersion)
-  name: ToNuGetVersion(SemanticVersion)
-  href: api/SixModLoader.Utils.html#SixModLoader_Utils_ToNuGetVersion_NuGet_Versioning_SemanticVersion_
-  commentId: M:SixModLoader.Utils.ToNuGetVersion(NuGet.Versioning.SemanticVersion)
-  fullName: SixModLoader.Utils.ToNuGetVersion(NuGet.Versioning.SemanticVersion)
-  nameWithType: Utils.ToNuGetVersion(SemanticVersion)
-- uid: SixModLoader.Utils.ToNuGetVersion*
-  name: ToNuGetVersion
-  href: api/SixModLoader.Utils.html#SixModLoader_Utils_ToNuGetVersion_
-  commentId: Overload:SixModLoader.Utils.ToNuGetVersion
-  isSpec: "True"
-  fullName: SixModLoader.Utils.ToNuGetVersion
-  nameWithType: Utils.ToNuGetVersion
