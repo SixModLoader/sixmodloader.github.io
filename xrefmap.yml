@@ -842,6 +842,22 @@ references:
   commentId: T:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent
   fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent
   nameWithType: PlayerRoleChangeEvent
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.#ctor(ReferenceHub,RoleType,System.Collections.Generic.List{ItemType},System.Boolean,System.Boolean)
+  name: PlayerRoleChangeEvent(ReferenceHub, RoleType, List<ItemType>, Boolean, Boolean)
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent__ctor_ReferenceHub_RoleType_System_Collections_Generic_List_ItemType__System_Boolean_System_Boolean_
+  commentId: M:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.#ctor(ReferenceHub,RoleType,System.Collections.Generic.List{ItemType},System.Boolean,System.Boolean)
+  name.vb: PlayerRoleChangeEvent(ReferenceHub, RoleType, List(Of ItemType), Boolean, Boolean)
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.PlayerRoleChangeEvent(ReferenceHub, RoleType, System.Collections.Generic.List<ItemType>, System.Boolean, System.Boolean)
+  fullName.vb: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.PlayerRoleChangeEvent(ReferenceHub, RoleType, System.Collections.Generic.List(Of ItemType), System.Boolean, System.Boolean)
+  nameWithType: PlayerRoleChangeEvent.PlayerRoleChangeEvent(ReferenceHub, RoleType, List<ItemType>, Boolean, Boolean)
+  nameWithType.vb: PlayerRoleChangeEvent.PlayerRoleChangeEvent(ReferenceHub, RoleType, List(Of ItemType), Boolean, Boolean)
+- uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.#ctor*
+  name: PlayerRoleChangeEvent
+  href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent__ctor_
+  commentId: Overload:SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.PlayerRoleChangeEvent
+  nameWithType: PlayerRoleChangeEvent.PlayerRoleChangeEvent
 - uid: SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.Cancelled
   name: Cancelled
   href: api/SixModLoader.Api.Events.Player.Class.PlayerRoleChangeEvent.html#SixModLoader_Api_Events_Player_Class_PlayerRoleChangeEvent_Cancelled
@@ -967,6 +983,19 @@ references:
   commentId: T:SixModLoader.Api.Events.Player.Inventory.PlayerChangeItemEvent
   fullName: SixModLoader.Api.Events.Player.Inventory.PlayerChangeItemEvent
   nameWithType: PlayerChangeItemEvent
+- uid: SixModLoader.Api.Events.Player.Inventory.PlayerChangeItemEvent.#ctor(ReferenceHub,Inventory.SyncItemInfo,Inventory.SyncItemInfo)
+  name: PlayerChangeItemEvent(ReferenceHub, Inventory.SyncItemInfo, Inventory.SyncItemInfo)
+  href: api/SixModLoader.Api.Events.Player.Inventory.PlayerChangeItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerChangeItemEvent__ctor_ReferenceHub_Inventory_SyncItemInfo_Inventory_SyncItemInfo_
+  commentId: M:SixModLoader.Api.Events.Player.Inventory.PlayerChangeItemEvent.#ctor(ReferenceHub,Inventory.SyncItemInfo,Inventory.SyncItemInfo)
+  fullName: SixModLoader.Api.Events.Player.Inventory.PlayerChangeItemEvent.PlayerChangeItemEvent(ReferenceHub, Inventory.SyncItemInfo, Inventory.SyncItemInfo)
+  nameWithType: PlayerChangeItemEvent.PlayerChangeItemEvent(ReferenceHub, Inventory.SyncItemInfo, Inventory.SyncItemInfo)
+- uid: SixModLoader.Api.Events.Player.Inventory.PlayerChangeItemEvent.#ctor*
+  name: PlayerChangeItemEvent
+  href: api/SixModLoader.Api.Events.Player.Inventory.PlayerChangeItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerChangeItemEvent__ctor_
+  commentId: Overload:SixModLoader.Api.Events.Player.Inventory.PlayerChangeItemEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Inventory.PlayerChangeItemEvent.PlayerChangeItemEvent
+  nameWithType: PlayerChangeItemEvent.PlayerChangeItemEvent
 - uid: SixModLoader.Api.Events.Player.Inventory.PlayerChangeItemEvent.NewItem
   name: NewItem
   href: api/SixModLoader.Api.Events.Player.Inventory.PlayerChangeItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerChangeItemEvent_NewItem
@@ -1034,6 +1063,19 @@ references:
   commentId: T:SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent
   fullName: SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent
   nameWithType: PlayerDropItemEvent
+- uid: SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.#ctor(ReferenceHub,Inventory.SyncItemInfo)
+  name: PlayerDropItemEvent(ReferenceHub, Inventory.SyncItemInfo)
+  href: api/SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerDropItemEvent__ctor_ReferenceHub_Inventory_SyncItemInfo_
+  commentId: M:SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.#ctor(ReferenceHub,Inventory.SyncItemInfo)
+  fullName: SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.PlayerDropItemEvent(ReferenceHub, Inventory.SyncItemInfo)
+  nameWithType: PlayerDropItemEvent.PlayerDropItemEvent(ReferenceHub, Inventory.SyncItemInfo)
+- uid: SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.#ctor*
+  name: PlayerDropItemEvent
+  href: api/SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerDropItemEvent__ctor_
+  commentId: Overload:SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.PlayerDropItemEvent
+  nameWithType: PlayerDropItemEvent.PlayerDropItemEvent
 - uid: SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.Cancelled
   name: Cancelled
   href: api/SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerDropItemEvent_Cancelled
@@ -1095,12 +1137,38 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.Patch.Transpiler
   nameWithType: PlayerDropItemEvent.Patch.Transpiler
+- uid: SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.ToString
+  name: ToString()
+  href: api/SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerDropItemEvent_ToString
+  commentId: M:SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.ToString
+  fullName: SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.ToString()
+  nameWithType: PlayerDropItemEvent.ToString()
+- uid: SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.ToString*
+  name: ToString
+  href: api/SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerDropItemEvent_ToString_
+  commentId: Overload:SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.ToString
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Inventory.PlayerDropItemEvent.ToString
+  nameWithType: PlayerDropItemEvent.ToString
 - uid: SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent
   name: PlayerDroppedItemEvent
   href: api/SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.html
   commentId: T:SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent
   fullName: SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent
   nameWithType: PlayerDroppedItemEvent
+- uid: SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.#ctor(ReferenceHub,Inventory.SyncItemInfo,Pickup)
+  name: PlayerDroppedItemEvent(ReferenceHub, Inventory.SyncItemInfo, Pickup)
+  href: api/SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerDroppedItemEvent__ctor_ReferenceHub_Inventory_SyncItemInfo_Pickup_
+  commentId: M:SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.#ctor(ReferenceHub,Inventory.SyncItemInfo,Pickup)
+  fullName: SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.PlayerDroppedItemEvent(ReferenceHub, Inventory.SyncItemInfo, Pickup)
+  nameWithType: PlayerDroppedItemEvent.PlayerDroppedItemEvent(ReferenceHub, Inventory.SyncItemInfo, Pickup)
+- uid: SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.#ctor*
+  name: PlayerDroppedItemEvent
+  href: api/SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerDroppedItemEvent__ctor_
+  commentId: Overload:SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.PlayerDroppedItemEvent
+  nameWithType: PlayerDroppedItemEvent.PlayerDroppedItemEvent
 - uid: SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.Item
   name: Item
   href: api/SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerDroppedItemEvent_Item
@@ -1190,12 +1258,38 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.Pickup
   nameWithType: PlayerDroppedItemEvent.Pickup
+- uid: SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.ToString
+  name: ToString()
+  href: api/SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerDroppedItemEvent_ToString
+  commentId: M:SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.ToString
+  fullName: SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.ToString()
+  nameWithType: PlayerDroppedItemEvent.ToString()
+- uid: SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.ToString*
+  name: ToString
+  href: api/SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerDroppedItemEvent_ToString_
+  commentId: Overload:SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.ToString
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.ToString
+  nameWithType: PlayerDroppedItemEvent.ToString
 - uid: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent
   name: PlayerPickupItemEvent
   href: api/SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.html
   commentId: T:SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent
   fullName: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent
   nameWithType: PlayerPickupItemEvent
+- uid: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.#ctor(ReferenceHub,Pickup)
+  name: PlayerPickupItemEvent(ReferenceHub, Pickup)
+  href: api/SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerPickupItemEvent__ctor_ReferenceHub_Pickup_
+  commentId: M:SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.#ctor(ReferenceHub,Pickup)
+  fullName: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.PlayerPickupItemEvent(ReferenceHub, Pickup)
+  nameWithType: PlayerPickupItemEvent.PlayerPickupItemEvent(ReferenceHub, Pickup)
+- uid: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.#ctor*
+  name: PlayerPickupItemEvent
+  href: api/SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerPickupItemEvent__ctor_
+  commentId: Overload:SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.PlayerPickupItemEvent
+  nameWithType: PlayerPickupItemEvent.PlayerPickupItemEvent
 - uid: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.Cancelled
   name: Cancelled
   href: api/SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerPickupItemEvent_Cancelled
@@ -1241,12 +1335,105 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.Pickup
   nameWithType: PlayerPickupItemEvent.Pickup
+- uid: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.ToString
+  name: ToString()
+  href: api/SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerPickupItemEvent_ToString
+  commentId: M:SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.ToString
+  fullName: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.ToString()
+  nameWithType: PlayerPickupItemEvent.ToString()
+- uid: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.ToString*
+  name: ToString
+  href: api/SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.html#SixModLoader_Api_Events_Player_Inventory_PlayerPickupItemEvent_ToString_
+  commentId: Overload:SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.ToString
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Inventory.PlayerPickupItemEvent.ToString
+  nameWithType: PlayerPickupItemEvent.ToString
+- uid: SixModLoader.Api.Events.Player.PlayerDeathEvent
+  name: PlayerDeathEvent
+  href: api/SixModLoader.Api.Events.Player.PlayerDeathEvent.html
+  commentId: T:SixModLoader.Api.Events.Player.PlayerDeathEvent
+  fullName: SixModLoader.Api.Events.Player.PlayerDeathEvent
+  nameWithType: PlayerDeathEvent
+- uid: SixModLoader.Api.Events.Player.PlayerDeathEvent.#ctor(ReferenceHub)
+  name: PlayerDeathEvent(ReferenceHub)
+  href: api/SixModLoader.Api.Events.Player.PlayerDeathEvent.html#SixModLoader_Api_Events_Player_PlayerDeathEvent__ctor_ReferenceHub_
+  commentId: M:SixModLoader.Api.Events.Player.PlayerDeathEvent.#ctor(ReferenceHub)
+  fullName: SixModLoader.Api.Events.Player.PlayerDeathEvent.PlayerDeathEvent(ReferenceHub)
+  nameWithType: PlayerDeathEvent.PlayerDeathEvent(ReferenceHub)
+- uid: SixModLoader.Api.Events.Player.PlayerDeathEvent.#ctor*
+  name: PlayerDeathEvent
+  href: api/SixModLoader.Api.Events.Player.PlayerDeathEvent.html#SixModLoader_Api_Events_Player_PlayerDeathEvent__ctor_
+  commentId: Overload:SixModLoader.Api.Events.Player.PlayerDeathEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.PlayerDeathEvent.PlayerDeathEvent
+  nameWithType: PlayerDeathEvent.PlayerDeathEvent
+- uid: SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch
+  name: PlayerDeathEvent.Patch
+  href: api/SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.html
+  commentId: T:SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch
+  fullName: SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch
+  nameWithType: PlayerDeathEvent.Patch
+- uid: SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Invoke(PlayerStats)
+  name: Invoke(PlayerStats)
+  href: api/SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.html#SixModLoader_Api_Events_Player_PlayerDeathEvent_Patch_Invoke_PlayerStats_
+  commentId: M:SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Invoke(PlayerStats)
+  fullName: SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Invoke(PlayerStats)
+  nameWithType: PlayerDeathEvent.Patch.Invoke(PlayerStats)
+- uid: SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Invoke*
+  name: Invoke
+  href: api/SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.html#SixModLoader_Api_Events_Player_PlayerDeathEvent_Patch_Invoke_
+  commentId: Overload:SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Invoke
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Invoke
+  nameWithType: PlayerDeathEvent.Patch.Invoke
+- uid: SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction})
+  name: Transpiler(IEnumerable<CodeInstruction>)
+  href: api/SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.html#SixModLoader_Api_Events_Player_PlayerDeathEvent_Patch_Transpiler_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__
+  commentId: M:SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction})
+  name.vb: Transpiler(IEnumerable(Of CodeInstruction))
+  fullName: SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Transpiler(System.Collections.Generic.IEnumerable<HarmonyLib.CodeInstruction>)
+  fullName.vb: SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Transpiler(System.Collections.Generic.IEnumerable(Of HarmonyLib.CodeInstruction))
+  nameWithType: PlayerDeathEvent.Patch.Transpiler(IEnumerable<CodeInstruction>)
+  nameWithType.vb: PlayerDeathEvent.Patch.Transpiler(IEnumerable(Of CodeInstruction))
+- uid: SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Transpiler*
+  name: Transpiler
+  href: api/SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.html#SixModLoader_Api_Events_Player_PlayerDeathEvent_Patch_Transpiler_
+  commentId: Overload:SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Transpiler
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Transpiler
+  nameWithType: PlayerDeathEvent.Patch.Transpiler
+- uid: SixModLoader.Api.Events.Player.PlayerDeathEvent.ToString
+  name: ToString()
+  href: api/SixModLoader.Api.Events.Player.PlayerDeathEvent.html#SixModLoader_Api_Events_Player_PlayerDeathEvent_ToString
+  commentId: M:SixModLoader.Api.Events.Player.PlayerDeathEvent.ToString
+  fullName: SixModLoader.Api.Events.Player.PlayerDeathEvent.ToString()
+  nameWithType: PlayerDeathEvent.ToString()
+- uid: SixModLoader.Api.Events.Player.PlayerDeathEvent.ToString*
+  name: ToString
+  href: api/SixModLoader.Api.Events.Player.PlayerDeathEvent.html#SixModLoader_Api_Events_Player_PlayerDeathEvent_ToString_
+  commentId: Overload:SixModLoader.Api.Events.Player.PlayerDeathEvent.ToString
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.PlayerDeathEvent.ToString
+  nameWithType: PlayerDeathEvent.ToString
 - uid: SixModLoader.Api.Events.Player.PlayerEvent
   name: PlayerEvent
   href: api/SixModLoader.Api.Events.Player.PlayerEvent.html
   commentId: T:SixModLoader.Api.Events.Player.PlayerEvent
   fullName: SixModLoader.Api.Events.Player.PlayerEvent
   nameWithType: PlayerEvent
+- uid: SixModLoader.Api.Events.Player.PlayerEvent.#ctor(ReferenceHub)
+  name: PlayerEvent(ReferenceHub)
+  href: api/SixModLoader.Api.Events.Player.PlayerEvent.html#SixModLoader_Api_Events_Player_PlayerEvent__ctor_ReferenceHub_
+  commentId: M:SixModLoader.Api.Events.Player.PlayerEvent.#ctor(ReferenceHub)
+  fullName: SixModLoader.Api.Events.Player.PlayerEvent.PlayerEvent(ReferenceHub)
+  nameWithType: PlayerEvent.PlayerEvent(ReferenceHub)
+- uid: SixModLoader.Api.Events.Player.PlayerEvent.#ctor*
+  name: PlayerEvent
+  href: api/SixModLoader.Api.Events.Player.PlayerEvent.html#SixModLoader_Api_Events_Player_PlayerEvent__ctor_
+  commentId: Overload:SixModLoader.Api.Events.Player.PlayerEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.PlayerEvent.PlayerEvent
+  nameWithType: PlayerEvent.PlayerEvent
 - uid: SixModLoader.Api.Events.Player.PlayerEvent.Player
   name: Player
   href: api/SixModLoader.Api.Events.Player.PlayerEvent.html#SixModLoader_Api_Events_Player_PlayerEvent_Player
@@ -1266,6 +1453,19 @@ references:
   commentId: T:SixModLoader.Api.Events.Player.PlayerJoinedEvent
   fullName: SixModLoader.Api.Events.Player.PlayerJoinedEvent
   nameWithType: PlayerJoinedEvent
+- uid: SixModLoader.Api.Events.Player.PlayerJoinedEvent.#ctor(ReferenceHub)
+  name: PlayerJoinedEvent(ReferenceHub)
+  href: api/SixModLoader.Api.Events.Player.PlayerJoinedEvent.html#SixModLoader_Api_Events_Player_PlayerJoinedEvent__ctor_ReferenceHub_
+  commentId: M:SixModLoader.Api.Events.Player.PlayerJoinedEvent.#ctor(ReferenceHub)
+  fullName: SixModLoader.Api.Events.Player.PlayerJoinedEvent.PlayerJoinedEvent(ReferenceHub)
+  nameWithType: PlayerJoinedEvent.PlayerJoinedEvent(ReferenceHub)
+- uid: SixModLoader.Api.Events.Player.PlayerJoinedEvent.#ctor*
+  name: PlayerJoinedEvent
+  href: api/SixModLoader.Api.Events.Player.PlayerJoinedEvent.html#SixModLoader_Api_Events_Player_PlayerJoinedEvent__ctor_
+  commentId: Overload:SixModLoader.Api.Events.Player.PlayerJoinedEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.PlayerJoinedEvent.PlayerJoinedEvent
+  nameWithType: PlayerJoinedEvent.PlayerJoinedEvent
 - uid: SixModLoader.Api.Events.Player.PlayerJoinedEvent.Patch
   name: PlayerJoinedEvent.Patch
   href: api/SixModLoader.Api.Events.Player.PlayerJoinedEvent.Patch.html
@@ -1285,12 +1485,38 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Events.Player.PlayerJoinedEvent.Patch.Postfix
   nameWithType: PlayerJoinedEvent.Patch.Postfix
+- uid: SixModLoader.Api.Events.Player.PlayerJoinedEvent.ToString
+  name: ToString()
+  href: api/SixModLoader.Api.Events.Player.PlayerJoinedEvent.html#SixModLoader_Api_Events_Player_PlayerJoinedEvent_ToString
+  commentId: M:SixModLoader.Api.Events.Player.PlayerJoinedEvent.ToString
+  fullName: SixModLoader.Api.Events.Player.PlayerJoinedEvent.ToString()
+  nameWithType: PlayerJoinedEvent.ToString()
+- uid: SixModLoader.Api.Events.Player.PlayerJoinedEvent.ToString*
+  name: ToString
+  href: api/SixModLoader.Api.Events.Player.PlayerJoinedEvent.html#SixModLoader_Api_Events_Player_PlayerJoinedEvent_ToString_
+  commentId: Overload:SixModLoader.Api.Events.Player.PlayerJoinedEvent.ToString
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.PlayerJoinedEvent.ToString
+  nameWithType: PlayerJoinedEvent.ToString
 - uid: SixModLoader.Api.Events.Player.PlayerLeftEvent
   name: PlayerLeftEvent
   href: api/SixModLoader.Api.Events.Player.PlayerLeftEvent.html
   commentId: T:SixModLoader.Api.Events.Player.PlayerLeftEvent
   fullName: SixModLoader.Api.Events.Player.PlayerLeftEvent
   nameWithType: PlayerLeftEvent
+- uid: SixModLoader.Api.Events.Player.PlayerLeftEvent.#ctor(ReferenceHub)
+  name: PlayerLeftEvent(ReferenceHub)
+  href: api/SixModLoader.Api.Events.Player.PlayerLeftEvent.html#SixModLoader_Api_Events_Player_PlayerLeftEvent__ctor_ReferenceHub_
+  commentId: M:SixModLoader.Api.Events.Player.PlayerLeftEvent.#ctor(ReferenceHub)
+  fullName: SixModLoader.Api.Events.Player.PlayerLeftEvent.PlayerLeftEvent(ReferenceHub)
+  nameWithType: PlayerLeftEvent.PlayerLeftEvent(ReferenceHub)
+- uid: SixModLoader.Api.Events.Player.PlayerLeftEvent.#ctor*
+  name: PlayerLeftEvent
+  href: api/SixModLoader.Api.Events.Player.PlayerLeftEvent.html#SixModLoader_Api_Events_Player_PlayerLeftEvent__ctor_
+  commentId: Overload:SixModLoader.Api.Events.Player.PlayerLeftEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.PlayerLeftEvent.PlayerLeftEvent
+  nameWithType: PlayerLeftEvent.PlayerLeftEvent
 - uid: SixModLoader.Api.Events.Player.PlayerLeftEvent.Patch
   name: PlayerLeftEvent.Patch
   href: api/SixModLoader.Api.Events.Player.PlayerLeftEvent.Patch.html
@@ -1310,6 +1536,19 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Events.Player.PlayerLeftEvent.Patch.Postfix
   nameWithType: PlayerLeftEvent.Patch.Postfix
+- uid: SixModLoader.Api.Events.Player.PlayerLeftEvent.ToString
+  name: ToString()
+  href: api/SixModLoader.Api.Events.Player.PlayerLeftEvent.html#SixModLoader_Api_Events_Player_PlayerLeftEvent_ToString
+  commentId: M:SixModLoader.Api.Events.Player.PlayerLeftEvent.ToString
+  fullName: SixModLoader.Api.Events.Player.PlayerLeftEvent.ToString()
+  nameWithType: PlayerLeftEvent.ToString()
+- uid: SixModLoader.Api.Events.Player.PlayerLeftEvent.ToString*
+  name: ToString
+  href: api/SixModLoader.Api.Events.Player.PlayerLeftEvent.html#SixModLoader_Api_Events_Player_PlayerLeftEvent_ToString_
+  commentId: Overload:SixModLoader.Api.Events.Player.PlayerLeftEvent.ToString
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.PlayerLeftEvent.ToString
+  nameWithType: PlayerLeftEvent.ToString
 - uid: SixModLoader.Api.Events.Player.Weapon
   name: SixModLoader.Api.Events.Player.Weapon
   href: api/SixModLoader.Api.Events.Player.Weapon.html
@@ -1322,6 +1561,19 @@ references:
   commentId: T:SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent
   fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent
   nameWithType: PlayerShootEvent
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.#ctor(ReferenceHub,UnityEngine.GameObject,UnityEngine.Vector3)
+  name: PlayerShootEvent(ReferenceHub, GameObject, Vector3)
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShootEvent__ctor_ReferenceHub_UnityEngine_GameObject_UnityEngine_Vector3_
+  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.#ctor(ReferenceHub,UnityEngine.GameObject,UnityEngine.Vector3)
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.PlayerShootEvent(ReferenceHub, UnityEngine.GameObject, UnityEngine.Vector3)
+  nameWithType: PlayerShootEvent.PlayerShootEvent(ReferenceHub, GameObject, Vector3)
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.#ctor*
+  name: PlayerShootEvent
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShootEvent__ctor_
+  commentId: Overload:SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.PlayerShootEvent
+  nameWithType: PlayerShootEvent.PlayerShootEvent
 - uid: SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.Cancelled
   name: Cancelled
   href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShootEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShootEvent_Cancelled
@@ -1415,6 +1667,19 @@ references:
   commentId: T:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent
   fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent
   nameWithType: PlayerShotByPlayerEvent
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.#ctor(ReferenceHub,ReferenceHub,PlayerStats.HitInfo,System.Single,System.String)
+  name: PlayerShotByPlayerEvent(ReferenceHub, ReferenceHub, PlayerStats.HitInfo, Single, String)
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent__ctor_ReferenceHub_ReferenceHub_PlayerStats_HitInfo_System_Single_System_String_
+  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.#ctor(ReferenceHub,ReferenceHub,PlayerStats.HitInfo,System.Single,System.String)
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.PlayerShotByPlayerEvent(ReferenceHub, ReferenceHub, PlayerStats.HitInfo, System.Single, System.String)
+  nameWithType: PlayerShotByPlayerEvent.PlayerShotByPlayerEvent(ReferenceHub, ReferenceHub, PlayerStats.HitInfo, Single, String)
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.#ctor*
+  name: PlayerShotByPlayerEvent
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent__ctor_
+  commentId: Overload:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.PlayerShotByPlayerEvent
+  nameWithType: PlayerShotByPlayerEvent.PlayerShotByPlayerEvent
 - uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Cancelled
   name: Cancelled
   href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_Cancelled
@@ -1486,12 +1751,12 @@ references:
   commentId: T:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch
   fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch
   nameWithType: PlayerShotByPlayerEvent.Patch
-- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager,CharacterClassManager,PlayerStats.HitInfo,System.Single,System.String)
-  name: Invoke(WeaponManager, CharacterClassManager, PlayerStats.HitInfo, Single, String)
-  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_Patch_Invoke_WeaponManager_CharacterClassManager_PlayerStats_HitInfo_System_Single_System_String_
-  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager,CharacterClassManager,PlayerStats.HitInfo,System.Single,System.String)
-  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager, CharacterClassManager, PlayerStats.HitInfo, System.Single, System.String)
-  nameWithType: PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager, CharacterClassManager, PlayerStats.HitInfo, Single, String)
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager,ReferenceHub,PlayerStats.HitInfo,System.Single,System.String)
+  name: Invoke(WeaponManager, ReferenceHub, PlayerStats.HitInfo, Single, String)
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_Patch_Invoke_WeaponManager_ReferenceHub_PlayerStats_HitInfo_System_Single_System_String_
+  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager,ReferenceHub,PlayerStats.HitInfo,System.Single,System.String)
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager, ReferenceHub, PlayerStats.HitInfo, System.Single, System.String)
+  nameWithType: PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager, ReferenceHub, PlayerStats.HitInfo, Single, String)
 - uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke*
   name: Invoke
   href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_Patch_Invoke_
@@ -1547,6 +1812,19 @@ references:
   commentId: T:SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent
   fullName: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent
   nameWithType: PlayerWeaponChangeAttachmentsEvent
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.#ctor(ReferenceHub,System.String)
+  name: PlayerWeaponChangeAttachmentsEvent(ReferenceHub, String)
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerWeaponChangeAttachmentsEvent__ctor_ReferenceHub_System_String_
+  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.#ctor(ReferenceHub,System.String)
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.PlayerWeaponChangeAttachmentsEvent(ReferenceHub, System.String)
+  nameWithType: PlayerWeaponChangeAttachmentsEvent.PlayerWeaponChangeAttachmentsEvent(ReferenceHub, String)
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.#ctor*
+  name: PlayerWeaponChangeAttachmentsEvent
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerWeaponChangeAttachmentsEvent__ctor_
+  commentId: Overload:SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.PlayerWeaponChangeAttachmentsEvent
+  nameWithType: PlayerWeaponChangeAttachmentsEvent.PlayerWeaponChangeAttachmentsEvent
 - uid: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.Cancelled
   name: Cancelled
   href: api/SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerWeaponChangeAttachmentsEvent_Cancelled
@@ -1595,12 +1873,38 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.Patch.Prefix
   nameWithType: PlayerWeaponChangeAttachmentsEvent.Patch.Prefix
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.ToString
+  name: ToString()
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerWeaponChangeAttachmentsEvent_ToString
+  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.ToString
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.ToString()
+  nameWithType: PlayerWeaponChangeAttachmentsEvent.ToString()
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.ToString*
+  name: ToString
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerWeaponChangeAttachmentsEvent_ToString_
+  commentId: Overload:SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.ToString
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponChangeAttachmentsEvent.ToString
+  nameWithType: PlayerWeaponChangeAttachmentsEvent.ToString
 - uid: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent
   name: PlayerWeaponReloadEvent
   href: api/SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.html
   commentId: T:SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent
   fullName: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent
   nameWithType: PlayerWeaponReloadEvent
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.#ctor(ReferenceHub,System.Boolean)
+  name: PlayerWeaponReloadEvent(ReferenceHub, Boolean)
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerWeaponReloadEvent__ctor_ReferenceHub_System_Boolean_
+  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.#ctor(ReferenceHub,System.Boolean)
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.PlayerWeaponReloadEvent(ReferenceHub, System.Boolean)
+  nameWithType: PlayerWeaponReloadEvent.PlayerWeaponReloadEvent(ReferenceHub, Boolean)
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.#ctor*
+  name: PlayerWeaponReloadEvent
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerWeaponReloadEvent__ctor_
+  commentId: Overload:SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.PlayerWeaponReloadEvent
+  nameWithType: PlayerWeaponReloadEvent.PlayerWeaponReloadEvent
 - uid: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.AnimationOnly
   name: AnimationOnly
   href: api/SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerWeaponReloadEvent_AnimationOnly
@@ -1662,6 +1966,19 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.Patch.Transpiler
   nameWithType: PlayerWeaponReloadEvent.Patch.Transpiler
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.ToString
+  name: ToString()
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerWeaponReloadEvent_ToString
+  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.ToString
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.ToString()
+  nameWithType: PlayerWeaponReloadEvent.ToString()
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.ToString*
+  name: ToString
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerWeaponReloadEvent_ToString_
+  commentId: Overload:SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.ToString
+  isSpec: "True"
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerWeaponReloadEvent.ToString
+  nameWithType: PlayerWeaponReloadEvent.ToString
 - uid: SixModLoader.Api.Events.Server
   name: SixModLoader.Api.Events.Server
   href: api/SixModLoader.Api.Events.Server.html
@@ -2122,6 +2439,19 @@ references:
   commentId: T:SixModLoader.Api.Extensions.Extensions
   fullName: SixModLoader.Api.Extensions.Extensions
   nameWithType: Extensions
+- uid: SixModLoader.Api.Extensions.Extensions.Format(ReferenceHub)
+  name: Format(ReferenceHub)
+  href: api/SixModLoader.Api.Extensions.Extensions.html#SixModLoader_Api_Extensions_Extensions_Format_ReferenceHub_
+  commentId: M:SixModLoader.Api.Extensions.Extensions.Format(ReferenceHub)
+  fullName: SixModLoader.Api.Extensions.Extensions.Format(ReferenceHub)
+  nameWithType: Extensions.Format(ReferenceHub)
+- uid: SixModLoader.Api.Extensions.Extensions.Format*
+  name: Format
+  href: api/SixModLoader.Api.Extensions.Extensions.html#SixModLoader_Api_Extensions_Extensions_Format_
+  commentId: Overload:SixModLoader.Api.Extensions.Extensions.Format
+  isSpec: "True"
+  fullName: SixModLoader.Api.Extensions.Extensions.Format
+  nameWithType: Extensions.Format
 - uid: SixModLoader.Api.Extensions.Extensions.GetItemByUniq(Inventory,System.Int32)
   name: GetItemByUniq(Inventory, Int32)
   href: api/SixModLoader.Api.Extensions.Extensions.html#SixModLoader_Api_Extensions_Extensions_GetItemByUniq_Inventory_System_Int32_
@@ -2665,6 +2995,19 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.SixModLoaderApi.OnEnable
   nameWithType: SixModLoaderApi.OnEnable
+- uid: SixModLoader.Api.SixModLoaderApi.OnReload
+  name: OnReload()
+  href: api/SixModLoader.Api.SixModLoaderApi.html#SixModLoader_Api_SixModLoaderApi_OnReload
+  commentId: M:SixModLoader.Api.SixModLoaderApi.OnReload
+  fullName: SixModLoader.Api.SixModLoaderApi.OnReload()
+  nameWithType: SixModLoaderApi.OnReload()
+- uid: SixModLoader.Api.SixModLoaderApi.OnReload*
+  name: OnReload
+  href: api/SixModLoader.Api.SixModLoaderApi.html#SixModLoader_Api_SixModLoaderApi_OnReload_
+  commentId: Overload:SixModLoader.Api.SixModLoaderApi.OnReload
+  isSpec: "True"
+  fullName: SixModLoader.Api.SixModLoaderApi.OnReload
+  nameWithType: SixModLoaderApi.OnReload
 - uid: SixModLoader.Api.SixModLoaderApi.OnServerConsoleReady
   name: OnServerConsoleReady()
   href: api/SixModLoader.Api.SixModLoaderApi.html#SixModLoader_Api_SixModLoaderApi_OnServerConsoleReady
@@ -3129,6 +3472,19 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Events.EventHandler.EventType
   nameWithType: EventHandler.EventType
+- uid: SixModLoader.Events.EventHandler.IgnoreCancelled
+  name: IgnoreCancelled
+  href: api/SixModLoader.Events.EventHandler.html#SixModLoader_Events_EventHandler_IgnoreCancelled
+  commentId: P:SixModLoader.Events.EventHandler.IgnoreCancelled
+  fullName: SixModLoader.Events.EventHandler.IgnoreCancelled
+  nameWithType: EventHandler.IgnoreCancelled
+- uid: SixModLoader.Events.EventHandler.IgnoreCancelled*
+  name: IgnoreCancelled
+  href: api/SixModLoader.Events.EventHandler.html#SixModLoader_Events_EventHandler_IgnoreCancelled_
+  commentId: Overload:SixModLoader.Events.EventHandler.IgnoreCancelled
+  isSpec: "True"
+  fullName: SixModLoader.Events.EventHandler.IgnoreCancelled
+  nameWithType: EventHandler.IgnoreCancelled
 - uid: SixModLoader.Events.EventHandler.Instance
   name: Instance
   href: api/SixModLoader.Events.EventHandler.html#SixModLoader_Events_EventHandler_Instance
@@ -3379,6 +3735,35 @@ references:
   commentId: T:SixModLoader.Extensions
   fullName: SixModLoader.Extensions
   nameWithType: Extensions
+- uid: SixModLoader.Extensions.Dump*
+  name: Dump
+  href: api/SixModLoader.Extensions.html#SixModLoader_Extensions_Dump_
+  commentId: Overload:SixModLoader.Extensions.Dump
+  isSpec: "True"
+  fullName: SixModLoader.Extensions.Dump
+  nameWithType: Extensions.Dump
+- uid: SixModLoader.Extensions.Dump``1(``0,System.Func{``0,System.Object})
+  name: Dump<T>(T, Func<T, Object>)
+  href: api/SixModLoader.Extensions.html#SixModLoader_Extensions_Dump__1___0_System_Func___0_System_Object__
+  commentId: M:SixModLoader.Extensions.Dump``1(``0,System.Func{``0,System.Object})
+  name.vb: Dump(Of T)(T, Func(Of T, Object))
+  fullName: SixModLoader.Extensions.Dump<T>(T, System.Func<T, System.Object>)
+  fullName.vb: SixModLoader.Extensions.Dump(Of T)(T, System.Func(Of T, System.Object))
+  nameWithType: Extensions.Dump<T>(T, Func<T, Object>)
+  nameWithType.vb: Extensions.Dump(Of T)(T, Func(Of T, Object))
+- uid: SixModLoader.Extensions.GetLoadableTypes(System.Reflection.Assembly)
+  name: GetLoadableTypes(Assembly)
+  href: api/SixModLoader.Extensions.html#SixModLoader_Extensions_GetLoadableTypes_System_Reflection_Assembly_
+  commentId: M:SixModLoader.Extensions.GetLoadableTypes(System.Reflection.Assembly)
+  fullName: SixModLoader.Extensions.GetLoadableTypes(System.Reflection.Assembly)
+  nameWithType: Extensions.GetLoadableTypes(Assembly)
+- uid: SixModLoader.Extensions.GetLoadableTypes*
+  name: GetLoadableTypes
+  href: api/SixModLoader.Extensions.html#SixModLoader_Extensions_GetLoadableTypes_
+  commentId: Overload:SixModLoader.Extensions.GetLoadableTypes
+  isSpec: "True"
+  fullName: SixModLoader.Extensions.GetLoadableTypes
+  nameWithType: Extensions.GetLoadableTypes
 - uid: SixModLoader.Extensions.PatchAll(HarmonyLib.Harmony,System.Type)
   name: PatchAll(Harmony, Type)
   href: api/SixModLoader.Extensions.html#SixModLoader_Extensions_PatchAll_HarmonyLib_Harmony_System_Type_
@@ -3985,18 +4370,84 @@ references:
   commentId: T:SixModLoader.Mods.ModDisableEvent
   fullName: SixModLoader.Mods.ModDisableEvent
   nameWithType: ModDisableEvent
+- uid: SixModLoader.Mods.ModDisableEvent.#ctor
+  name: ModDisableEvent()
+  href: api/SixModLoader.Mods.ModDisableEvent.html#SixModLoader_Mods_ModDisableEvent__ctor
+  commentId: M:SixModLoader.Mods.ModDisableEvent.#ctor
+  fullName: SixModLoader.Mods.ModDisableEvent.ModDisableEvent()
+  nameWithType: ModDisableEvent.ModDisableEvent()
+- uid: SixModLoader.Mods.ModDisableEvent.#ctor(System.Collections.Generic.List{SixModLoader.Mods.ModContainer})
+  name: ModDisableEvent(List<ModContainer>)
+  href: api/SixModLoader.Mods.ModDisableEvent.html#SixModLoader_Mods_ModDisableEvent__ctor_System_Collections_Generic_List_SixModLoader_Mods_ModContainer__
+  commentId: M:SixModLoader.Mods.ModDisableEvent.#ctor(System.Collections.Generic.List{SixModLoader.Mods.ModContainer})
+  name.vb: ModDisableEvent(List(Of ModContainer))
+  fullName: SixModLoader.Mods.ModDisableEvent.ModDisableEvent(System.Collections.Generic.List<SixModLoader.Mods.ModContainer>)
+  fullName.vb: SixModLoader.Mods.ModDisableEvent.ModDisableEvent(System.Collections.Generic.List(Of SixModLoader.Mods.ModContainer))
+  nameWithType: ModDisableEvent.ModDisableEvent(List<ModContainer>)
+  nameWithType.vb: ModDisableEvent.ModDisableEvent(List(Of ModContainer))
+- uid: SixModLoader.Mods.ModDisableEvent.#ctor*
+  name: ModDisableEvent
+  href: api/SixModLoader.Mods.ModDisableEvent.html#SixModLoader_Mods_ModDisableEvent__ctor_
+  commentId: Overload:SixModLoader.Mods.ModDisableEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Mods.ModDisableEvent.ModDisableEvent
+  nameWithType: ModDisableEvent.ModDisableEvent
 - uid: SixModLoader.Mods.ModEnableEvent
   name: ModEnableEvent
   href: api/SixModLoader.Mods.ModEnableEvent.html
   commentId: T:SixModLoader.Mods.ModEnableEvent
   fullName: SixModLoader.Mods.ModEnableEvent
   nameWithType: ModEnableEvent
+- uid: SixModLoader.Mods.ModEnableEvent.#ctor
+  name: ModEnableEvent()
+  href: api/SixModLoader.Mods.ModEnableEvent.html#SixModLoader_Mods_ModEnableEvent__ctor
+  commentId: M:SixModLoader.Mods.ModEnableEvent.#ctor
+  fullName: SixModLoader.Mods.ModEnableEvent.ModEnableEvent()
+  nameWithType: ModEnableEvent.ModEnableEvent()
+- uid: SixModLoader.Mods.ModEnableEvent.#ctor(System.Collections.Generic.List{SixModLoader.Mods.ModContainer})
+  name: ModEnableEvent(List<ModContainer>)
+  href: api/SixModLoader.Mods.ModEnableEvent.html#SixModLoader_Mods_ModEnableEvent__ctor_System_Collections_Generic_List_SixModLoader_Mods_ModContainer__
+  commentId: M:SixModLoader.Mods.ModEnableEvent.#ctor(System.Collections.Generic.List{SixModLoader.Mods.ModContainer})
+  name.vb: ModEnableEvent(List(Of ModContainer))
+  fullName: SixModLoader.Mods.ModEnableEvent.ModEnableEvent(System.Collections.Generic.List<SixModLoader.Mods.ModContainer>)
+  fullName.vb: SixModLoader.Mods.ModEnableEvent.ModEnableEvent(System.Collections.Generic.List(Of SixModLoader.Mods.ModContainer))
+  nameWithType: ModEnableEvent.ModEnableEvent(List<ModContainer>)
+  nameWithType.vb: ModEnableEvent.ModEnableEvent(List(Of ModContainer))
+- uid: SixModLoader.Mods.ModEnableEvent.#ctor*
+  name: ModEnableEvent
+  href: api/SixModLoader.Mods.ModEnableEvent.html#SixModLoader_Mods_ModEnableEvent__ctor_
+  commentId: Overload:SixModLoader.Mods.ModEnableEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Mods.ModEnableEvent.ModEnableEvent
+  nameWithType: ModEnableEvent.ModEnableEvent
 - uid: SixModLoader.Mods.ModEvent
   name: ModEvent
   href: api/SixModLoader.Mods.ModEvent.html
   commentId: T:SixModLoader.Mods.ModEvent
   fullName: SixModLoader.Mods.ModEvent
   nameWithType: ModEvent
+- uid: SixModLoader.Mods.ModEvent.#ctor
+  name: ModEvent()
+  href: api/SixModLoader.Mods.ModEvent.html#SixModLoader_Mods_ModEvent__ctor
+  commentId: M:SixModLoader.Mods.ModEvent.#ctor
+  fullName: SixModLoader.Mods.ModEvent.ModEvent()
+  nameWithType: ModEvent.ModEvent()
+- uid: SixModLoader.Mods.ModEvent.#ctor(System.Collections.Generic.List{SixModLoader.Mods.ModContainer})
+  name: ModEvent(List<ModContainer>)
+  href: api/SixModLoader.Mods.ModEvent.html#SixModLoader_Mods_ModEvent__ctor_System_Collections_Generic_List_SixModLoader_Mods_ModContainer__
+  commentId: M:SixModLoader.Mods.ModEvent.#ctor(System.Collections.Generic.List{SixModLoader.Mods.ModContainer})
+  name.vb: ModEvent(List(Of ModContainer))
+  fullName: SixModLoader.Mods.ModEvent.ModEvent(System.Collections.Generic.List<SixModLoader.Mods.ModContainer>)
+  fullName.vb: SixModLoader.Mods.ModEvent.ModEvent(System.Collections.Generic.List(Of SixModLoader.Mods.ModContainer))
+  nameWithType: ModEvent.ModEvent(List<ModContainer>)
+  nameWithType.vb: ModEvent.ModEvent(List(Of ModContainer))
+- uid: SixModLoader.Mods.ModEvent.#ctor*
+  name: ModEvent
+  href: api/SixModLoader.Mods.ModEvent.html#SixModLoader_Mods_ModEvent__ctor_
+  commentId: Overload:SixModLoader.Mods.ModEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Mods.ModEvent.ModEvent
+  nameWithType: ModEvent.ModEvent
 - uid: SixModLoader.Mods.ModEvent.Call
   name: Call()
   href: api/SixModLoader.Mods.ModEvent.html#SixModLoader_Mods_ModEvent_Call
@@ -4109,6 +4560,28 @@ references:
   commentId: T:SixModLoader.Mods.ModReloadEvent
   fullName: SixModLoader.Mods.ModReloadEvent
   nameWithType: ModReloadEvent
+- uid: SixModLoader.Mods.ModReloadEvent.#ctor
+  name: ModReloadEvent()
+  href: api/SixModLoader.Mods.ModReloadEvent.html#SixModLoader_Mods_ModReloadEvent__ctor
+  commentId: M:SixModLoader.Mods.ModReloadEvent.#ctor
+  fullName: SixModLoader.Mods.ModReloadEvent.ModReloadEvent()
+  nameWithType: ModReloadEvent.ModReloadEvent()
+- uid: SixModLoader.Mods.ModReloadEvent.#ctor(System.Collections.Generic.List{SixModLoader.Mods.ModContainer})
+  name: ModReloadEvent(List<ModContainer>)
+  href: api/SixModLoader.Mods.ModReloadEvent.html#SixModLoader_Mods_ModReloadEvent__ctor_System_Collections_Generic_List_SixModLoader_Mods_ModContainer__
+  commentId: M:SixModLoader.Mods.ModReloadEvent.#ctor(System.Collections.Generic.List{SixModLoader.Mods.ModContainer})
+  name.vb: ModReloadEvent(List(Of ModContainer))
+  fullName: SixModLoader.Mods.ModReloadEvent.ModReloadEvent(System.Collections.Generic.List<SixModLoader.Mods.ModContainer>)
+  fullName.vb: SixModLoader.Mods.ModReloadEvent.ModReloadEvent(System.Collections.Generic.List(Of SixModLoader.Mods.ModContainer))
+  nameWithType: ModReloadEvent.ModReloadEvent(List<ModContainer>)
+  nameWithType.vb: ModReloadEvent.ModReloadEvent(List(Of ModContainer))
+- uid: SixModLoader.Mods.ModReloadEvent.#ctor*
+  name: ModReloadEvent
+  href: api/SixModLoader.Mods.ModReloadEvent.html#SixModLoader_Mods_ModReloadEvent__ctor_
+  commentId: Overload:SixModLoader.Mods.ModReloadEvent.#ctor
+  isSpec: "True"
+  fullName: SixModLoader.Mods.ModReloadEvent.ModReloadEvent
+  nameWithType: ModReloadEvent.ModReloadEvent
 - uid: SixModLoader.Patches
   name: SixModLoader.Patches
   href: api/SixModLoader.Patches.html

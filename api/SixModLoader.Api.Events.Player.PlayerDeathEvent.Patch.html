@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PlayerDroppedItemEvent.Patch.DropOnePatch
+    <title>Class PlayerDeathEvent.Patch
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PlayerDroppedItemEvent.Patch.DropOnePatch
+    <meta name="title" content="Class PlayerDeathEvent.Patch
    ">
     <meta name="generator" content="docfx 2.56.0.0">
     
@@ -78,41 +78,73 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.Patch.DropOnePatch">
+            <article class="content wrap" id="_content" data-uid="SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch">
   
   
-  <h1 id="SixModLoader_Api_Events_Player_Inventory_PlayerDroppedItemEvent_Patch_DropOnePatch" data-uid="SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.Patch.DropOnePatch" class="text-break">Class PlayerDroppedItemEvent.Patch.DropOnePatch
+  <h1 id="SixModLoader_Api_Events_Player_PlayerDeathEvent_Patch" data-uid="SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch" class="text-break">Class PlayerDeathEvent.Patch
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">PlayerDroppedItemEvent.Patch.DropOnePatch</span></div>
+    <div class="level1"><span class="xref">PlayerDeathEvent.Patch</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SixModLoader.Api.Events.Player.Inventory.html">SixModLoader.Api.Events.Player.Inventory</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SixModLoader.Api.Events.Player.html">SixModLoader.Api.Events.Player</a></h6>
   <h6><strong>Assembly</strong>: SixModLoader.Api.dll</h6>
-  <h5 id="SixModLoader_Api_Events_Player_Inventory_PlayerDroppedItemEvent_Patch_DropOnePatch_syntax">Syntax</h5>
+  <h5 id="SixModLoader_Api_Events_Player_PlayerDeathEvent_Patch_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[HarmonyPatch(typeof(Inventory), &quot;CallCmdDropItem&quot;)]
-public static class DropOnePatch</code></pre>
+    <pre><code class="lang-csharp hljs">[HarmonyPatch(typeof(PlayerStats), &quot;HurtPlayer&quot;)]
+public class Patch</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_Events_Player_Inventory_PlayerDroppedItemEvent_Patch_DropOnePatch_Transpiler_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__System_Reflection_Emit_ILGenerator_.md&amp;value=---%0Auid%3A%20SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.Patch.DropOnePatch.Transpiler(System.Collections.Generic.IEnumerable%7BHarmonyLib.CodeInstruction%7D%2CSystem.Reflection.Emit.ILGenerator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_Events_Player_PlayerDeathEvent_Patch_Invoke_PlayerStats_.md&amp;value=---%0Auid%3A%20SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Invoke(PlayerStats)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/Events/Player/Inventory/PlayerDroppedItemEvent.cs/#L50">View Source</a>
+    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/Events/Player/PlayerDeathEvent.cs/#L25">View Source</a>
   </span>
-  <a id="SixModLoader_Api_Events_Player_Inventory_PlayerDroppedItemEvent_Patch_DropOnePatch_Transpiler_" data-uid="SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.Patch.DropOnePatch.Transpiler*"></a>
-  <h4 id="SixModLoader_Api_Events_Player_Inventory_PlayerDroppedItemEvent_Patch_DropOnePatch_Transpiler_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__System_Reflection_Emit_ILGenerator_" data-uid="SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.Patch.DropOnePatch.Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction},System.Reflection.Emit.ILGenerator)">Transpiler(IEnumerable&lt;CodeInstruction&gt;, ILGenerator)</h4>
+  <a id="SixModLoader_Api_Events_Player_PlayerDeathEvent_Patch_Invoke_" data-uid="SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Invoke*"></a>
+  <h4 id="SixModLoader_Api_Events_Player_PlayerDeathEvent_Patch_Invoke_PlayerStats_" data-uid="SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Invoke(PlayerStats)">Invoke(PlayerStats)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CodeInstruction&gt; Transpiler(IEnumerable&lt;CodeInstruction&gt; instructions, ILGenerator iLGenerator)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Invoke(PlayerStats playerStats)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PlayerStats</span></td>
+        <td><span class="parametername">playerStats</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_Events_Player_PlayerDeathEvent_Patch_Transpiler_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__.md&amp;value=---%0Auid%3A%20SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Transpiler(System.Collections.Generic.IEnumerable%7BHarmonyLib.CodeInstruction%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/Events/Player/PlayerDeathEvent.cs/#L38">View Source</a>
+  </span>
+  <a id="SixModLoader_Api_Events_Player_PlayerDeathEvent_Patch_Transpiler_" data-uid="SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Transpiler*"></a>
+  <h4 id="SixModLoader_Api_Events_Player_PlayerDeathEvent_Patch_Transpiler_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__" data-uid="SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch.Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction})">Transpiler(IEnumerable&lt;CodeInstruction&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CodeInstruction&gt; Transpiler(IEnumerable&lt;CodeInstruction&gt; instructions)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -127,11 +159,6 @@ public static class DropOnePatch</code></pre>
       <tr>
         <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">HarmonyLib.CodeInstruction</span>&gt;</td>
         <td><span class="parametername">instructions</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Reflection.Emit.ILGenerator</span></td>
-        <td><span class="parametername">iLGenerator</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -151,6 +178,10 @@ public static class DropOnePatch</code></pre>
       </tr>
     </tbody>
   </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="SixModLoader.Extensions.html#SixModLoader_Extensions_Dump__1___0_System_Func___0_System_Object__">Extensions.Dump&lt;T&gt;(T, Func&lt;T, Object&gt;)</a>
+  </div>
 </article>
           </div>
           
@@ -159,10 +190,10 @@ public static class DropOnePatch</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_Events_Player_Inventory_PlayerDroppedItemEvent_Patch_DropOnePatch.md&amp;value=---%0Auid%3A%20SixModLoader.Api.Events.Player.Inventory.PlayerDroppedItemEvent.Patch.DropOnePatch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/SixModLoader/SixModLoader/new/master/apiSpec/new?filename=SixModLoader_Api_Events_Player_PlayerDeathEvent_Patch.md&amp;value=---%0Auid%3A%20SixModLoader.Api.Events.Player.PlayerDeathEvent.Patch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/Events/Player/Inventory/PlayerDroppedItemEvent.cs/#L47" class="contribution-link">View Source</a>
+                    <a href="https://github.com/SixModLoader/SixModLoader/blob/master/SixModLoader.Api/Events/Player/PlayerDeathEvent.cs/#L22" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
