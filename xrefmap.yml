@@ -1667,12 +1667,12 @@ references:
   commentId: T:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent
   fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent
   nameWithType: PlayerShotByPlayerEvent
-- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.#ctor(ReferenceHub,ReferenceHub,PlayerStats.HitInfo,System.Single,System.String)
-  name: PlayerShotByPlayerEvent(ReferenceHub, ReferenceHub, PlayerStats.HitInfo, Single, String)
-  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent__ctor_ReferenceHub_ReferenceHub_PlayerStats_HitInfo_System_Single_System_String_
-  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.#ctor(ReferenceHub,ReferenceHub,PlayerStats.HitInfo,System.Single,System.String)
-  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.PlayerShotByPlayerEvent(ReferenceHub, ReferenceHub, PlayerStats.HitInfo, System.Single, System.String)
-  nameWithType: PlayerShotByPlayerEvent.PlayerShotByPlayerEvent(ReferenceHub, ReferenceHub, PlayerStats.HitInfo, Single, String)
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.#ctor(ReferenceHub,ReferenceHub,PlayerStats.HitInfo,System.Single,HitBoxType)
+  name: PlayerShotByPlayerEvent(ReferenceHub, ReferenceHub, PlayerStats.HitInfo, Single, HitBoxType)
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent__ctor_ReferenceHub_ReferenceHub_PlayerStats_HitInfo_System_Single_HitBoxType_
+  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.#ctor(ReferenceHub,ReferenceHub,PlayerStats.HitInfo,System.Single,HitBoxType)
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.PlayerShotByPlayerEvent(ReferenceHub, ReferenceHub, PlayerStats.HitInfo, System.Single, HitBoxType)
+  nameWithType: PlayerShotByPlayerEvent.PlayerShotByPlayerEvent(ReferenceHub, ReferenceHub, PlayerStats.HitInfo, Single, HitBoxType)
 - uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.#ctor*
   name: PlayerShotByPlayerEvent
   href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent__ctor_
@@ -1719,19 +1719,19 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Distance
   nameWithType: PlayerShotByPlayerEvent.Distance
-- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitboxType
-  name: HitboxType
-  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_HitboxType
-  commentId: P:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitboxType
-  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitboxType
-  nameWithType: PlayerShotByPlayerEvent.HitboxType
-- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitboxType*
-  name: HitboxType
-  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_HitboxType_
-  commentId: Overload:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitboxType
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitBoxType
+  name: HitBoxType
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_HitBoxType
+  commentId: P:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitBoxType
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitBoxType
+  nameWithType: PlayerShotByPlayerEvent.HitBoxType
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitBoxType*
+  name: HitBoxType
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_HitBoxType_
+  commentId: Overload:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitBoxType
   isSpec: "True"
-  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitboxType
-  nameWithType: PlayerShotByPlayerEvent.HitboxType
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitBoxType
+  nameWithType: PlayerShotByPlayerEvent.HitBoxType
 - uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.HitInfo
   name: HitInfo
   href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_HitInfo
@@ -1751,12 +1751,12 @@ references:
   commentId: T:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch
   fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch
   nameWithType: PlayerShotByPlayerEvent.Patch
-- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager,ReferenceHub,PlayerStats.HitInfo,System.Single,System.String)
-  name: Invoke(WeaponManager, ReferenceHub, PlayerStats.HitInfo, Single, String)
-  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_Patch_Invoke_WeaponManager_ReferenceHub_PlayerStats_HitInfo_System_Single_System_String_
-  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager,ReferenceHub,PlayerStats.HitInfo,System.Single,System.String)
-  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager, ReferenceHub, PlayerStats.HitInfo, System.Single, System.String)
-  nameWithType: PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager, ReferenceHub, PlayerStats.HitInfo, Single, String)
+- uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager,ReferenceHub,PlayerStats.HitInfo,System.Single,HitBoxType)
+  name: Invoke(WeaponManager, ReferenceHub, PlayerStats.HitInfo, Single, HitBoxType)
+  href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_Patch_Invoke_WeaponManager_ReferenceHub_PlayerStats_HitInfo_System_Single_HitBoxType_
+  commentId: M:SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager,ReferenceHub,PlayerStats.HitInfo,System.Single,HitBoxType)
+  fullName: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager, ReferenceHub, PlayerStats.HitInfo, System.Single, HitBoxType)
+  nameWithType: PlayerShotByPlayerEvent.Patch.Invoke(WeaponManager, ReferenceHub, PlayerStats.HitInfo, Single, HitBoxType)
 - uid: SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.Invoke*
   name: Invoke
   href: api/SixModLoader.Api.Events.Player.Weapon.PlayerShotByPlayerEvent.Patch.html#SixModLoader_Api_Events_Player_Weapon_PlayerShotByPlayerEvent_Patch_Invoke_
