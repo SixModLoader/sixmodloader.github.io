@@ -3812,25 +3812,6 @@ references:
   isSpec: "True"
   fullName: SixModLoader.Extensions.ToNuGetVersion
   nameWithType: Extensions.ToNuGetVersion
-- uid: SixModLoader.GameVersionParser
-  name: GameVersionParser
-  href: api/SixModLoader.GameVersionParser.html
-  commentId: T:SixModLoader.GameVersionParser
-  fullName: SixModLoader.GameVersionParser
-  nameWithType: GameVersionParser
-- uid: SixModLoader.GameVersionParser.Parse
-  name: Parse()
-  href: api/SixModLoader.GameVersionParser.html#SixModLoader_GameVersionParser_Parse
-  commentId: M:SixModLoader.GameVersionParser.Parse
-  fullName: SixModLoader.GameVersionParser.Parse()
-  nameWithType: GameVersionParser.Parse()
-- uid: SixModLoader.GameVersionParser.Parse*
-  name: Parse
-  href: api/SixModLoader.GameVersionParser.html#SixModLoader_GameVersionParser_Parse_
-  commentId: Overload:SixModLoader.GameVersionParser.Parse
-  isSpec: "True"
-  fullName: SixModLoader.GameVersionParser.Parse
-  nameWithType: GameVersionParser.Parse
 - uid: SixModLoader.IdentifiedLogger
   name: IdentifiedLogger
   href: api/SixModLoader.IdentifiedLogger.html
@@ -4770,6 +4751,19 @@ references:
   isSpec: "True"
   fullName: SixModLoader.SixModLoader.EventManager
   nameWithType: SixModLoader.EventManager
+- uid: SixModLoader.SixModLoader.GameVersion
+  name: GameVersion
+  href: api/SixModLoader.SixModLoader.html#SixModLoader_SixModLoader_GameVersion
+  commentId: P:SixModLoader.SixModLoader.GameVersion
+  fullName: SixModLoader.SixModLoader.GameVersion
+  nameWithType: SixModLoader.GameVersion
+- uid: SixModLoader.SixModLoader.GameVersion*
+  name: GameVersion
+  href: api/SixModLoader.SixModLoader.html#SixModLoader_SixModLoader_GameVersion_
+  commentId: Overload:SixModLoader.SixModLoader.GameVersion
+  isSpec: "True"
+  fullName: SixModLoader.SixModLoader.GameVersion
+  nameWithType: SixModLoader.GameVersion
 - uid: SixModLoader.SixModLoader.Harmony
   name: Harmony
   href: api/SixModLoader.SixModLoader.html#SixModLoader_SixModLoader_Harmony
